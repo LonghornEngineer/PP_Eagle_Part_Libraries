@@ -1479,6 +1479,21 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <pad name="P4_10" x="24.257" y="-63.5" drill="1"/>
 <text x="-27.94" y="83.82" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
+<package name="MC32599">
+<pad name="D+" x="0" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="GND" x="-1.6" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="V_BUS" x="1.6" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="D-" x="0.8" y="1.2" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="N/C" x="-0.8" y="1.2" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="SH_2" x="-3.65" y="0.9" drill="1.6"/>
+<pad name="SH_3" x="3.65" y="0.9" drill="1.6"/>
+<pad name="SH_1" x="3.65" y="5.55" drill="1.6"/>
+<pad name="SH_0" x="-3.65" y="5.55" drill="1.6"/>
+<wire x1="-3.85" y1="8.7" x2="3.85" y2="8.7" width="0.127" layer="21"/>
+<wire x1="3.85" y1="8.7" x2="3.85" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="3.85" y1="-1.8" x2="-3.85" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.85" y1="-1.8" x2="-3.85" y2="8.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PH_1X04">
@@ -2735,6 +2750,18 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5 S1 S2 S3 S4"/>
 <connect gate="G$1" pin="ID" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MC32599" package="MC32599">
+<connects>
+<connect gate="G$1" pin="5V" pad="V_BUS"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND SH_0 SH_1 SH_2 SH_3"/>
+<connect gate="G$1" pin="ID" pad="N/C"/>
 </connects>
 <technologies>
 <technology name=""/>
