@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1480,11 +1480,11 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="-27.94" y="83.82" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
 <package name="MC32599">
-<pad name="D+" x="0" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="GND" x="-1.6" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="V_BUS" x="1.6" y="0" drill="0.9" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="D-" x="0.8" y="1.2" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="N/C" x="-0.8" y="1.2" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="D+" x="0" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="GND" x="-1.6" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="V_BUS" x="1.6" y="0" drill="0.7" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="D-" x="0.8" y="1.2" drill="0.7" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="N/C" x="-0.8" y="1.2" drill="0.7" diameter="1.016" shape="offset" rot="R90"/>
 <pad name="SH_2" x="-3.65" y="0.9" drill="1.6"/>
 <pad name="SH_3" x="3.65" y="0.9" drill="1.6"/>
 <pad name="SH_1" x="3.65" y="5.55" drill="1.6"/>
