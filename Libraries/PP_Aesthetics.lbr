@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.065" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -16092,7 +16092,10 @@
 <rectangle x1="0.254" y1="0.5334" x2="0.508" y2="1.4224" layer="1"/>
 <rectangle x1="0.5334" y1="0.254" x2="1.4224" y2="0.508" layer="1"/>
 <circle x="0" y="0" radius="1.651" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.651" width="0.127" layer="29"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1.651" y="0" curve="90"/>
+<vertex x="0" y="-1.651" curve="270"/>
+</polygon>
 </package>
 </packages>
 <symbols>
