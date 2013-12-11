@@ -875,7 +875,7 @@
 <wire x1="9" y1="26" x2="-9" y2="26" width="0.127" layer="21"/>
 <text x="-9" y="27" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
-<package name="SOIC-16">
+<package name="SOIC-16W">
 <smd name="4" x="-0.635" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="5" x="0.635" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
 <smd name="3" x="-1.905" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
@@ -990,6 +990,34 @@
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+</package>
+<package name="SOIC-16">
+<smd name="4" x="-0.635" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="0.635" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-1.905" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="1.905" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-3.175" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="3.175" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="-4.445" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="4.445" y="-2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="13" x="-0.635" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="12" x="0.635" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="14" x="-1.905" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="1.905" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="15" x="-3.175" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="3.175" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="16" x="-4.445" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="4.445" y="2.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-5" y1="4" x2="-5" y2="1" width="0.127" layer="21"/>
+<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1" x2="-5" y2="-4" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4" x2="5" y2="-4" width="0.127" layer="21"/>
+<wire x1="5" y1="-4" x2="5" y2="4" width="0.127" layer="21"/>
+<wire x1="5" y1="4" x2="-5" y2="4" width="0.127" layer="21"/>
+<wire x1="-5" y1="1" x2="-4" y2="1" width="0.127" layer="21"/>
+<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="21"/>
+<wire x1="-4" y1="-1" x2="-5" y2="-1" width="0.127" layer="21"/>
+<text x="-5" y="4.5" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2261,7 +2289,7 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 <gate name="G$1" symbol="ISO308X" x="0" y="-5.08"/>
 </gates>
 <devices>
-<device name="SOIC-16" package="SOIC-16">
+<device name="SOIC-16W" package="SOIC-16W">
 <connects>
 <connect gate="G$1" pin="A" pad="12"/>
 <connect gate="G$1" pin="B" pad="13"/>
