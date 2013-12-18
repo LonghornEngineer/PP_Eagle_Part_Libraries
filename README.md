@@ -9,5 +9,5 @@ The Longhorn Engineer
 
 http://longhornengineer.com/
 
-Diclaimer and licensing information can be found below.
+Disclaimer and licensing information can be found below.
 http://longhornengineer.com/diy/disclaimer/
