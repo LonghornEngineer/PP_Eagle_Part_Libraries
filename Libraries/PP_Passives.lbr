@@ -159,7 +159,7 @@
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-1.389" y="0.562" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.389" y="1.832" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="12.5MM_CAP_PTH">
 <pad name="POS" x="0" y="2.5" drill="0.6" diameter="1.6764" shape="long"/>
@@ -969,6 +969,15 @@
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
