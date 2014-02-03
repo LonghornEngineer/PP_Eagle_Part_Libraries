@@ -1,0 +1,142 @@
+#usage "<b>Outputs XYRS data of Parts and Pad locations for solder paste.</b>\n"
+       "<p>"
+       "Generates 4 files."
+	   "<i>Boardname.mnt</i> : Top layer XYRS"
+       "<i>boardname.mnb</i> : Bottom layer XYRS"
+	   "<i>Boardname.smt</i> : Top layer paste location"
+	   "<i>Boardname.smb</i> : Bottom layer paste location"
+       "<p>"
+       "<author>Author: Parker Dillmann</author>"
+	   
+	   
+if (board) board(B) {
+
+	//File names for output.
+	string fileName_mnt = filesetext(B.name, ".mnt");
+	string fileName_mnb = filesetext(B.name, ".mnb");
+	string fileName_smt = filesetext(B.name, ".smt");
+	string fileName_smb = filesetext(B.name, ".smb");
+
+	//Vars for finding max size of board.
+	int Board_maxX = INT_MIN;
+    int Board_minX = INT_MAX;
+    int Board_maxY = INT_MIN;
+    int Board_minY = INT_MAX;
+	
+	B.wires(W) 
+	{
+        if (W.layer == 20) 
+		{
+        if (W.x1 < Board_minX) Board_minX = W.x1;
+        if (W.x2 < Board_minX) Board_minX = W.x2;
+        if (W.x1 > Board_maxX) Board_maxX = W.x1;
+        if (W.x2 > Board_maxX) Board_maxX = W.x2;
+        if (W.y1 < Board_minY) Board_minY = W.y1;
+        if (W.y2 < Board_minY) Board_minY = W.y2;
+        if (W.y1 > Board_maxY) Board_maxY = W.y1;
+        if (W.y2 > Board_maxY) Board_maxY = W.y2;
+        }
+    }
+	
+	//Build XYRS Top file
+	output(fileName_mnt) 
+	{
+		//Part level
+		B.elements(E) if (E.populate) 
+		{
+			int wasSmd = 0;
+			int xmax = INT_MIN;
+			int xmin = INT_MAX;
+			int ymax = INT_MIN;
+			int ymin = INT_MAX;
+			
+			//Pad level
+			E.package.contacts(C) 
+			{
+				if (C.smd && C.smd.layer == 1) 
+				{
+					wasSmd = 1;
+
+					if (C.x > xmax) xmax = C.x;
+					if (C.y > ymax) ymax = C.y;
+					if (C.x < xmin) xmin = C.x;
+					if (C.y < ymin) ymin = C.y;
+				}
+			}
+		
+			if (wasSmd)
+			{
+				printf("%s %5.2f %5.2f %.0f %s %s\n",E.name, u2mil(((xmin + xmax)/2)-Board_minX), u2mil(((ymin + ymax)/2)-Board_minY),E.angle, E.value, E.package.name);
+			}
+		}
+	}
+	
+	//Build XYRS Bottom file
+	output(fileName_mnb) 
+	{
+		//Part level
+		B.elements(E) if (E.populate) 
+		{
+			int wasSmd = 0;
+			int xmax = INT_MIN;
+			int xmin = INT_MAX;
+			int ymax = INT_MIN;
+			int ymin = INT_MAX;
+			
+			//Pad level
+			E.package.contacts(C) 
+			{
+				if (C.smd && C.smd.layer == 16) 
+				{
+					wasSmd = 1;
+
+					if (C.x > xmax) xmax = C.x;
+					if (C.y > ymax) ymax = C.y;
+					if (C.x < xmin) xmin = C.x;
+					if (C.y < ymin) ymin = C.y;
+				}
+			}
+		
+			if (wasSmd)
+			{
+				printf("%s %5.2f %5.2f %.0f %s %s\n",E.name, u2mil(((xmin + xmax)/2)-Board_minX), u2mil(((ymin + ymax)/2)-Board_minY),E.angle, E.value, E.package.name);
+			}
+		}
+	}
+	
+	//Build Paste Top Files
+	output(fileName_smt)
+	{
+		B.elements(E) if (E.populate)
+		{
+			E.package.contacts(C) 
+			{
+				if (C.smd && C.smd.layer == 1)
+				{
+					printf("%s %5.2f %5.2f %5.2f %5.2f\n", E.name, u2mil(C.smd.x-Board_minX), u2mil(C.smd.y-Board_minY), u2mil(C.smd.dx), u2mil(C.smd.dy));
+				}
+			}
+		}
+	}	
+	
+	//Build Paste Bottom Files
+	output(fileName_smb)
+	{
+		B.elements(E) if (E.populate)
+		{
+			E.package.contacts(C) 
+			{
+				if (C.smd && C.smd.layer == 16)
+				{
+					printf("%s %5.2f %5.2f %5.2f %5.2f\n", E.name, u2mil(C.smd.x-Board_minX), u2mil(C.smd.y-Board_minY), u2mil(C.smd.dx), u2mil(C.smd.dy));
+				}
+			}
+		}
+	}
+}
+
+else 
+{
+	dlgMessageBox("\n    Start this ULP in Board Window.    \n");
+	exit (0);
+}
