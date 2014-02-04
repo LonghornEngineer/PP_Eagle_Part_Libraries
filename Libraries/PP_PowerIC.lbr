@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -910,9 +910,9 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 </device>
 <device name="SOT-223_ALT" package="SOT-223">
 <connects>
-<connect gate="G$1" pin="GND" pad="COM2 IN"/>
+<connect gate="G$1" pin="GND" pad="IN"/>
 <connect gate="G$1" pin="IN" pad="OUT"/>
-<connect gate="G$1" pin="OUT" pad="COM1"/>
+<connect gate="G$1" pin="OUT" pad="COM1 COM2"/>
 </connects>
 <technologies>
 <technology name=""/>
