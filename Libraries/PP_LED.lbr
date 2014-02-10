@@ -189,6 +189,21 @@
 <vertex x="-2.1" y="-1.05"/>
 </polygon>
 </package>
+<package name="APA3010">
+<smd name="2" x="1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="-1.75" y="0" dx="1.5" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="0" y="-0.65" dx="0.9" dy="0.9" layer="1" rot="R270"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-3" y2="1" width="0.127" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.5" x2="3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="1" y2="1" width="0.127" layer="21"/>
+<text x="-3" y="-2.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED_SINGLE">
@@ -383,6 +398,15 @@
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="APA3010" package="APA3010">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="2"/>
+<connect gate="G$1" pin="CATHODE" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

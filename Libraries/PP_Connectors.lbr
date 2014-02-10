@@ -1533,6 +1533,21 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="-1.27" y="-4.21" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 <rectangle x1="-1.4478" y1="2.5146" x2="-0.8128" y2="3.1496" layer="21"/>
 </package>
+<package name="SMTM2032">
+<smd name="BATT+_0" x="-13" y="0" dx="5" dy="4.7" layer="1" rot="R270"/>
+<smd name="BATT+_1" x="13" y="0" dx="5" dy="4.7" layer="1" rot="R270"/>
+<smd name="BATT-" x="0" y="0" dx="5" dy="4.7" layer="1" rot="R270" cream="no"/>
+<circle x="0" y="0" radius="10" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="8" x2="-10.16" y2="8" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="8" x2="-10.16" y2="3.81" width="0.127" layer="21"/>
+<wire x1="7.62" y1="8" x2="10.16" y2="8" width="0.127" layer="21"/>
+<wire x1="10.16" y1="8" x2="10.16" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-3.81" x2="-10.16" y2="-8" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-8" x2="-7.62" y2="-8" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-3.81" x2="10.16" y2="-8" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-8" x2="7.62" y2="-8" width="0.127" layer="21"/>
+<text x="-10.16" y="-10.16" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PH_1X04">
@@ -2314,6 +2329,22 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <circle x="3.81" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="6.35" y="0" size="0.8128" layer="95" font="vector">&gt;NAME</text>
 <text x="6.35" y="-1.27" size="0.8128" layer="95" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="BATTERY">
+<pin name="-" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="+" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-5.08" y="5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-2.032" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.508" y1="1.27" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="1.778" y1="0" x2="1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="3.556" y1="2.032" x2="3.556" y2="1.016" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.524" x2="3.048" y2="1.524" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3589,6 +3620,22 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <device name="KEYSTONE_5115-5119" package="KEYSTONE_5115-5119">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BATTERY" prefix="BATT" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMTM2032" package="SMTM2032">
+<connects>
+<connect gate="G$1" pin="+" pad="BATT+_0 BATT+_1"/>
+<connect gate="G$1" pin="-" pad="BATT-"/>
 </connects>
 <technologies>
 <technology name=""/>
