@@ -3556,11 +3556,11 @@
 <text x="0" y="3.81" size="1.27" layer="21" font="vector">perception</text>
 </package>
 <package name="LHE_FRAME">
-<text x="0" y="5.08" size="0.8128" layer="21" font="vector">(c) 2014 Longhorn Engineer</text>
-<text x="0" y="3.81" size="0.8128" layer="21" font="vector">longhornengineer.com</text>
-<text x="0" y="2.54" size="0.8128" layer="21" font="vector">&gt;DRAWING_NAME</text>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector">&gt;REVNUM</text>
-<text x="0" y="0" size="0.8128" layer="21" font="vector">&gt;DNAME</text>
+<text x="0" y="5.08" size="0.8128" layer="21" font="vector" ratio="16">(c) 2014 Longhorn Engineer</text>
+<text x="0" y="3.81" size="0.8128" layer="21" font="vector" ratio="16">longhornengineer.com</text>
+<text x="0" y="2.54" size="0.8128" layer="21" font="vector" ratio="16">&gt;DRAWING_NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" ratio="16">&gt;REVNUM</text>
+<text x="0" y="0" size="0.8128" layer="21" font="vector" ratio="16">&gt;DNAME</text>
 </package>
 <package name="LHE_LOGO">
 <rectangle x1="-2.05105" y1="0.05715" x2="-2.02565" y2="0.06985" layer="21"/>
