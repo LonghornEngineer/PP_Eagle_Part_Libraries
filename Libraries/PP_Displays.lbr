@@ -109,10 +109,10 @@
 <wire x1="80" y1="-36" x2="80" y2="0" width="0.127" layer="21"/>
 <wire x1="80" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 <text x="0" y="2.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<wire x1="4" y1="-4.8" x2="76" y2="-4.8" width="0" layer="20"/>
-<wire x1="76" y1="-4.8" x2="76" y2="-32" width="0" layer="20"/>
-<wire x1="76" y1="-32" x2="4" y2="-32" width="0" layer="20"/>
-<wire x1="4" y1="-32" x2="4" y2="-4.8" width="0" layer="20"/>
+<wire x1="1.46" y1="-4.8" x2="78.54" y2="-4.8" width="0" layer="20"/>
+<wire x1="78.54" y1="-4.8" x2="78.54" y2="-32" width="0" layer="20"/>
+<wire x1="78.54" y1="-32" x2="1.46" y2="-32" width="0" layer="20"/>
+<wire x1="1.46" y1="-32" x2="1.46" y2="-4.8" width="0" layer="20"/>
 </package>
 </packages>
 <symbols>
