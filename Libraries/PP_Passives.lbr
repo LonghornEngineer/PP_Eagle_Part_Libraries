@@ -604,6 +604,24 @@
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
 <text x="2.286" y="0.127" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="60R065XU">
+<pad name="P$1" x="-2.54" y="0" drill="1.1"/>
+<pad name="P$2" x="2.54" y="0" drill="1.1"/>
+<wire x1="-5.08" y1="1.524" x2="5.08" y2="1.524" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.524" x2="5.08" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.524" x2="-5.08" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.524" x2="-5.08" y2="1.524" width="0.127" layer="21"/>
+<text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="CDRH6D28">
+<smd name="P$1" x="-2.325" y="0" dx="2.65" dy="7.3" layer="1" rot="R180"/>
+<smd name="P$2" x="2.325" y="0" dx="2.65" dy="7.3" layer="1" rot="R180"/>
+<wire x1="-4" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="4" x2="4" y2="-4" width="0.127" layer="21"/>
+<wire x1="4" y1="-4" x2="-4" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4" x2="-4" y2="4" width="0.127" layer="21"/>
+<text x="-3.81" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -1119,6 +1137,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="CDRH6D28" package="CDRH6D28">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="IP4234CZ6" prefix="U" uservalue="yes">
@@ -1265,6 +1292,15 @@ Description: ESD Suppressors 2-Channel ESD</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="1A 1B"/>
 <connect gate="G$1" pin="P$2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="60R065XU" package="60R065XU">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
