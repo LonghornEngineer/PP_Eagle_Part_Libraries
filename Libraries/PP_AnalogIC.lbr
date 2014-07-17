@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -220,6 +220,24 @@
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.127" layer="21"/>
 </package>
+<package name="QFN-10L">
+<smd name="P$1" x="-0.5185" y="0.2" dx="0.225" dy="0.663" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.5685" y="-0.2" dx="0.225" dy="0.563" layer="1" rot="R90"/>
+<smd name="P$3" x="-0.4" y="-0.7685" dx="0.225" dy="0.563" layer="1"/>
+<smd name="P$4" x="0" y="-0.7685" dx="0.225" dy="0.563" layer="1"/>
+<smd name="P$5" x="0.4" y="-0.7685" dx="0.225" dy="0.563" layer="1"/>
+<smd name="P$6" x="0.5685" y="-0.2" dx="0.225" dy="0.563" layer="1" rot="R90"/>
+<smd name="P$7" x="0.5685" y="0.2" dx="0.225" dy="0.563" layer="1" rot="R90"/>
+<smd name="P$8" x="0.4" y="0.7685" dx="0.225" dy="0.563" layer="1" rot="R180"/>
+<smd name="P$9" x="0" y="0.7685" dx="0.225" dy="0.563" layer="1" rot="R180"/>
+<smd name="P$10" x="-0.4" y="0.7685" dx="0.225" dy="0.563" layer="1" rot="R180"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<text x="-1.27" y="1.6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<rectangle x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INA169">
@@ -317,6 +335,24 @@
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="DG2722">
+<pin name="VCC" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-10.16" visible="pin" length="short"/>
+<pin name="S" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="!OE" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="D+" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D-" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D1+" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="D1-" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D2+" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D2-" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -441,6 +477,30 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 <connect gate="G$1" pin="VDD" pad="6"/>
 <connect gate="G$1" pin="VO1" pad="7"/>
 <connect gate="G$1" pin="VO2" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DG2722" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="DG2722" x="0" y="0"/>
+</gates>
+<devices>
+<device name="QFN-10L" package="QFN-10L">
+<connects>
+<connect gate="G$1" pin="!OE" pad="P$8"/>
+<connect gate="G$1" pin="D+" pad="P$1"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="D1+" pad="P$7"/>
+<connect gate="G$1" pin="D1-" pad="P$6"/>
+<connect gate="G$1" pin="D2+" pad="P$5"/>
+<connect gate="G$1" pin="D2-" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="S" pad="P$10"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>

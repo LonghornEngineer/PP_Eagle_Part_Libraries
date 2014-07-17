@@ -637,6 +637,35 @@
 </polygon>
 <text x="-5.08" y="3.81" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="2220">
+<smd name="P$1" x="-3.075" y="0" dx="6.2" dy="1.85" layer="1" rot="R90"/>
+<smd name="P$2" x="3.075" y="0" dx="6.2" dy="1.85" layer="1" rot="R90"/>
+<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="PLT10H">
+<smd name="4" x="-2.35" y="-5.2" dx="1.3" dy="3" layer="1" rot="R180"/>
+<smd name="3" x="2.35" y="-5.2" dx="1.3" dy="3" layer="1" rot="R180"/>
+<smd name="2" x="2.35" y="5.2" dx="1.3" dy="3" layer="1" rot="R180"/>
+<smd name="1" x="-2.35" y="5.2" dx="1.3" dy="3" layer="1" rot="R180"/>
+<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.127" layer="21"/>
+<wire x1="3.81" y1="7.62" x2="3.81" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-7.62" x2="-3.81" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-7.62" x2="-3.81" y2="7.62" width="0.127" layer="21"/>
+<text x="-3.81" y="8.89" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="2114-V-RC">
+<pad name="P$1" x="-4.445" y="0" drill="1" shape="long" rot="R270"/>
+<pad name="P$2" x="4.445" y="0" drill="1" shape="long" rot="R270"/>
+<wire x1="-5.715" y1="10.922" x2="-5.715" y2="-10.922" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-10.922" x2="5.715" y2="-10.922" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-10.922" x2="5.715" y2="10.922" width="0.127" layer="21"/>
+<wire x1="5.715" y1="10.922" x2="-5.715" y2="10.922" width="0.127" layer="21"/>
+<text x="-5.08" y="11.43" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -858,6 +887,26 @@
 <wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="COMMON_MODE_INDUCTOR">
+<pin name="4" x="-7.62" y="-5.08" visible="off" length="short"/>
+<pin name="3" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<text x="-5.08" y="10.16" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="2" x="7.62" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-7.62" y="5.08" visible="off" length="short"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<circle x="-5.08" y="-2.54" radius="0.567959375" width="0.254" layer="94"/>
+<circle x="-5.08" y="2.54" radius="0.567959375" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1170,6 +1219,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="2114-V-RC" package="2114-V-RC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="IP4234CZ6" prefix="U" uservalue="yes">
@@ -1393,6 +1451,15 @@ Description: ESD Suppressors 2-Channel ESD</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="2220" package="2220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TC33X-1" prefix="P" uservalue="yes">
@@ -1422,6 +1489,24 @@ Description: ESD Suppressors 2-Channel ESD</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="COMMON_MODE_INDUCTOR" prefix="L">
+<gates>
+<gate name="G$1" symbol="COMMON_MODE_INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PLT10H" package="PLT10H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -487,6 +487,40 @@
 <wire x1="-1" y1="1.5" x2="-1" y2="2.5" width="0.127" layer="21"/>
 <text x="-4.445" y="3.175" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 </package>
+<package name="HVSSOP-8">
+<smd name="P$1" x="-0.975" y="-2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$2" x="-0.325" y="-2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$3" x="0.325" y="-2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$4" x="0.975" y="-2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$5" x="0.975" y="2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$6" x="0.325" y="2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$7" x="-0.325" y="2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.975" y="2.1" dx="0.4" dy="1.6" layer="1" rot="R180"/>
+<smd name="PAD" x="0" y="0" dx="1.65" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="3.2" x2="1.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="3.2" x2="1.6" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-3.2" x2="-1.6" y2="-3.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-3.2" x2="-1.6" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1" x2="-1.6" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1" x2="-1.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1" x2="-1.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1" x2="-1.6" y2="-1" width="0.127" layer="21"/>
+<text x="-1.6" y="3.81" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="D2PAK-5">
+<smd name="P$1" x="4.335" y="-3.404" dx="3.05" dy="1.016" layer="1" rot="R180"/>
+<smd name="P$6" x="-5.97" y="0" dx="8.38" dy="10.66" layer="1" rot="R180"/>
+<smd name="P$2" x="4.335" y="-1.702" dx="3.05" dy="1.016" layer="1" rot="R180"/>
+<smd name="P$3" x="4.335" y="0" dx="3.05" dy="1.016" layer="1" rot="R180"/>
+<smd name="P$4" x="4.335" y="1.702" dx="3.05" dy="1.016" layer="1" rot="R180"/>
+<smd name="P$5" x="4.335" y="3.404" dx="3.05" dy="1.016" layer="1" rot="R180"/>
+<wire x1="-11.43" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-6.35" x2="-11.43" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-6.35" x2="-11.43" y2="6.35" width="0.127" layer="21"/>
+<text x="-11.43" y="7.62" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADJ_VOLTAGE_REG">
@@ -737,6 +771,35 @@
 <text x="-7.62" y="17.78" size="0.8128" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="17.78" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS2511">
+<pin name="IN" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="EN" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="!CS" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="ILIM" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="OUT" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D-" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="D+" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="LM2576">
+<pin name="VIN" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="FB" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VOUT" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="!EN" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2.54" y="10.16" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM1084" prefix="U" uservalue="yes">
@@ -913,6 +976,16 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 <connect gate="G$1" pin="GND" pad="IN"/>
 <connect gate="G$1" pin="IN" pad="OUT"/>
 <connect gate="G$1" pin="OUT" pad="COM1 COM2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DPAK-3_TAB_OUTPUT" package="DPAK-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1163,6 +1236,47 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 <connect gate="G$1" pin="SW" pad="8 9 10"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS2511" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TPS2511" x="0" y="0"/>
+</gates>
+<devices>
+<device name="HVSSOP-8" package="HVSSOP-8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="P$4"/>
+<connect gate="G$1" pin="D+" pad="P$6"/>
+<connect gate="G$1" pin="D-" pad="P$7"/>
+<connect gate="G$1" pin="EN" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$1 PAD"/>
+<connect gate="G$1" pin="ILIM" pad="P$2"/>
+<connect gate="G$1" pin="IN" pad="P$3"/>
+<connect gate="G$1" pin="OUT" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2576" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LM2576" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D2PAK-5" package="D2PAK-5">
+<connects>
+<connect gate="G$1" pin="!EN" pad="P$5"/>
+<connect gate="G$1" pin="FB" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$3 P$6"/>
+<connect gate="G$1" pin="VIN" pad="P$1"/>
+<connect gate="G$1" pin="VOUT" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
