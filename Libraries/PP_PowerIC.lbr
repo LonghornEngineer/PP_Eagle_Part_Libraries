@@ -521,6 +521,21 @@
 <wire x1="-11.43" y1="-6.35" x2="-11.43" y2="6.35" width="0.127" layer="21"/>
 <text x="-11.43" y="7.62" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="TO-263-7_TI">
+<smd name="PAD" x="0" y="-3.175" dx="5.59" dy="6.35" layer="1"/>
+<smd name="P$1" x="-3.81" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$2" x="-2.54" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$3" x="-1.27" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$4" x="0" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$5" x="1.27" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$6" x="2.54" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<smd name="P$7" x="3.81" y="-12.4" dx="0.91" dy="2.41" layer="1"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-13.97" x2="-5.08" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-13.97" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
+<text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADJ_VOLTAGE_REG">
@@ -799,6 +814,20 @@
 <wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-7.62" y="10.16" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
 <text x="-2.54" y="10.16" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
+</symbol>
+<symbol name="LM22678">
+<pin name="VIN" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="EN" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="GND" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="FB" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="BOOT" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SW" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
+<text x="-5.08" y="10.16" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1277,6 +1306,26 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 <connect gate="G$1" pin="GND" pad="P$3 P$6"/>
 <connect gate="G$1" pin="VIN" pad="P$1"/>
 <connect gate="G$1" pin="VOUT" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM22679" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LM22678" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TO-263-7_TI" package="TO-263-7_TI">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="P$3"/>
+<connect gate="G$1" pin="EN" pad="P$7"/>
+<connect gate="G$1" pin="FB" pad="P$6"/>
+<connect gate="G$1" pin="GND" pad="P$4 PAD"/>
+<connect gate="G$1" pin="SW" pad="P$1"/>
+<connect gate="G$1" pin="VIN" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
