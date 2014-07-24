@@ -1980,6 +1980,22 @@
 <text x="-15.24" y="20.32" size="0.8128" layer="95" font="vector">&gt;NAME</text>
 <text x="-10.16" y="20.32" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="MCP2551">
+<pin name="TXD" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="RS" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="RXD" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="VREF" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="VCC" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="CANL" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="CANH" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP2200" prefix="U" uservalue="yes">
@@ -3081,6 +3097,28 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 <connect gate="G$1" pin="VCAP" pad="P$20"/>
 <connect gate="G$1" pin="VDD" pad="P$13"/>
 <connect gate="G$1" pin="VSS" pad="P$8 P$19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2551" prefix="U">
+<gates>
+<gate name="G$1" symbol="MCP2551" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC-8" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
