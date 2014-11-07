@@ -829,6 +829,22 @@
 <text x="-10.16" y="10.16" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS2111">
+<pin name="VSNS" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="D0" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="D1" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="ILIM" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="IN1" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="OUT" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="IN2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM1084" prefix="U" uservalue="yes">
@@ -1326,6 +1342,28 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 <connect gate="G$1" pin="GND" pad="P$4 PAD"/>
 <connect gate="G$1" pin="SW" pad="P$1"/>
 <connect gate="G$1" pin="VIN" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS2111" prefix="U">
+<gates>
+<gate name="G$1" symbol="TPS2111" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SON-8" package="SON-8">
+<connects>
+<connect gate="G$1" pin="D0" pad="1"/>
+<connect gate="G$1" pin="D1" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ILIM" pad="4"/>
+<connect gate="G$1" pin="IN1" pad="8"/>
+<connect gate="G$1" pin="IN2" pad="6"/>
+<connect gate="G$1" pin="OUT" pad="7"/>
+<connect gate="G$1" pin="VSNS" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
