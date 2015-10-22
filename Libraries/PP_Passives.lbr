@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -749,18 +749,24 @@
 <text x="-7.62" y="2.54" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="IP4234CZ6">
-<pin name="I/O1A" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="GND" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="I/O2A" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="I/O1B" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="VB" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="I/O2B" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="I/O1A" x="-10.16" y="2.54" visible="off" length="short"/>
+<pin name="GND" x="-10.16" y="0" visible="off" length="short"/>
+<pin name="I/O1B" x="-10.16" y="-2.54" visible="off" length="short"/>
+<pin name="I/O2A" x="10.16" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="VB" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<pin name="I/O2B" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<text x="-6.35" y="2.54" size="1.27" layer="97" font="vector" align="center-left">I/O1A</text>
+<text x="-6.35" y="0" size="1.27" layer="97" font="vector" align="center-left">GND</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="97" font="vector" align="center-left">I/O1B</text>
+<text x="6.35" y="2.54" size="1.27" layer="97" font="vector" rot="R180" align="center-left">I/O2A</text>
+<text x="6.35" y="0" size="1.27" layer="97" font="vector" rot="R180" align="center-left">VB</text>
+<text x="6.35" y="-2.54" size="1.27" layer="97" font="vector" rot="R180" align="center-left">I/O2B</text>
 </symbol>
 <symbol name="RESISTOR">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
@@ -1308,8 +1314,8 @@ http://www.mouser.com/ProductDetail/NXP-Semiconductors/IP4234CZ6125/?qs=sGAEpiMZ
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="I/O1A" pad="1"/>
-<connect gate="G$1" pin="I/O1B" pad="6"/>
-<connect gate="G$1" pin="I/O2A" pad="3"/>
+<connect gate="G$1" pin="I/O1B" pad="3"/>
+<connect gate="G$1" pin="I/O2A" pad="6"/>
 <connect gate="G$1" pin="I/O2B" pad="4"/>
 <connect gate="G$1" pin="VB" pad="5"/>
 </connects>
