@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -536,6 +536,17 @@
 <wire x1="-5.08" y1="-13.97" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
 <text x="-5.08" y="2.54" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="SOT-223B">
+<smd name="1" x="-2.3" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="3.36" dx="3.3" dy="2" layer="1" rot="R180"/>
+<wire x1="-4" y1="4.96" x2="-4" y2="-4.04" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.04" x2="4" y2="-4.04" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.04" x2="4" y2="4.96" width="0.127" layer="21"/>
+<wire x1="4" y1="4.96" x2="-4" y2="4.96" width="0.127" layer="21"/>
+<text x="-4" y="5.46" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADJ_VOLTAGE_REG">
@@ -844,6 +855,20 @@
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="7.62" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="ADP3338">
+<pin name="IN" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="OUT" x="17.78" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="17.78" y="-7.62" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.016" layer="95" font="vector">&gt;VALUE</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">INPUT</text>
+<text x="13.97" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">OUTPUT</text>
+<text x="13.97" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1364,6 +1389,50 @@ Description: Motor / Motion / Ignition Controllers &amp; Drivers Full-Bridge DC 
 <connect gate="G$1" pin="IN2" pad="6"/>
 <connect gate="G$1" pin="OUT" pad="7"/>
 <connect gate="G$1" pin="VSNS" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADP3338" prefix="U">
+<gates>
+<gate name="G$1" symbol="ADP3338" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AKCZ-3.3-RL" package="SOT-223B">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AKCZ-2.5-RL" package="SOT-223B">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCV565" prefix="U">
+<gates>
+<gate name="G$1" symbol="ADP3338" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ST12T3G" package="SOT-223B">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 PAD"/>
 </connects>
 <technologies>
 <technology name=""/>
