@@ -251,7 +251,7 @@
 <gate name="G$1" symbol="ER-OLEDM032" x="0" y="0"/>
 </gates>
 <devices>
-<device name="ER-OLEDM032" package="ER-OLEDM032">
+<device name="ER-OLEDM032_PTH" package="ER-OLEDM032">
 <connects>
 <connect gate="G$1" pin="!CS" pad="P$16"/>
 <connect gate="G$1" pin="!RD" pad="P$12"/>
@@ -273,7 +273,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="ER-OLEDM2002" package="ER-OLEDM032">
+<device name="ER-OLEDM2002_PTH" package="ER-OLEDM032">
 <connects>
 <connect gate="G$1" pin="!CS" pad="P$15"/>
 <connect gate="G$1" pin="!RD" pad="P$11"/>
