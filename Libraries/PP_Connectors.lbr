@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3025,9 +3025,9 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="7.62" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL08</text>
 <text x="22.86" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL09</text>
 <text x="0.508" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-right">PIN08</text>
-<pin name="PIN10" x="33.02" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="PIN10" x="-2.54" y="-12.7" visible="off" length="short"/>
 <text x="22.86" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL11</text>
-<pin name="PIN11" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="PIN11" x="33.02" y="-12.7" visible="off" length="short" rot="R180"/>
 <text x="7.62" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL10</text>
 <pin name="PIN12" x="-2.54" y="-15.24" visible="off" length="short"/>
 <text x="7.62" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL12</text>
@@ -3055,9 +3055,9 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="7.62" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL18</text>
 <text x="22.86" y="-22.86" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL19</text>
 <text x="0.508" y="-22.86" size="1.016" layer="97" font="vector" rot="R180" align="center-right">PIN18</text>
-<pin name="PIN20" x="33.02" y="-25.4" visible="off" length="short" rot="R180"/>
+<pin name="PIN20" x="-2.54" y="-25.4" visible="off" length="short"/>
 <text x="22.86" y="-25.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL21</text>
-<pin name="PIN21" x="-2.54" y="-25.4" visible="off" length="short"/>
+<pin name="PIN21" x="33.02" y="-25.4" visible="off" length="short" rot="R180"/>
 <text x="7.62" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL20</text>
 <pin name="PIN22" x="-2.54" y="-27.94" visible="off" length="short"/>
 <text x="7.62" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL22</text>
