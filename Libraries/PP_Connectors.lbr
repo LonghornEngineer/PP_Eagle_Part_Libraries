@@ -1956,6 +1956,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <vertex x="2" y="-5.8"/>
 <vertex x="2" y="-4.8"/>
 </polygon>
+<text x="-7.62" y="3.81" size="1.016" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="ROUND_TP">
 <smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
