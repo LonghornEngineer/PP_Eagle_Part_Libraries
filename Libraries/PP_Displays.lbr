@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -148,6 +148,52 @@
 <vertex x="-7.62" y="3.81"/>
 </polygon>
 </package>
+<package name="ER-OLEDM2002-1">
+<text x="0" y="0.6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<pad name="P$1" x="2.73" y="-9.61" drill="1" rot="R180"/>
+<pad name="P$2" x="5.27" y="-9.61" drill="1" rot="R180"/>
+<pad name="P$3" x="2.73" y="-12.15" drill="1" rot="R180"/>
+<pad name="P$4" x="5.27" y="-12.15" drill="1" rot="R180"/>
+<pad name="P$5" x="2.73" y="-14.69" drill="1" rot="R180"/>
+<pad name="P$6" x="5.27" y="-14.69" drill="1" rot="R180"/>
+<pad name="P$7" x="2.73" y="-17.23" drill="1" rot="R180"/>
+<pad name="P$8" x="5.27" y="-17.23" drill="1" rot="R180"/>
+<pad name="P$9" x="2.73" y="-19.77" drill="1" rot="R180"/>
+<pad name="P$10" x="5.27" y="-19.77" drill="1" rot="R180"/>
+<pad name="P$11" x="2.73" y="-22.31" drill="1" rot="R180"/>
+<pad name="P$12" x="5.27" y="-22.31" drill="1" rot="R180"/>
+<pad name="P$13" x="2.73" y="-24.85" drill="1" rot="R180"/>
+<pad name="P$14" x="5.27" y="-24.85" drill="1" rot="R180"/>
+<pad name="P$15" x="2.73" y="-27.39" drill="1" rot="R180"/>
+<pad name="P$16" x="5.27" y="-27.39" drill="1" rot="R180"/>
+<wire x1="7.81" y1="-7.07" x2="0.19" y2="-7.07" width="0.127" layer="21"/>
+<wire x1="0.19" y1="-7.07" x2="0.19" y2="-17.23" width="0.127" layer="21"/>
+<wire x1="0.19" y1="-17.23" x2="0.19" y2="-19.77" width="0.127" layer="21"/>
+<wire x1="0.19" y1="-19.77" x2="0.19" y2="-29.93" width="0.127" layer="21"/>
+<wire x1="0.19" y1="-29.93" x2="7.81" y2="-29.93" width="0.127" layer="21"/>
+<wire x1="7.81" y1="-29.93" x2="7.81" y2="-7.07" width="0.127" layer="21"/>
+<wire x1="0.19" y1="-17.23" x2="1.46" y2="-17.23" width="0.127" layer="21"/>
+<wire x1="1.46" y1="-17.23" x2="1.46" y2="-19.77" width="0.127" layer="21"/>
+<wire x1="1.46" y1="-19.77" x2="0.19" y2="-19.77" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0.19" y="-7.07"/>
+<vertex x="1.46" y="-7.07"/>
+<vertex x="1.46" y="-10.88"/>
+<vertex x="0.19" y="-10.88"/>
+</polygon>
+<wire x1="0" y1="0" x2="116" y2="0" width="0.127" layer="21"/>
+<wire x1="116" y1="0" x2="116" y2="-37" width="0.127" layer="21"/>
+<wire x1="116" y1="-37" x2="0" y2="-37" width="0.127" layer="21"/>
+<wire x1="0" y1="-37" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="4" y="-4" drill="3.5"/>
+<hole x="112" y="-4" drill="3.5"/>
+<hole x="4" y="-33" drill="3.5"/>
+<hole x="112" y="-33" drill="3.5"/>
+<wire x1="20" y1="-11.24" x2="96" y2="-11.24" width="0.127" layer="48"/>
+<wire x1="96" y1="-11.24" x2="96" y2="-25.76" width="0.127" layer="48"/>
+<wire x1="96" y1="-25.76" x2="20" y2="-25.76" width="0.127" layer="48"/>
+<wire x1="20" y1="-25.76" x2="20" y2="-11.24" width="0.127" layer="48"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HD44780_LCD">
@@ -196,6 +242,52 @@
 <wire x1="5.08" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <text x="-5.08" y="22.86" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
 <text x="2.54" y="22.86" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
+</symbol>
+<symbol name="ER-OLEDM2002-1">
+<pin name="VSS" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="VDD" x="-2.54" y="-5.08" visible="off" length="short"/>
+<wire x1="0" y1="0" x2="0" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="-43.18" x2="17.78" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-43.18" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" rot="MR180">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<pin name="D7" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="D6" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="D5" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="D4" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="D3" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="D2" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="D1" x="-2.54" y="-25.4" visible="off" length="short"/>
+<pin name="D0" x="-2.54" y="-27.94" visible="off" length="short"/>
+<pin name="RD" x="-2.54" y="-30.48" visible="off" length="short"/>
+<pin name="RW" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="DC" x="-2.54" y="-35.56" visible="off" length="short"/>
+<pin name="RSE" x="-2.54" y="-38.1" visible="off" length="short"/>
+<pin name="CS" x="-2.54" y="-40.64" visible="off" length="short"/>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">VSS</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">VDD</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">D7</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">D6</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">D5</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">D4</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">D3</text>
+<text x="1.27" y="-40.64" size="1.016" layer="97" font="vector" align="center-left">CS</text>
+<text x="1.27" y="-38.1" size="1.016" layer="97" font="vector" align="center-left">RSE</text>
+<text x="1.27" y="-35.56" size="1.016" layer="97" font="vector" align="center-left">DC</text>
+<text x="1.27" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">RW</text>
+<text x="1.27" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">RD</text>
+<text x="1.27" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">D0</text>
+<text x="1.27" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">D1</text>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">D2</text>
+<text x="9.906" y="-27.686" size="1.016" layer="97" font="vector" align="center-left">&gt;BS2</text>
+<text x="9.906" y="-25.146" size="1.016" layer="97" font="vector" align="center-left">&gt;BS1</text>
+<text x="9.906" y="-22.606" size="1.016" layer="97" font="vector" align="center-left">&gt;BS0</text>
+<text x="4.572" y="-19.558" size="1.016" layer="97" font="vector" align="center-left">Bus Interface
+Selection Pins</text>
+<text x="6.604" y="-22.606" size="1.016" layer="97" font="vector" align="center-left">BS0:</text>
+<text x="6.604" y="-25.146" size="1.016" layer="97" font="vector" align="center-left">BS1:</text>
+<text x="6.604" y="-27.686" size="1.016" layer="97" font="vector" align="center-left">BS2:</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -303,7 +395,47 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="ER-OLEDM2002-1" prefix="LCD">
+<description>http://www.buydisplay.com/download/manual/ER-OLEDM2002-1_Series_Datasheet.pdf</description>
+<gates>
+<gate name="G$1" symbol="ER-OLEDM2002-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ER-OLEDM2002-1">
+<connects>
+<connect gate="G$1" pin="CS" pad="P$15"/>
+<connect gate="G$1" pin="D0" pad="P$10"/>
+<connect gate="G$1" pin="D1" pad="P$9"/>
+<connect gate="G$1" pin="D2" pad="P$8"/>
+<connect gate="G$1" pin="D3" pad="P$7"/>
+<connect gate="G$1" pin="D4" pad="P$6"/>
+<connect gate="G$1" pin="D5" pad="P$5"/>
+<connect gate="G$1" pin="D6" pad="P$4"/>
+<connect gate="G$1" pin="D7" pad="P$3"/>
+<connect gate="G$1" pin="DC" pad="P$13"/>
+<connect gate="G$1" pin="RD" pad="P$11"/>
+<connect gate="G$1" pin="RSE" pad="P$14"/>
+<connect gate="G$1" pin="RW" pad="P$12"/>
+<connect gate="G$1" pin="VDD" pad="P$2"/>
+<connect gate="G$1" pin="VSS" pad="P$1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BS0" value="" constant="no"/>
+<attribute name="BS1" value="" constant="no"/>
+<attribute name="BS2" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
