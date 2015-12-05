@@ -775,7 +775,13 @@
 <wire x1="-2.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.127" layer="21"/>
-<text x="-2.5" y="5.135" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<text x="-2.5" y="5.135" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.905" y="-5.842" curve="-90"/>
+<vertex x="-2.286" y="-5.461" curve="-90"/>
+<vertex x="-1.905" y="-5.08" curve="-90"/>
+<vertex x="-1.524" y="-5.461" curve="-90"/>
+</polygon>
 </package>
 <package name="TQFP-44">
 <smd name="6" x="-6" y="0" dx="0.45" dy="1.5" layer="1" rot="R90"/>
@@ -1700,6 +1706,33 @@
 <vertex x="-5.08" y="1.27" curve="-90"/>
 </polygon>
 <text x="-4.6" y="2.54" size="0.8128" layer="25" font="vector" ratio="16" align="center-left">&gt;NAME</text>
+</package>
+<package name="ISO_SOIC-8">
+<smd name="7" x="-0.635" y="2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="6" x="0.635" y="2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="5" x="1.905" y="2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="8" x="-1.905" y="2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="3" x="0.635" y="-2.55" dx="0.5" dy="2" layer="1"/>
+<smd name="4" x="1.905" y="-2.55" dx="0.5" dy="2" layer="1"/>
+<wire x1="-2.5" y1="4" x2="2.5" y2="4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="4" x2="2.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-4" x2="-2.5" y2="-4" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1" x2="-2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1" x2="-2.5" y2="4" width="0.127" layer="21"/>
+<text x="-2.5" y="4.5" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.905" y="-5.08" curve="-90"/>
+<vertex x="-2.286" y="-4.699" curve="-90"/>
+<vertex x="-1.905" y="-4.318" curve="-90"/>
+<vertex x="-1.524" y="-4.699" curve="-90"/>
+</polygon>
+<wire x1="-2.286" y1="1.016" x2="2.286" y2="1.016" width="0.127" layer="20"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.127" layer="20"/>
+<wire x1="2.286" y1="-1.016" x2="-2.286" y2="-1.016" width="0.127" layer="20"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.127" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -4365,7 +4398,7 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 <gate name="G$1" symbol="SI8600" x="0" y="0"/>
 </gates>
 <devices>
-<device name="AC-B-IS" package="SOIC-8">
+<device name="AC-B-IS" package="ISO_SOIC-8">
 <connects>
 <connect gate="G$1" pin="AGND" pad="4"/>
 <connect gate="G$1" pin="ASCL" pad="3"/>
