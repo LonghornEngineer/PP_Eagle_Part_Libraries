@@ -5851,7 +5851,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="B6606222" package="B6606222">
+<device name="_B6606222" package="B6606222">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -5896,7 +5896,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN1)" package="26-64-4100(KEYPIN1)">
+<device name="_26-64-4100_(KEYPIN1)" package="26-64-4100(KEYPIN1)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$2"/>
 <connect gate="G$1" pin="PIN2" pad="P$3"/>
@@ -5922,7 +5922,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN10)" package="26-64-4100(KEYPIN10)">
+<device name="_26-64-4100_(KEYPIN10)" package="26-64-4100(KEYPIN10)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -5948,7 +5948,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN2)" package="26-64-4100(KEYPIN2)">
+<device name="_26-64-4100_(KEYPIN2)" package="26-64-4100(KEYPIN2)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$3"/>
@@ -5974,7 +5974,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN3)" package="26-64-4100(KEYPIN3)">
+<device name="_26-64-4100_(KEYPIN3)" package="26-64-4100(KEYPIN3)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6000,7 +6000,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN4)" package="26-64-4100(KEYPIN4)">
+<device name="_26-64-4100_(KEYPIN4)" package="26-64-4100(KEYPIN4)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6026,7 +6026,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN5)" package="26-64-4100(KEYPIN5)">
+<device name="_26-64-4100_(KEYPIN5)" package="26-64-4100(KEYPIN5)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6052,7 +6052,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN6)" package="26-64-4100(KEYPIN6)">
+<device name="_26-64-4100_(KEYPIN6)" package="26-64-4100(KEYPIN6)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6078,7 +6078,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN7)" package="26-64-4100(KEYPIN7)">
+<device name="_26-64-4100_(KEYPIN7)" package="26-64-4100(KEYPIN7)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6104,7 +6104,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN8)" package="26-64-4100(KEYPIN8)">
+<device name="_26-64-4100_(KEYPIN8)" package="26-64-4100(KEYPIN8)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
@@ -6130,7 +6130,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
-<device name="26-64-4100(KEYPIN9)" package="26-64-4100(KEYPIN9)">
+<device name="_26-64-4100_(KEYPIN9)" package="26-64-4100(KEYPIN9)">
 <connects>
 <connect gate="G$1" pin="PIN1" pad="P$1"/>
 <connect gate="G$1" pin="PIN2" pad="P$2"/>
