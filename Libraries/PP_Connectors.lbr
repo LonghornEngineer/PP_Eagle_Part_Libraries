@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -2644,53 +2644,53 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </polygon>
 </symbol>
 <symbol name="SD_CARD">
-<pin name="RW" x="-5.08" y="15.24" visible="off" length="short"/>
-<pin name="CS" x="-5.08" y="12.7" visible="off" length="short"/>
-<pin name="DI" x="-5.08" y="10.16" visible="off" length="short"/>
-<pin name="SCLK" x="-5.08" y="7.62" visible="off" length="short"/>
-<pin name="D0" x="-5.08" y="5.08" visible="off" length="short"/>
-<pin name="IRQ" x="-5.08" y="2.54" visible="off" length="short"/>
-<pin name="3.3V" x="-5.08" y="-5.08" visible="off" length="short"/>
-<pin name="GND" x="-5.08" y="-7.62" visible="off" length="short"/>
-<wire x1="-2.54" y1="17.78" x2="12.7" y2="17.78" width="0.127" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="-2.54" y2="-10.16" width="0.127" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="17.78" width="0.127" layer="94"/>
-<text x="-2.54" y="22.86" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="-2.54" y="20.32" size="1.016" layer="96" font="vector">&gt;VALUE</text>
-<text x="-1.778" y="15.24" size="1.016" layer="97" font="vector" align="center-left">RW</text>
-<text x="-1.778" y="12.7" size="1.016" layer="97" font="vector" align="center-left">CS</text>
-<text x="-1.778" y="10.16" size="1.016" layer="97" font="vector" align="center-left">DI</text>
-<text x="-1.778" y="7.62" size="1.016" layer="97" font="vector" align="center-left">SCLK</text>
-<text x="-1.778" y="5.08" size="1.016" layer="97" font="vector" align="center-left">D0</text>
-<text x="-1.778" y="2.54" size="1.016" layer="97" font="vector" align="center-left">IRQ</text>
-<text x="-1.778" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">CARD_DETECT</text>
-<text x="-1.778" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">3.3V</text>
-<text x="-1.778" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">GND</text>
-<wire x1="2.54" y1="13.97" x2="3.048" y2="13.97" width="0.127" layer="94"/>
-<wire x1="3.048" y1="13.97" x2="4.318" y2="13.97" width="0.127" layer="94"/>
-<wire x1="4.318" y1="13.97" x2="5.588" y2="13.97" width="0.127" layer="94"/>
-<wire x1="5.588" y1="13.97" x2="6.858" y2="13.97" width="0.127" layer="94"/>
-<wire x1="6.858" y1="13.97" x2="8.128" y2="13.97" width="0.127" layer="94"/>
-<wire x1="8.128" y1="13.97" x2="8.16" y2="13.97" width="0.127" layer="94"/>
-<wire x1="8.16" y1="13.97" x2="10.16" y2="11.97" width="0.127" layer="94"/>
-<wire x1="10.16" y1="11.97" x2="10.16" y2="3.81" width="0.127" layer="94"/>
-<wire x1="10.16" y1="3.81" x2="8.89" y2="3.81" width="0.127" layer="94"/>
-<wire x1="8.89" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="94"/>
-<wire x1="3.81" y1="3.81" x2="2.54" y2="3.81" width="0.127" layer="94"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="13.97" width="0.127" layer="94"/>
-<wire x1="8.128" y1="13.97" x2="8.128" y2="12.7" width="0.127" layer="94"/>
-<wire x1="6.858" y1="13.97" x2="6.858" y2="12.7" width="0.127" layer="94"/>
-<wire x1="5.588" y1="13.97" x2="5.588" y2="12.7" width="0.127" layer="94"/>
-<wire x1="4.318" y1="13.97" x2="4.318" y2="12.7" width="0.127" layer="94"/>
-<wire x1="3.048" y1="13.97" x2="3.048" y2="12.7" width="0.127" layer="94"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="7.89" width="0.127" layer="94"/>
-<wire x1="3.81" y1="7.89" x2="4.81" y2="8.89" width="0.127" layer="94" curve="-90"/>
-<wire x1="4.81" y1="8.89" x2="7.89" y2="8.89" width="0.127" layer="94"/>
-<wire x1="7.89" y1="8.89" x2="8.89" y2="7.89" width="0.127" layer="94" curve="-90"/>
-<wire x1="8.89" y1="7.89" x2="8.89" y2="3.81" width="0.127" layer="94"/>
-<text x="5.08" y="16.51" size="1.016" layer="97" font="vector" align="center">SD CARD SLOT</text>
-<pin name="CD" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="RW" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="CS" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="DI" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SCLK" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="D0" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="IRQ" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="3.3V" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-22.86" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.127" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-25.4" width="0.127" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="0" y2="-25.4" width="0.127" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="2.54" width="0.127" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="5.08" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="0.762" y="0" size="1.016" layer="97" font="vector" align="center-left">RW</text>
+<text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">CS</text>
+<text x="0.762" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">DI</text>
+<text x="0.762" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">SCLK</text>
+<text x="0.762" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">D0</text>
+<text x="0.762" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">IRQ</text>
+<text x="0.762" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">CARD_DETECT</text>
+<text x="0.762" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">3.3V</text>
+<text x="0.762" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<wire x1="5.08" y1="-1.27" x2="5.588" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="5.588" y1="-1.27" x2="6.858" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="6.858" y1="-1.27" x2="8.128" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="8.128" y1="-1.27" x2="9.398" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="9.398" y1="-1.27" x2="10.668" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.668" y1="-1.27" x2="10.7" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.7" y1="-1.27" x2="12.7" y2="-3.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-3.27" x2="12.7" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-11.43" x2="11.43" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="11.43" y1="-11.43" x2="6.35" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-11.43" x2="5.08" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-11.43" x2="5.08" y2="-1.27" width="0.127" layer="94"/>
+<wire x1="10.668" y1="-1.27" x2="10.668" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="9.398" y1="-1.27" x2="9.398" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="8.128" y1="-1.27" x2="8.128" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="6.858" y1="-1.27" x2="6.858" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="5.588" y1="-1.27" x2="5.588" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-11.43" x2="6.35" y2="-7.35" width="0.127" layer="94"/>
+<wire x1="6.35" y1="-7.35" x2="7.35" y2="-6.35" width="0.127" layer="94" curve="-90"/>
+<wire x1="7.35" y1="-6.35" x2="10.43" y2="-6.35" width="0.127" layer="94"/>
+<wire x1="10.43" y1="-6.35" x2="11.43" y2="-7.35" width="0.127" layer="94" curve="-90"/>
+<wire x1="11.43" y1="-7.35" x2="11.43" y2="-11.43" width="0.127" layer="94"/>
+<text x="7.62" y="1.27" size="1.016" layer="97" font="vector" align="center">SD CARD SLOT</text>
+<pin name="CD" x="-2.54" y="-17.78" visible="off" length="short"/>
 </symbol>
 <symbol name="CON_02X10">
 <pin name="1" x="-2.54" y="0" visible="off" length="short"/>
@@ -4389,7 +4389,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </deviceset>
 <deviceset name="SD_CARD" prefix="SD" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="SD_CARD" x="-2.54" y="-5.08"/>
+<gate name="G$1" symbol="SD_CARD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_SD-RSMT-2-MQ" package="SD-RSMT-2-MQ">
