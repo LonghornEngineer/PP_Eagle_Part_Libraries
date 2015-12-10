@@ -4147,7 +4147,14 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <connect gate="G$1" pin="6" pad="P$6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5187,7 +5194,6 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </connects>
 <technologies>
 <technology name="">
-<attribute name="LABEL00" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -5217,6 +5223,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <attribute name="LABEL27" value="" constant="no"/>
 <attribute name="LABEL28" value="" constant="no"/>
 <attribute name="LABEL29" value="" constant="no"/>
+<attribute name="LABEL30" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
