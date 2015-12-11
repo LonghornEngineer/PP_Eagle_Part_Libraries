@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -464,6 +464,17 @@
 <wire x1="4" y1="4.96" x2="-4" y2="4.96" width="0.127" layer="21"/>
 <text x="-4" y="5.46" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="NCV565_SOT-223-3">
+<smd name="1" x="-2.3" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="-2.54" dx="2" dy="1.1" layer="1" rot="R90"/>
+<smd name="PAD" x="0" y="3.36" dx="3.3" dy="2" layer="1" rot="R180"/>
+<wire x1="-4" y1="4.96" x2="-4" y2="-4.04" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.04" x2="4" y2="-4.04" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.04" x2="4" y2="4.96" width="0.127" layer="21"/>
+<wire x1="4" y1="4.96" x2="-4" y2="4.96" width="0.127" layer="21"/>
+<text x="-4" y="5.46" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BTM7755">
@@ -872,6 +883,16 @@
 </technologies>
 </device>
 <device name="_ADP3338" package="ADP3338_SOT-223-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NCV565ST12T3G" package="NCV565_SOT-223-3">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
