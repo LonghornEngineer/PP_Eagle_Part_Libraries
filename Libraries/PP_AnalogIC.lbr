@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -116,7 +116,7 @@
 </layers>
 <library>
 <packages>
-<package name="SOT-23-5">
+<package name="INA169NA/250_SOT-23-5">
 <smd name="1" x="-0.95" y="-2.54" dx="0.6" dy="1.05" layer="1" rot="R180"/>
 <smd name="2" x="0" y="-2.54" dx="0.6" dy="1.05" layer="1" rot="R180"/>
 <smd name="3" x="0.95" y="-2.54" dx="0.6" dy="1.05" layer="1" rot="R180"/>
@@ -126,9 +126,9 @@
 <wire x1="1.5" y1="0.96" x2="1.5" y2="-3.29" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-3.29" x2="-1.5" y2="-3.29" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-3.29" x2="-1.5" y2="0.96" width="0.127" layer="21"/>
-<text x="-1.5" y="1.21" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.5" y="1.21" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="SOP-14">
+<package name="LM324NSR_SOP-14">
 <smd name="1" x="-2.675" y="3.81" dx="0.51" dy="2" layer="1" rot="R90"/>
 <smd name="2" x="-2.675" y="2.54" dx="0.51" dy="2" layer="1" rot="R90"/>
 <smd name="3" x="-2.675" y="1.27" dx="0.51" dy="2" layer="1" rot="R90"/>
@@ -152,7 +152,7 @@
 <wire x1="1.27" y1="4.445" x2="1.27" y2="3.81" width="0.127" layer="21"/>
 <wire x1="1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="3.81" x2="-0.635" y2="4.445" width="0.127" layer="21"/>
-<text x="-3.81" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-4" y="5.08" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="TTSOP-16">
 <smd name="1" x="-2.8" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R90"/>
@@ -220,7 +220,7 @@
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.127" layer="21"/>
 </package>
-<package name="QFN-10L">
+<package name="DG2722_QFN-10L">
 <smd name="P$1" x="-0.5185" y="0.2" dx="0.225" dy="0.663" layer="1" rot="R90"/>
 <smd name="P$2" x="-0.5685" y="-0.2" dx="0.225" dy="0.563" layer="1" rot="R90"/>
 <smd name="P$3" x="-0.4" y="-0.7685" dx="0.225" dy="0.563" layer="1"/>
@@ -339,47 +339,64 @@
 </packages>
 <symbols>
 <symbol name="INA169">
-<pin name="OUT" x="-10.16" y="5.08" visible="pin" length="short"/>
-<pin name="GND" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="VIN+" x="-10.16" y="-5.08" visible="pin" length="short"/>
-<pin name="V+" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="VIN-" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="0" y="10.16" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="OUT" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="VIN+" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="V+" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="VIN-" x="12.7" y="-7.62" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="0" y1="-11.43" x2="10.16" y2="-11.43" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-11.43" x2="10.16" y2="1.27" width="0.127" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">OUT</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">VIN+</text>
+<text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VIN-</text>
+<text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">V+</text>
 </symbol>
 <symbol name="LM324">
-<pin name="3" x="-48.26" y="-5.08" visible="pin" length="middle"/>
-<pin name="2" x="-48.26" y="0" visible="pin" length="middle"/>
-<pin name="1" x="-27.94" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="6" x="-5.08" y="2.54" visible="pin" length="middle"/>
-<pin name="5" x="-5.08" y="-2.54" visible="pin" length="middle"/>
-<pin name="7" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="12" x="33.02" y="22.86" visible="pin" length="middle"/>
-<pin name="13" x="33.02" y="17.78" visible="pin" length="middle"/>
-<pin name="14" x="53.34" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="10" x="33.02" y="-17.78" visible="pin" length="middle"/>
-<pin name="9" x="33.02" y="-22.86" visible="pin" length="middle"/>
-<pin name="8" x="53.34" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="3" x="-48.26" y="-5.08" visible="off" length="middle"/>
+<pin name="2" x="-48.26" y="0" visible="off" length="middle"/>
+<pin name="1" x="-27.94" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="6" x="-5.08" y="2.54" visible="off" length="middle"/>
+<pin name="5" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="7" x="15.24" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="12" x="33.02" y="22.86" visible="off" length="middle"/>
+<pin name="13" x="33.02" y="17.78" visible="off" length="middle"/>
+<pin name="14" x="53.34" y="20.32" visible="off" length="middle" rot="R180"/>
+<pin name="10" x="33.02" y="-17.78" visible="off" length="middle"/>
+<pin name="9" x="33.02" y="-22.86" visible="off" length="middle"/>
+<pin name="8" x="53.34" y="-20.32" visible="off" length="middle" rot="R180"/>
 <pin name="4" x="-38.1" y="5.08" visible="off" length="middle" rot="R270"/>
 <pin name="11" x="-38.1" y="-10.16" visible="off" length="middle" rot="R90"/>
-<wire x1="-43.18" y1="2.54" x2="-43.18" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-43.18" y1="-7.62" x2="-33.02" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-2.54" x2="-43.18" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-15.24" x2="38.1" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="38.1" y1="-25.4" x2="48.26" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-20.32" x2="38.1" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="15.24" width="0.254" layer="94"/>
-<wire x1="38.1" y1="15.24" x2="48.26" y2="20.32" width="0.254" layer="94"/>
-<wire x1="48.26" y1="20.32" x2="38.1" y2="25.4" width="0.254" layer="94"/>
-<text x="-33.02" y="5.08" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-33.02" y="-10.16" size="0.8128" layer="95" font="vector">&gt;VALUE</text>
+<wire x1="-43.18" y1="2.54" x2="-43.18" y2="-7.62" width="0.127" layer="94"/>
+<wire x1="-43.18" y1="-7.62" x2="-33.02" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-33.02" y1="-2.54" x2="-43.18" y2="2.54" width="0.127" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="0" y1="-5.08" x2="10.16" y2="0" width="0.127" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="5.08" width="0.127" layer="94"/>
+<wire x1="38.1" y1="-15.24" x2="38.1" y2="-25.4" width="0.127" layer="94"/>
+<wire x1="38.1" y1="-25.4" x2="48.26" y2="-20.32" width="0.127" layer="94"/>
+<wire x1="48.26" y1="-20.32" x2="38.1" y2="-15.24" width="0.127" layer="94"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="15.24" width="0.127" layer="94"/>
+<wire x1="38.1" y1="15.24" x2="48.26" y2="20.32" width="0.127" layer="94"/>
+<wire x1="48.26" y1="20.32" x2="38.1" y2="25.4" width="0.127" layer="94"/>
+<text x="-33.02" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="-33.02" y="2.54" size="1.016" layer="95" font="vector">&gt;VALUE</text>
+<text x="-41.91" y="0" size="1.016" layer="97" font="vector" align="center-left">2</text>
+<text x="-41.91" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">3</text>
+<text x="-35.56" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1</text>
+<text x="1.27" y="2.54" size="1.016" layer="97" font="vector" align="center-left">6</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">5</text>
+<text x="7.62" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">7</text>
+<text x="39.37" y="22.86" size="1.016" layer="97" font="vector" align="center-left">12</text>
+<text x="39.37" y="17.78" size="1.016" layer="97" font="vector" align="center-left">13</text>
+<text x="45.72" y="20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">14</text>
+<text x="45.72" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">8</text>
+<text x="39.37" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">10</text>
+<text x="39.37" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">9</text>
 </symbol>
 <symbol name="TS3A5018">
 <pin name="IN" x="-12.7" y="7.62" visible="pin" length="short"/>
@@ -435,22 +452,32 @@
 <text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="DG2722">
-<pin name="VCC" x="-10.16" y="7.62" visible="pin" length="short"/>
-<pin name="GND" x="-10.16" y="-10.16" visible="pin" length="short"/>
-<pin name="S" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="!OE" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="D+" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="D-" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="D1+" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="D1-" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="D2+" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="D2-" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="12.7" size="0.8128" layer="95" font="vector" ratio="16">&gt;NAME</text>
-<text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector" ratio="16">&gt;VALUE</text>
+<pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="S" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="!OE" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="D+" x="12.7" y="0" visible="off" length="short" rot="R180"/>
+<pin name="D-" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="D1+" x="12.7" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="D1-" x="12.7" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="D2+" x="12.7" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="D2-" x="12.7" y="-17.78" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="0" y1="-19.05" x2="10.16" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-19.05" x2="10.16" y2="1.27" width="0.127" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">!OE</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">S</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D+</text>
+<text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D-</text>
+<text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D1+</text>
+<text x="8.89" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D1-</text>
+<text x="8.89" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D2+</text>
+<text x="8.89" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D2-</text>
 </symbol>
 <symbol name="LM339">
 <pin name="1OUT" x="-12.7" y="7.62" visible="pin" length="short"/>
@@ -535,15 +562,14 @@
 </symbols>
 <devicesets>
 <deviceset name="INA169" prefix="U" uservalue="yes">
-<description>Mouser Part #: 595-INA169NA/250G4
-Manufacturer Part #: INA169NA/250G4
-Manufacturer: Texas Instruments
-Description: Current &amp; Power Monitors &amp; Regulators Hi-Sd Msmnt Current Shunt Mntr Crnt Otp</description>
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; INA169NA/250&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Current &amp; Power Monitors &amp; Regulators Hi-Sd Msmnt Current Shunt Mntr Crnt Otp &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="INA169" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT-23-5" package="SOT-23-5">
+<device name="SOT-23-5" package="INA169NA/250_SOT-23-5">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="1"/>
@@ -558,14 +584,14 @@ Description: Current &amp; Power Monitors &amp; Regulators Hi-Sd Msmnt Current S
 </devices>
 </deviceset>
 <deviceset name="LM324" prefix="U" uservalue="yes">
-<description>Manufacturer Part #: LM324
-Manufacturer: Texas Instruments
-Description: Operational Amplifiers - Op Amps LOW PWR QUAD OP AMP</description>
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; LM324&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Operational Amplifiers - Op Amps Quad General-Purpose Op Amp  &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM324" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="SOP-14" package="SOP-14">
+<device name="NSR" package="LM324NSR_SOP-14">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -663,11 +689,14 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 </devices>
 </deviceset>
 <deviceset name="DG2722" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; DG2722DN-T1-E4&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Vishay Semiconductors&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; USB Switch ICs DPDT 2-Port USB 2.0 High Speed (480Mbps) &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="DG2722" x="0" y="0"/>
 </gates>
 <devices>
-<device name="QFN-10L" package="QFN-10L">
+<device name="DN-T1-E4" package="DG2722_QFN-10L">
 <connects>
 <connect gate="G$1" pin="!OE" pad="P$8"/>
 <connect gate="G$1" pin="D+" pad="P$1"/>
