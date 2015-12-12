@@ -128,7 +128,7 @@
 <wire x1="-1.5" y1="-3.29" x2="-1.5" y2="0.96" width="0.127" layer="21"/>
 <text x="-1.5" y="1.21" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="LM324NSR_SOP-14">
+<package name="LM324_SOP-14">
 <smd name="1" x="-2.675" y="3.81" dx="0.51" dy="2" layer="1" rot="R90"/>
 <smd name="2" x="-2.675" y="2.54" dx="0.51" dy="2" layer="1" rot="R90"/>
 <smd name="3" x="-2.675" y="1.27" dx="0.51" dy="2" layer="1" rot="R90"/>
@@ -154,7 +154,7 @@
 <wire x1="-0.635" y1="3.81" x2="-0.635" y2="4.445" width="0.127" layer="21"/>
 <text x="-4" y="5.08" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="TTSOP-16">
+<package name="TS3A5018_TTSOP-16">
 <smd name="1" x="-2.8" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R90"/>
 <smd name="2" x="-2.8" y="1.625" dx="0.3" dy="1.55" layer="1" rot="R90"/>
 <smd name="3" x="-2.8" y="0.975" dx="0.3" dy="1.55" layer="1" rot="R90"/>
@@ -180,27 +180,9 @@
 <wire x1="0.65" y1="2.925" x2="0.65" y2="2.275" width="0.127" layer="21"/>
 <wire x1="0.65" y1="2.275" x2="-0.65" y2="2.275" width="0.127" layer="21"/>
 <wire x1="-0.65" y1="2.275" x2="-0.65" y2="2.925" width="0.127" layer="21"/>
-<text x="-3.9" y="3.25" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<text x="-4.1" y="3.25" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="TSOT-6">
-<smd name="1" x="-0.95" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<smd name="3" x="0.95" y="-1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<smd name="6" x="-0.95" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<smd name="5" x="0" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<smd name="4" x="0.95" y="1.5" dx="0.5" dy="1.8" layer="1" rot="R180"/>
-<wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2.5" x2="-1.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-0.5" x2="-1.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="0.5" x2="-0.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="0.5" x2="-0.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-0.5" x2="-1.5" y2="-0.5" width="0.127" layer="21"/>
-<text x="-1.5" y="3" size="0.8128" layer="21" font="vector">&gt;NAME</text>
-</package>
-<package name="SOIC-8">
+<package name="TPA6100A_SOIC-8">
 <smd name="7" x="-0.635" y="2.7" dx="0.55" dy="1.5" layer="1"/>
 <smd name="6" x="0.635" y="2.7" dx="0.55" dy="1.5" layer="1"/>
 <smd name="8" x="-1.905" y="2.7" dx="0.55" dy="1.5" layer="1"/>
@@ -215,7 +197,7 @@
 <wire x1="-2.5" y1="-4" x2="2.5" y2="-4" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-4" x2="2.5" y2="4" width="0.127" layer="21"/>
 <wire x1="2.5" y1="4" x2="-2.5" y2="4" width="0.127" layer="21"/>
-<text x="-2.5" y="4.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.5" y="4.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <wire x1="-2.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="-2.5" y2="-1" width="0.127" layer="21"/>
@@ -238,7 +220,7 @@
 <text x="-1.27" y="1.6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <rectangle x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" layer="21"/>
 </package>
-<package name="SOIC-14">
+<package name="LM339_SOIC-14">
 <smd name="P$1" x="-3.81" y="-2.7" dx="0.55" dy="1.5" layer="1"/>
 <smd name="P$2" x="-2.54" y="-2.7" dx="0.55" dy="1.5" layer="1"/>
 <smd name="P$3" x="-1.27" y="-2.7" dx="0.55" dy="1.5" layer="1"/>
@@ -262,9 +244,9 @@
 <wire x1="-4.5" y1="1" x2="-3.5" y2="1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="1" x2="-3.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-1" x2="-4.5" y2="-1" width="0.127" layer="21"/>
-<text x="-4.5" y="4.5" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-4.5" y="4.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="UMAX-8">
+<package name="MAX11613_UMAX-8">
 <smd name="P$1" x="-2.15" y="0.975" dx="0.4" dy="1.35" layer="1" rot="R90"/>
 <smd name="P$2" x="-2.15" y="0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
 <smd name="P$3" x="-2.15" y="-0.325" dx="0.4" dy="1.35" layer="1" rot="R90"/>
@@ -297,7 +279,7 @@
 </polygon>
 <text x="-3" y="1.8" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="TTSOP-14">
+<package name="MAX31856_TTSOP-14">
 <smd name="P$1" x="-2.875" y="1.95" dx="1.4" dy="0.35" layer="1"/>
 <smd name="P$2" x="-2.875" y="1.3" dx="1.4" dy="0.35" layer="1"/>
 <smd name="P$3" x="-2.875" y="0.65" dx="1.4" dy="0.35" layer="1"/>
@@ -399,57 +381,68 @@
 <text x="39.37" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">9</text>
 </symbol>
 <symbol name="TS3A5018">
-<pin name="IN" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="NC1" x="-12.7" y="5.08" visible="pin" length="short"/>
-<pin name="NO1" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="COM1" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="NC2" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="NO2" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="COM2" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="short"/>
-<pin name="V+" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="EN'" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="NC4" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="NO4" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="COM4" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="NC3" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="NO3" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="COM3" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-<symbol name="LMP8640">
-<pin name="VOUT" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="V-" x="-7.62" y="0" visible="pin" length="short" rot="R90"/>
-<pin name="+IN" x="-7.62" y="17.78" visible="pin" length="short" rot="R270"/>
-<pin name="V+" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="-IN" x="0" y="17.78" visible="pin" length="short" rot="R270"/>
-<wire x1="-10.16" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="2.54" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="5.08" y="17.78" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="0" size="0.8128" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="NC1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="NO1" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="COM1" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="NC2" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="NO2" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="COM2" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="V+" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="EN'" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="NC4" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="NO4" x="15.24" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="COM4" x="15.24" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="NC3" x="15.24" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="NO3" x="15.24" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="COM3" x="15.24" y="-17.78" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="12.7" y2="1.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-19.05" x2="0" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="0" y1="-19.05" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">IN</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">COM1</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">COM2</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="11.43" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">COM3</text>
+<text x="11.43" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">COM4</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!EN</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">NC1</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">NO1</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">NC2</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">NO2</text>
+<text x="11.43" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">NO3</text>
+<text x="11.43" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">NC3</text>
+<text x="11.43" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">NO4</text>
+<text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">NC4</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">V+</text>
 </symbol>
 <symbol name="TPA6100A">
-<pin name="IN1" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="IN2" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="BYPASS" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="SHTDWN" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="VDD" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="VO1" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="VO2" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="IN1" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="IN2" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="BYPASS" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SHTDWN" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="VDD" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="VO1" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="VO2" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="15.24" y="-7.62" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="0" y1="-8.89" x2="12.7" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-8.89" x2="12.7" y2="1.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">IN1</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">IN2</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">BYPASS</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">SHTDWN</text>
+<text x="11.43" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VO2</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VO1</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VDD</text>
 </symbol>
 <symbol name="DG2722">
 <pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
@@ -480,26 +473,40 @@
 <text x="8.89" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D2-</text>
 </symbol>
 <symbol name="LM339">
-<pin name="1OUT" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="2OUT" x="-12.7" y="5.08" visible="pin" length="short"/>
-<pin name="VCC" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="2IN-" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="2IN+" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="1IN-" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="1IN+" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="3IN-" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="3IN+" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="4IN-" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="4IN+" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="OUT4" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="OUT3" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
-<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.16" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1OUT" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="2OUT" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="VCC" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="2IN-" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="2IN+" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="1IN-" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="1IN+" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="3IN-" x="15.24" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="3IN+" x="15.24" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="4IN-" x="15.24" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="4IN+" x="15.24" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="OUT4" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="OUT3" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-16.51" width="0.127" layer="94"/>
+<wire x1="0" y1="-16.51" x2="12.7" y2="-16.51" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-16.51" x2="12.7" y2="1.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">1OUT</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">2OUT</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">2IN-</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">2IN+</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">1IN-</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">1IN+</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">OUT3</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">OUT4</text>
+<text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="11.43" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">4IN+</text>
+<text x="11.43" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">4IN-</text>
+<text x="11.43" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">3IN+</text>
+<text x="11.43" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">3IN-</text>
 </symbol>
 <symbol name="MAX11613">
 <pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
@@ -518,46 +525,46 @@
 <text x="14.478" y="-7.62" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">A_3</text>
 <text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">VSS (GND)</text>
 <text x="0.762" y="0" size="1.016" layer="97" font="vector" rot="MR180" align="center-left">VCC</text>
-<wire x1="0" y1="1.27" x2="0" y2="-8.89" width="0.1524" layer="94"/>
-<wire x1="0" y1="-8.89" x2="15.24" y2="-8.89" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-8.89" x2="15.24" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="0" y1="-8.89" x2="15.24" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="15.24" y1="-8.89" x2="15.24" y2="1.27" width="0.127" layer="94"/>
+<wire x1="15.24" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="MAX31856">
-<pin name="AGND" x="-10.16" y="-7.62" visible="off" length="short"/>
-<pin name="BIAS" x="-10.16" y="2.54" visible="off" length="short"/>
-<pin name="T-" x="-10.16" y="0" visible="off" length="short"/>
-<pin name="T+" x="-10.16" y="-2.54" visible="off" length="short"/>
-<pin name="AVDD" x="-10.16" y="7.62" visible="off" length="short"/>
-<pin name="!DRDY" x="10.16" y="-7.62" visible="off" length="short" rot="R180"/>
-<pin name="!CS" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="SCK" x="10.16" y="0" visible="off" length="short" rot="R180"/>
-<pin name="SDO" x="10.16" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="SDI" x="10.16" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="!FAULT" x="10.16" y="7.62" visible="off" length="short" rot="R180"/>
-<pin name="DGND" x="-10.16" y="-10.16" visible="off" length="short"/>
-<text x="-6.35" y="-7.62" size="1.27" layer="97" font="vector" align="center-left">AGND</text>
-<text x="-6.35" y="2.54" size="1.27" layer="97" font="vector" align="center-left">BIAS</text>
-<text x="-6.35" y="0" size="1.27" layer="97" font="vector" align="center-left">T-</text>
-<text x="-6.35" y="-2.54" size="1.27" layer="97" font="vector" align="center-left">T+</text>
-<text x="-6.35" y="7.62" size="1.27" layer="97" font="vector" align="center-left">AVDD</text>
-<text x="6.35" y="-7.62" size="1.27" layer="97" font="vector" rot="R180" align="center-left">!DRDY</text>
-<text x="-6.35" y="-10.16" size="1.27" layer="97" font="vector" align="center-left">DGND</text>
-<text x="6.35" y="7.62" size="1.27" layer="97" font="vector" rot="R180" align="center-left">!FAULT</text>
-<text x="6.35" y="5.08" size="1.27" layer="97" font="vector" rot="R180" align="center-left">SDI</text>
-<text x="6.35" y="2.54" size="1.27" layer="97" font="vector" rot="R180" align="center-left">SDO</text>
-<text x="6.35" y="0" size="1.27" layer="97" font="vector" rot="R180" align="center-left">SCK</text>
-<text x="6.35" y="-2.54" size="1.27" layer="97" font="vector" rot="R180" align="center-left">!CS</text>
-<pin name="DVDD" x="-10.16" y="10.16" visible="off" length="short"/>
-<text x="-6.35" y="10.16" size="1.27" layer="97" font="vector" align="center-left">DVDD</text>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="-7.62" y="15.24" size="1.27" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.27" layer="95" font="vector">&gt;VALUE</text>
+<pin name="AGND" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="BIAS" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="T-" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="T+" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="AVDD" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="!DRDY" x="17.78" y="-17.78" visible="off" length="short" rot="R180"/>
+<pin name="!CS" x="17.78" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="SCK" x="17.78" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="SDO" x="17.78" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="SDI" x="17.78" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="!FAULT" x="17.78" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="DGND" x="-2.54" y="-20.32" visible="off" length="short"/>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">AGND</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">BIAS</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">T-</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">T+</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">AVDD</text>
+<text x="13.97" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!DRDY</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">DGND</text>
+<text x="13.97" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!FAULT</text>
+<text x="13.97" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SDI</text>
+<text x="13.97" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SDO</text>
+<text x="13.97" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SCK</text>
+<text x="13.97" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!CS</text>
+<pin name="DVDD" x="-2.54" y="0" visible="off" length="short"/>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">DVDD</text>
+<wire x1="0" y1="1.27" x2="0" y2="-21.59" width="0.127" layer="94"/>
+<wire x1="0" y1="-21.59" x2="15.24" y2="-21.59" width="0.127" layer="94"/>
+<wire x1="15.24" y1="-21.59" x2="15.24" y2="1.27" width="0.127" layer="94"/>
+<wire x1="15.24" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="95" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -591,7 +598,7 @@
 <gate name="G$1" symbol="LM324" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="NSR" package="LM324NSR_SOP-14">
+<device name="NSR" package="LM324_SOP-14">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -615,14 +622,14 @@
 </devices>
 </deviceset>
 <deviceset name="TS3A5018" prefix="U" uservalue="yes">
-<description>Manufacturer Part #: TS3A5018
-Manufacturer: Texas Instruments
-Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; TS3A5018&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Analog Switch ICs 10-Ohm Quad SPDT Analog Switch&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="TS3A5018" x="0" y="0"/>
 </gates>
 <devices>
-<device name="TTSOP-16" package="TTSOP-16">
+<device name="PWR" package="TS3A5018_TTSOP-16">
 <connects>
 <connect gate="G$1" pin="COM1" pad="4"/>
 <connect gate="G$1" pin="COM2" pad="7"/>
@@ -647,31 +654,15 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMP8640" prefix="U" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="LMP8640" x="0" y="-7.62"/>
-</gates>
-<devices>
-<device name="TSOT-6" package="TSOT-6">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="4"/>
-<connect gate="G$1" pin="V+" pad="6"/>
-<connect gate="G$1" pin="V-" pad="2"/>
-<connect gate="G$1" pin="VOUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TPA6100A" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; TPA6100A&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Audio Amplifiers Ultra Low Voltage Stereo Headphone &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="TPA6100A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOIC-8" package="SOIC-8">
+<device name="2DR" package="TPA6100A_SOIC-8">
 <connects>
 <connect gate="G$1" pin="BYPASS" pad="1"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -716,11 +707,14 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 </devices>
 </deviceset>
 <deviceset name="LM339" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; LM339&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Analog Comparators Quad Diff A Grade&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM339" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOIC-14" package="SOIC-14">
+<device name="ADR" package="LM339_SOIC-14">
 <connects>
 <connect gate="G$1" pin="1IN+" pad="P$7"/>
 <connect gate="G$1" pin="1IN-" pad="P$6"/>
@@ -744,11 +738,14 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 </devices>
 </deviceset>
 <deviceset name="MAX11613" prefix="U">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; MAX11613&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Maxim Integrated&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Analog to Digital Converters - ADC 12-Bit 4Ch 94.4sps 3.6V Precision ADC &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX11613" x="0" y="0"/>
 </gates>
 <devices>
-<device name="EUA+" package="UMAX-8">
+<device name="EUA+" package="MAX11613_UMAX-8">
 <connects>
 <connect gate="G$1" pin="A_0" pad="P$1"/>
 <connect gate="G$1" pin="A_1" pad="P$2"/>
@@ -766,11 +763,14 @@ Description: Analog Switch ICs 10O Quad SPDT Ana Sw</description>
 </devices>
 </deviceset>
 <deviceset name="MAX31856" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; MAX31856&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Maxim Integrated&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Sensor Interface Precision Thermocouple to Digital Converter with Linearization &lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX31856" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TTSOP-14">
+<device name="MUD+" package="MAX31856_TTSOP-14">
 <connects>
 <connect gate="G$1" pin="!CS" pad="P$9"/>
 <connect gate="G$1" pin="!DRDY" pad="P$7"/>
