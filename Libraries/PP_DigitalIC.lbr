@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1029,7 +1029,7 @@
 <wire x1="-5" y1="1" x2="-4" y2="1" width="0.127" layer="21"/>
 <wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="21"/>
 <wire x1="-4" y1="-1" x2="-5" y2="-1" width="0.127" layer="21"/>
-<text x="-5" y="4.5" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<text x="-5" y="4.5" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="QFN-44">
 <smd name="1" x="-4.5" y="3.25" dx="0.33" dy="1" layer="1" roundness="50" rot="R270"/>
@@ -1734,6 +1734,60 @@
 <wire x1="2.286" y1="-1.016" x2="-2.286" y2="-1.016" width="0.127" layer="20"/>
 <wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.127" layer="20"/>
 </package>
+<package name="23A1024_SOIC-8">
+<smd name="7" x="2.55" y="0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="6" x="2.55" y="-0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="5" x="2.55" y="-1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="8" x="2.55" y="1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="1" x="-2.55" y="1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="2" x="-2.55" y="0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="3" x="-2.55" y="-0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="4" x="-2.55" y="-1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1" y1="2.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="2.5" width="0.127" layer="21"/>
+<text x="-4" y="3.23" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-5.08" y="1.905" curve="-90"/>
+<vertex x="-4.699" y="2.286" curve="-90"/>
+<vertex x="-4.318" y="1.905" curve="-90"/>
+<vertex x="-4.699" y="1.524" curve="-90"/>
+</polygon>
+</package>
+<package name="CD74HC123_SOIC-16">
+<smd name="4" x="-2.7" y="0.635" dx="2" dy="0.6" layer="1"/>
+<smd name="5" x="-2.7" y="-0.635" dx="2" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="1.905" dx="2" dy="0.6" layer="1"/>
+<smd name="6" x="-2.7" y="-1.905" dx="2" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="3.175" dx="2" dy="0.6" layer="1"/>
+<smd name="7" x="-2.7" y="-3.175" dx="2" dy="0.6" layer="1"/>
+<smd name="1" x="-2.7" y="4.445" dx="2" dy="0.6" layer="1"/>
+<smd name="8" x="-2.7" y="-4.445" dx="2" dy="0.6" layer="1"/>
+<smd name="13" x="2.7" y="0.635" dx="2" dy="0.6" layer="1"/>
+<smd name="12" x="2.7" y="-0.635" dx="2" dy="0.6" layer="1"/>
+<smd name="14" x="2.7" y="1.905" dx="2" dy="0.6" layer="1"/>
+<smd name="11" x="2.7" y="-1.905" dx="2" dy="0.6" layer="1"/>
+<smd name="15" x="2.7" y="3.175" dx="2" dy="0.6" layer="1"/>
+<smd name="10" x="2.7" y="-3.175" dx="2" dy="0.6" layer="1"/>
+<smd name="16" x="2.7" y="4.445" dx="2" dy="0.6" layer="1"/>
+<smd name="9" x="2.7" y="-4.445" dx="2" dy="0.6" layer="1"/>
+<wire x1="4" y1="5" x2="1" y2="5" width="0.127" layer="21"/>
+<wire x1="1" y1="5" x2="-1" y2="5" width="0.127" layer="21"/>
+<wire x1="-1" y1="5" x2="-4" y2="5" width="0.127" layer="21"/>
+<wire x1="-4" y1="5" x2="-4" y2="-5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-5" x2="4" y2="-5" width="0.127" layer="21"/>
+<wire x1="4" y1="-5" x2="4" y2="5" width="0.127" layer="21"/>
+<wire x1="1" y1="5" x2="1" y2="4" width="0.127" layer="21"/>
+<wire x1="1" y1="4" x2="-1" y2="4" width="0.127" layer="21"/>
+<wire x1="-1" y1="4" x2="-1" y2="5" width="0.127" layer="21"/>
+<text x="-4" y="5.77" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2200">
@@ -2045,20 +2099,28 @@
 <text x="-7.62" y="-12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="23A1024/23LC1024">
-<pin name="CS'" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="SO/SIO1" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="SIO2" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="VCC" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SIO3" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="SCK" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SI/SIO0" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<pin name="CS'" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="SO/SIO1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="SIO2" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="VCC" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="SIO3" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="SCK" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="SI/SIO0" x="15.24" y="-7.62" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="0" y1="-8.89" x2="12.7" y2="-8.89" width="0.127" layer="94"/>
+<wire x1="12.7" y1="-8.89" x2="12.7" y2="1.27" width="0.127" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">!CS</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">SO/SIO1</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">SIO2</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="11.43" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SI/SIO0</text>
+<text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SCK</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SIO3</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VCC</text>
 </symbol>
 <symbol name="ACPL-227">
 <pin name="1" x="-7.62" y="7.62" visible="off" length="short"/>
@@ -2318,29 +2380,45 @@
 <text x="9.398" y="7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VCCA</text>
 <text x="9.398" y="12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VCCB</text>
 </symbol>
-<symbol name="74HC123">
-<pin name="!1A" x="-10.16" y="7.62" visible="pin" length="short"/>
-<pin name="!1B" x="-10.16" y="5.08" visible="pin" length="short"/>
-<pin name="!1R" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="!1Q" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="2Q" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="2CX" x="-10.16" y="-5.08" visible="pin" length="short"/>
-<pin name="2RXCX" x="-10.16" y="-7.62" visible="pin" length="short"/>
-<pin name="GND" x="-10.16" y="-10.16" visible="pin" length="short"/>
-<pin name="VCC" x="10.16" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="1RXCX" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="1CX" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="1Q" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="!2Q" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="!2R" x="10.16" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="2B" x="10.16" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="!2A" x="10.16" y="-10.16" visible="pin" length="short" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="12.7" size="0.8128" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="12.7" size="0.8128" layer="96" font="vector">&gt;VALUE</text>
+<symbol name="CD74HC123">
+<pin name="!1A" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="!1B" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="!1R" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="!1Q" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="2Q" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="2CX" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="2RXCX" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="VCC" x="12.7" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1RXCX" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="1CX" x="12.7" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="1Q" x="12.7" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="!2Q" x="12.7" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="!2R" x="12.7" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="2B" x="12.7" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="!2A" x="12.7" y="-17.78" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="0" y1="-19.05" x2="10.16" y2="-19.05" width="0.127" layer="94"/>
+<wire x1="10.16" y1="-19.05" x2="10.16" y2="1.27" width="0.127" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">!1A</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">!1B</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">!1R</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">!1Q</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">2Q</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">2CX</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">2RXCX</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VCC</text>
+<text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1RXCX</text>
+<text x="8.89" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1CX</text>
+<text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1Q</text>
+<text x="8.89" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!2Q</text>
+<text x="8.89" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!2R</text>
+<text x="8.89" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">2B</text>
+<text x="8.89" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!2A</text>
 </symbol>
 <symbol name="DS1340">
 <pin name="VSS" x="-12.7" y="2.54" visible="pin" length="short"/>
@@ -3615,26 +3693,15 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 </devices>
 </deviceset>
 <deviceset name="23A1024/23LC1024" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; 23A1024/23LC1024&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Microchip Technology&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; SRAM 1024K 1.8V SPI SERIAL SRAM SQI
+&lt;br/&gt;</description>
 <gates>
 <gate name="G$1" symbol="23A1024/23LC1024" x="0" y="0"/>
 </gates>
 <devices>
-<device name="TTSOP-8" package="TTSOP-8">
-<connects>
-<connect gate="G$1" pin="CS'" pad="1"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="SCK" pad="6"/>
-<connect gate="G$1" pin="SI/SIO0" pad="5"/>
-<connect gate="G$1" pin="SIO2" pad="3"/>
-<connect gate="G$1" pin="SIO3" pad="7"/>
-<connect gate="G$1" pin="SO/SIO1" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOIC-8" package="SOIC-8">
+<device name="-I/SN" package="23A1024_SOIC-8">
 <connects>
 <connect gate="G$1" pin="CS'" pad="1"/>
 <connect gate="G$1" pin="GND" pad="4"/>
@@ -3949,12 +4016,16 @@ Description: USB Interface IC USB to Basic Serial UART IC SSOP-16</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="74HC123" prefix="U" uservalue="yes">
+<deviceset name="CD74HC123" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt; CD74HC123&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Texas Instruments&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Monostable Multivibrator Dual Retrig Mono
+&lt;br/&gt;</description>
 <gates>
-<gate name="G$1" symbol="74HC123" x="0" y="0"/>
+<gate name="G$1" symbol="CD74HC123" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOIC-16" package="SOIC-16">
+<device name="M96" package="CD74HC123_SOIC-16">
 <connects>
 <connect gate="G$1" pin="!1A" pad="1"/>
 <connect gate="G$1" pin="!1B" pad="2"/>
