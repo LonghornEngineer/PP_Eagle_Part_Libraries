@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2353,6 +2353,30 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="17.78" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL10</text>
 <text x="21.7" y="5.715" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL10</text>
 </package>
+<package name="90148-1204">
+<pad name="P$1" x="3.81" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="P$2" x="3.81" y="3.81" drill="0.8" rot="R180"/>
+<pad name="P$3" x="1.27" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="P$4" x="1.27" y="3.81" drill="0.8" rot="R180"/>
+<pad name="P$5" x="-1.27" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="P$6" x="-1.27" y="3.81" drill="0.8" rot="R180"/>
+<pad name="P$7" x="-3.81" y="-3.81" drill="0.8" rot="R180"/>
+<pad name="P$8" x="-3.81" y="3.81" drill="0.8" rot="R180"/>
+<wire x1="-5.08" y1="4.1" x2="-5.08" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-4.1" x2="5.08" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-4.1" x2="5.08" y2="4.1" width="0.127" layer="21"/>
+<wire x1="5.08" y1="4.1" x2="-5.08" y2="4.1" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="3.175" y="-2.54"/>
+<vertex x="4.445" y="-2.54"/>
+<vertex x="3.81" y="-0.635"/>
+</polygon>
+<text x="-5.08" y="-6.35" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="3.81" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL01</text>
+<text x="1.27" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="-1.27" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
+<text x="-3.81" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -3968,6 +3992,22 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="_90148-1204" package="90148-1204">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1 P$2"/>
+<connect gate="G$1" pin="2" pad="P$3 P$4"/>
+<connect gate="G$1" pin="3" pad="P$5 P$6"/>
+<connect gate="G$1" pin="4" pad="P$7 P$8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
