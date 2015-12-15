@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -475,6 +475,32 @@
 <wire x1="4" y1="4.96" x2="-4" y2="4.96" width="0.127" layer="21"/>
 <text x="-4" y="5.46" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="DMHC3025LSD_SO-8">
+<smd name="P$1" x="-2.7" y="1.905" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$2" x="-2.7" y="0.635" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$3" x="-2.7" y="-0.635" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$4" x="-2.7" y="-1.905" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$5" x="2.7" y="-1.905" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$6" x="2.7" y="-0.635" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$7" x="2.7" y="0.635" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<smd name="P$8" x="2.7" y="1.905" dx="0.6" dy="1.55" layer="1" rot="R270"/>
+<wire x1="1.75" y1="2.5" x2="-1.75" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.5" x2="-1.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-2.5" x2="1.75" y2="2.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0.635" y="2.5"/>
+<vertex x="0.635" y="1.905"/>
+<vertex x="-0.635" y="1.905"/>
+<vertex x="-0.635" y="2.5"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-4.445" y="1.905" curve="-90"/>
+<vertex x="-4.1275" y="2.2225" curve="-90"/>
+<vertex x="-3.81" y="1.905" curve="-90"/>
+<vertex x="-4.1275" y="1.5875" curve="-90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="BTM7755">
@@ -778,6 +804,144 @@
 <text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">GND</text>
 <text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">0V</text>
 <text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">+VO</text>
+</symbol>
+<symbol name="DMHC3025LSD">
+<pin name="N2G" x="22.86" y="-22.86" visible="off" length="short" rot="R180"/>
+<circle x="15.24" y="-22.86" radius="3.81845625" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-22.86" x2="17.018" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="17.018" y1="-22.86" x2="17.018" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="17.018" y1="-22.86" x2="17.018" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-21.082" x2="16.256" y2="-21.082" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-21.082" x2="16.256" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-21.082" x2="16.256" y2="-21.844" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="12.7" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-24.638" x2="14.478" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="14.478" y1="-24.638" x2="16.256" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-24.638" x2="16.256" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-24.638" x2="16.256" y2="-23.876" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-22.352" x2="16.256" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-22.86" x2="16.256" y2="-23.368" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-22.86" x2="14.478" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="14.478" y1="-22.86" x2="14.478" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-21.082" x2="12.7" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="13.208" y1="-22.606" x2="12.192" y2="-22.606" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="12.7" y="-22.606"/>
+<vertex x="13.208" y="-23.368"/>
+<vertex x="12.192" y="-23.368"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="16.256" y="-22.86"/>
+<vertex x="15.494" y="-22.352"/>
+<vertex x="15.494" y="-23.368"/>
+</polygon>
+<pin name="P2D/N2D" x="22.86" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="P2G" x="22.86" y="-7.62" visible="off" length="short" rot="R180"/>
+<circle x="15.24" y="-7.62" radius="3.81845625" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="17.018" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="17.018" y1="-7.62" x2="17.018" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="17.018" y1="-7.62" x2="17.018" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-9.398" x2="16.256" y2="-9.398" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-9.398" x2="16.256" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-9.398" x2="16.256" y2="-8.636" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-5.842" x2="14.478" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="14.478" y1="-5.842" x2="16.256" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-5.842" x2="16.256" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-5.842" x2="16.256" y2="-6.604" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-8.128" x2="16.256" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-7.62" x2="16.256" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="16.256" y1="-7.62" x2="14.478" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="14.478" y1="-7.62" x2="14.478" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-9.398" x2="12.7" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="12.192" y1="-7.112" x2="13.208" y2="-7.112" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="12.7" y="-7.112"/>
+<vertex x="12.192" y="-7.874"/>
+<vertex x="13.208" y="-7.874"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="15.748" y="-8.128"/>
+<vertex x="15.748" y="-7.112"/>
+<vertex x="14.986" y="-7.62"/>
+</polygon>
+<wire x1="12.7" y1="-9.398" x2="12.7" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="-21.082" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="20.32" y2="-15.24" width="0.1524" layer="94"/>
+<pin name="N1S/N2S" x="-2.54" y="-30.48" visible="off" length="short"/>
+<pin name="N1G" x="-2.54" y="-22.86" visible="off" length="short"/>
+<circle x="5.08" y="-22.86" radius="3.81845625" width="0.1524" layer="94"/>
+<wire x1="0" y1="-22.86" x2="3.302" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-22.86" x2="3.302" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-22.86" x2="3.302" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-21.082" x2="4.064" y2="-21.082" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-21.082" x2="4.064" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-21.082" x2="4.064" y2="-21.844" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="7.62" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-24.638" x2="5.842" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-24.638" x2="4.064" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-24.638" x2="4.064" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-24.638" x2="4.064" y2="-23.876" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-22.352" x2="4.064" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-22.86" x2="4.064" y2="-23.368" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-22.86" x2="5.842" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-22.86" x2="5.842" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-21.082" x2="7.62" y2="-24.638" width="0.1524" layer="94"/>
+<wire x1="7.112" y1="-22.606" x2="8.128" y2="-22.606" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.62" y="-22.606"/>
+<vertex x="7.112" y="-23.368"/>
+<vertex x="8.128" y="-23.368"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="4.064" y="-22.86"/>
+<vertex x="4.826" y="-22.352"/>
+<vertex x="4.826" y="-23.368"/>
+</polygon>
+<pin name="P1S/P2S" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="P1D/N1D" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="P1G" x="-2.54" y="-7.62" visible="off" length="short"/>
+<circle x="5.08" y="-7.62" radius="3.81845625" width="0.1524" layer="94"/>
+<wire x1="0" y1="-7.62" x2="3.302" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-7.62" x2="3.302" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-7.62" x2="3.302" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-9.398" x2="4.064" y2="-9.398" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-9.398" x2="4.064" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-9.398" x2="4.064" y2="-8.636" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.842" x2="5.842" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-5.842" x2="4.064" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-5.842" x2="4.064" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-5.842" x2="4.064" y2="-6.604" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-8.128" x2="4.064" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-7.62" x2="4.064" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-7.62" x2="5.842" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-7.62" x2="5.842" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-9.398" x2="7.62" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="8.128" y1="-7.112" x2="7.112" y2="-7.112" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.62" y="-7.112"/>
+<vertex x="8.128" y="-7.874"/>
+<vertex x="7.112" y="-7.874"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="4.572" y="-8.128"/>
+<vertex x="4.572" y="-7.112"/>
+<vertex x="5.334" y="-7.62"/>
+</polygon>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-9.398" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="-21.082" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="0" y1="-30.48" x2="7.62" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="12.7" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="20.32" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="1.27" x2="20.32" y2="-31.75" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-31.75" x2="0" y2="-31.75" width="0.1524" layer="94"/>
+<wire x1="0" y1="-31.75" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1121,6 +1285,31 @@
 <connect gate="G$1" pin="0V" pad="4"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMGC3025LSD" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Manufacturer Part #:&lt;/b&gt;  DMHC3025LSD-13&lt;br/&gt;
+&lt;b&gt;Manufacturer:&lt;/b&gt; Diodes Incorporated&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; MOSFET 30V Comp ENH Mode H-Bridge 20V VGSS&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="DMHC3025LSD" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="-13" package="DMHC3025LSD_SO-8">
+<connects>
+<connect gate="G$1" pin="N1G" pad="P$1"/>
+<connect gate="G$1" pin="N1S/N2S" pad="P$3"/>
+<connect gate="G$1" pin="N2G" pad="P$4"/>
+<connect gate="G$1" pin="P1D/N1D" pad="P$2"/>
+<connect gate="G$1" pin="P1G" pad="P$8"/>
+<connect gate="G$1" pin="P1S/P2S" pad="P$7"/>
+<connect gate="G$1" pin="P2D/N2D" pad="P$6"/>
+<connect gate="G$1" pin="P2G" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
