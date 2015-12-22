@@ -1667,7 +1667,9 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <pad name="SN" x="-4" y="-8.115" drill="1.4"/>
 <pad name="RN" x="-10.35" y="-8.115" drill="1.4"/>
 <pad name="TN" x="-16.7" y="-8.115" drill="1.4"/>
-<wire x1="0" y1="9.1" x2="0" y2="-9.1" width="0.127" layer="21"/>
+<wire x1="0" y1="9.1" x2="0" y2="5.65" width="0.127" layer="21"/>
+<wire x1="0" y1="5.65" x2="0" y2="-5.65" width="0.127" layer="21"/>
+<wire x1="0" y1="-5.65" x2="0" y2="-9.1" width="0.127" layer="21"/>
 <wire x1="0" y1="-9.1" x2="-2.54" y2="-9.1" width="0.127" layer="21"/>
 <wire x1="0" y1="9.1" x2="-2.54" y2="9.1" width="0.127" layer="21"/>
 <wire x1="-5.65" y1="9.1" x2="-8.89" y2="9.1" width="0.127" layer="21"/>
@@ -1693,6 +1695,10 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <vertex x="-19.05" y="1.27"/>
 <vertex x="-3.81" y="1.27"/>
 </polygon>
+<wire x1="0" y1="5.65" x2="3" y2="5.65" width="0.127" layer="21"/>
+<wire x1="3" y1="5.65" x2="3" y2="-5.65" width="0.127" layer="21"/>
+<wire x1="3" y1="-5.65" x2="0" y2="-5.65" width="0.127" layer="21"/>
+<text x="-23.61" y="-11.43" size="1.27" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="12BH611-GR">
 <hole x="12" y="-4" drill="2.5"/>
