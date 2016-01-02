@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -764,6 +764,18 @@
 <smd name="1" x="-0.46" y="0" dx="0.46" dy="0.74" layer="1"/>
 <smd name="2" x="0.46" y="0" dx="0.46" dy="0.74" layer="1"/>
 <text x="-1.27" y="0.6985" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="4628">
+<pad name="P$1" x="-11.2522" y="0" drill="1.27" shape="square"/>
+<pad name="P$2" x="11.2522" y="0" drill="1.27" shape="square"/>
+<wire x1="-12.1031" y1="4.4958" x2="12.1031" y2="4.4958" width="0.127" layer="21"/>
+<wire x1="12.1031" y1="4.4958" x2="12.1031" y2="1.27" width="0.127" layer="21"/>
+<wire x1="12.1031" y1="-1.27" x2="12.1031" y2="-4.4958" width="0.127" layer="21"/>
+<wire x1="12.1031" y1="-4.4958" x2="-12.1031" y2="-4.4958" width="0.127" layer="21"/>
+<wire x1="-12.1031" y1="-4.4958" x2="-12.1031" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-12.1031" y1="1.27" x2="-12.1031" y2="4.4958" width="0.127" layer="21"/>
+<text x="-12.1031" y="5.08" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<hole x="0" y="0" drill="3.302"/>
 </package>
 </packages>
 <symbols>
@@ -1542,6 +1554,15 @@ Description: ESD Suppressors 2-Channel ESD&lt;br/&gt;</description>
 </technologies>
 </device>
 <device name="_60R065XU" package="60R065XU">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_4628" package="4628">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>

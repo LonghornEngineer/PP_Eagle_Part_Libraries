@@ -217,6 +217,17 @@
 </polygon>
 <text x="-1.25" y="1.4" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="ABM2">
+<smd name="P$1" x="-3.25" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<smd name="P$2" x="3.25" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<wire x1="-4" y1="2.25" x2="4" y2="2.25" width="0.127" layer="21"/>
+<wire x1="4" y1="2.25" x2="4" y2="1.75" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.75" x2="4" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.25" x2="-4" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.25" x2="-4" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.75" x2="-4" y2="2.25" width="0.127" layer="21"/>
+<text x="-4" y="2.75" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -355,6 +366,15 @@
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_ABM2" package="ABM2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
