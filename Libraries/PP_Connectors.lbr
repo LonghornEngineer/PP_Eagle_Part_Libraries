@@ -3291,6 +3291,11 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-3" y1="-2.5" x2="0" y2="-2.5" width="0.127" layer="21"/>
 <text x="0" y="7.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="100MIL_TP">
+<smd name="P$1" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="1.524" width="0.08" layer="21"/>
+<text x="2.54" y="0.635" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -6795,6 +6800,14 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technologies>
 </device>
 <device name="_ROUND_1MM" package="ROUND_TP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_ROUND_100MIL" package="100MIL_TP">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
