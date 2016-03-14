@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -3315,6 +3315,36 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <vertex x="0" y="4.572" curve="-90"/>
 <vertex x="4.572" y="0" curve="-90"/>
 </polygon>
+</package>
+<package name="100803_PROBE">
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.0668"/>
+<text x="0" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;NAME</text>
+</package>
+<package name="GRPB052VWVN-RC">
+<pad name="1" x="-2.54" y="0.635" drill="0.7112" diameter="1.016"/>
+<pad name="3" x="-1.27" y="0.635" drill="0.7112" diameter="1.016"/>
+<pad name="5" x="0" y="0.635" drill="0.7112" diameter="1.016"/>
+<pad name="7" x="1.27" y="0.635" drill="0.7112" diameter="1.016"/>
+<pad name="9" x="2.54" y="0.635" drill="0.7112" diameter="1.016"/>
+<pad name="2" x="-2.54" y="-0.635" drill="0.7112" diameter="1.016"/>
+<pad name="4" x="-1.27" y="-0.635" drill="0.7112" diameter="1.016"/>
+<pad name="6" x="0" y="-0.635" drill="0.7112" diameter="1.016"/>
+<pad name="8" x="1.27" y="-0.635" drill="0.7112" diameter="1.016"/>
+<pad name="10" x="2.54" y="-0.635" drill="0.7112" diameter="1.016"/>
+<wire x1="3.175" y1="1.7018" x2="3.175" y2="-1.7018" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.7018" x2="-3.175" y2="-1.7018" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.7018" x2="-3.175" y2="1.7018" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="1.7018" x2="3.175" y2="1.7018" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
+<wire x1="-3.175" y1="1.7018" x2="3.175" y2="1.7018" width="0.127" layer="22"/>
+<wire x1="-3.175" y1="-1.7018" x2="-3.175" y2="1.7018" width="0.127" layer="22"/>
+<wire x1="3.175" y1="-1.7018" x2="-3.175" y2="-1.7018" width="0.127" layer="22"/>
+<wire x1="3.175" y1="1.7018" x2="3.175" y2="-1.7018" width="0.127" layer="22"/>
+<text x="-4.064" y="0.635" size="0.8128" layer="21" font="vector" ratio="16" align="center-left">1</text>
+</package>
+<package name="0908-4-15-20-75-14-11-0">
+<pad name="P$1" x="0" y="0" drill="0.508" diameter="1.9304"/>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="16" align="center-left">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -7777,6 +7807,23 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </technology>
 </technologies>
 </device>
+<device name="_GRPB052VWVN-RC" package="GRPB052VWVN-RC">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN10" pad="10"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
+<connect gate="G$1" pin="PIN3" pad="3"/>
+<connect gate="G$1" pin="PIN4" pad="4"/>
+<connect gate="G$1" pin="PIN5" pad="5"/>
+<connect gate="G$1" pin="PIN6" pad="6"/>
+<connect gate="G$1" pin="PIN7" pad="7"/>
+<connect gate="G$1" pin="PIN8" pad="8"/>
+<connect gate="G$1" pin="PIN9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X11" prefix="U" uservalue="yes">
@@ -8127,6 +8174,22 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 </gates>
 <devices>
 <device name="_0914-3-15-20-77-14-11-0" package="0914-3-15-20-77-14-11-0">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_100803_PROBE" package="100803_PROBE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_0908-4-15-20-75-14-11-0" package="0908-4-15-20-75-14-11-0">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>

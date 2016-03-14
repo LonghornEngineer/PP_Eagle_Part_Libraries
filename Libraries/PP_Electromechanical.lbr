@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -262,11 +262,11 @@ Description: Slide Switches DPDT On-On</description>
 <text x="-1.4" y="8.5" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
 <package name="0S102011MS2QS1">
-<pad name="1" x="-2.0066" y="0" drill="0.8"/>
-<pad name="2" x="0" y="0" drill="0.8"/>
-<pad name="3" x="2.0066" y="0" drill="0.8"/>
-<pad name="P$4" x="-4.1021" y="0" drill="1.5"/>
-<pad name="P$5" x="4.1021" y="0" drill="1.5"/>
+<pad name="1" x="-2.0066" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="3" x="2.0066" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$4" x="-4.1021" y="0" drill="1.5" diameter="2.1844"/>
+<pad name="P$5" x="4.1021" y="0" drill="1.5" diameter="2.1844"/>
 <wire x1="-4.3" y1="2.15" x2="-4.3" y2="-2.15" width="0.127" layer="21"/>
 <wire x1="-4.3" y1="-2.15" x2="4.3" y2="-2.15" width="0.127" layer="21"/>
 <wire x1="4.3" y1="-2.15" x2="4.3" y2="2.15" width="0.127" layer="21"/>
