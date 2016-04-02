@@ -79,9 +79,17 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="centerline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="128bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="129bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="130bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -92,6 +100,22 @@
 <layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -201,6 +225,69 @@
 <smd name="34" x="13.21" y="1.9" dx="0.8" dy="1.6" layer="1" rot="R90"/>
 <smd name="35" x="13.21" y="4.1222" dx="0.8" dy="1.6" layer="1" rot="R90"/>
 <text x="-12.59" y="7.62" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="ESP-12E">
+<wire x1="-8" y1="13.905" x2="8" y2="13.905" width="0.127" layer="21"/>
+<wire x1="-8" y1="-10.095" x2="-6" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="-10.095" x2="-3.75" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-10.095" x2="-1.75" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="-10.095" x2="0.25" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-10.095" x2="2.25" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-10.095" x2="4.25" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="6" y1="-10.095" x2="8" y2="-10.095" width="0.127" layer="21"/>
+<wire x1="-8" y1="13.905" x2="-8" y2="7.905" width="0.127" layer="21"/>
+<wire x1="-8" y1="6.155" x2="-8" y2="5.655" width="0.127" layer="21"/>
+<wire x1="-8" y1="4.155" x2="-8" y2="3.655" width="0.127" layer="21"/>
+<wire x1="-8" y1="2.155" x2="-8" y2="1.655" width="0.127" layer="21"/>
+<wire x1="-8" y1="0.155" x2="-8" y2="-0.345" width="0.127" layer="21"/>
+<wire x1="-8" y1="-1.845" x2="-8" y2="-2.345" width="0.127" layer="21"/>
+<wire x1="-8" y1="-3.845" x2="-8" y2="-4.345" width="0.127" layer="21"/>
+<wire x1="-8" y1="-10.095" x2="-8" y2="-8.095" width="0.127" layer="21"/>
+<wire x1="8" y1="-10.095" x2="8" y2="-8.095" width="0.127" layer="21"/>
+<wire x1="8" y1="-4.345" x2="8" y2="-3.845" width="0.127" layer="21"/>
+<wire x1="8" y1="-2.345" x2="8" y2="-1.845" width="0.127" layer="21"/>
+<wire x1="8" y1="-0.345" x2="8" y2="0.155" width="0.127" layer="21"/>
+<wire x1="8" y1="1.655" x2="8" y2="2.155" width="0.127" layer="21"/>
+<wire x1="8" y1="3.655" x2="8" y2="4.155" width="0.127" layer="21"/>
+<wire x1="8" y1="5.655" x2="8" y2="6.155" width="0.127" layer="21"/>
+<wire x1="8" y1="13.905" x2="8" y2="7.905" width="0.127" layer="21"/>
+<wire x1="8" y1="-6.345" x2="8" y2="-5.845" width="0.127" layer="21"/>
+<wire x1="-8" y1="-6.345" x2="-8" y2="-5.845" width="0.127" layer="21"/>
+<smd name="P$1" x="-7.7" y="6.905" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$2" x="-7.7" y="4.905" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$3" x="-7.7" y="2.905" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$4" x="-7.7" y="0.905" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$5" x="-7.7" y="-1.095" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$6" x="-7.7" y="-3.095" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$7" x="-7.7" y="-5.095" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$8" x="-7.7" y="-7.095" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$9" x="-5" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$10" x="-3" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$11" x="-1" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$12" x="1" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$13" x="3" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$14" x="5" y="-9.845" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="P$15" x="7.7" y="-7.095" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$16" x="7.7" y="-5.095" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$17" x="7.7" y="-3.095" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$18" x="7.7" y="-1.095" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$19" x="7.7" y="0.905" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$20" x="7.7" y="2.905" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$21" x="7.7" y="4.905" dx="1" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$22" x="7.7" y="6.905" dx="1" dy="2.2" layer="1" rot="R270"/>
+<text x="-8" y="14.405" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="-8" y="13.905"/>
+<vertex x="8" y="13.905"/>
+<vertex x="8" y="8.02"/>
+<vertex x="-8" y="8.02"/>
+</polygon>
+<polygon width="0.127" layer="40">
+<vertex x="-8" y="13.905"/>
+<vertex x="8" y="13.905"/>
+<vertex x="8" y="8.02"/>
+<vertex x="-8" y="8.02"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -338,6 +425,46 @@
 <text x="1.27" y="-38.1" size="1.016" layer="97" font="vector" align="center-left">USBD-</text>
 <text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VDD</text>
 </symbol>
+<symbol name="ESP-12E">
+<wire x1="0" y1="1.27" x2="0" y2="-19.05" width="0.1524" layer="94"/>
+<wire x1="0" y1="-19.05" x2="15.24" y2="-19.05" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-19.05" x2="15.24" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<pin name="ADC" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="CH_PD" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="GND" x="17.78" y="-17.78" visible="off" length="short" rot="R180"/>
+<pin name="GPIO0" x="17.78" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="GPIO2" x="17.78" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="GPIO4" x="17.78" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="GPIO5" x="17.78" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="GPIO12" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="GPIO13" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="GPIO14" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="GPIO15" x="17.78" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="GPIO16" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="RESET" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="RXD" x="17.78" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="TXD" x="17.78" y="0" visible="off" length="short" rot="R180"/>
+<pin name="VCC" x="-2.54" y="-17.78" visible="off" length="short"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="95" font="vector">&gt;VALUE</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">ADC</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">CH_PD</text>
+<text x="13.97" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="13.97" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO0</text>
+<text x="13.97" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO2</text>
+<text x="13.97" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO4</text>
+<text x="13.97" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO5</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">GPIO12</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">GPIO13</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">GPIO14</text>
+<text x="13.97" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO15</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">GPIO16</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">RESET</text>
+<text x="13.97" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RXD</text>
+<text x="13.97" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TXD</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP970(0/1)" prefix="U" uservalue="yes">
@@ -452,6 +579,36 @@
 <connect gate="1" pin="USBD+" pad="17"/>
 <connect gate="1" pin="USBD-" pad="18"/>
 <connect gate="1" pin="VDD" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP-12E" prefix="WIFI" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ESP-12E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP-12E">
+<connects>
+<connect gate="G$1" pin="ADC" pad="P$2"/>
+<connect gate="G$1" pin="CH_PD" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$15"/>
+<connect gate="G$1" pin="GPIO0" pad="P$18"/>
+<connect gate="G$1" pin="GPIO12" pad="P$6"/>
+<connect gate="G$1" pin="GPIO13" pad="P$7"/>
+<connect gate="G$1" pin="GPIO14" pad="P$5"/>
+<connect gate="G$1" pin="GPIO15" pad="P$16"/>
+<connect gate="G$1" pin="GPIO16" pad="P$4"/>
+<connect gate="G$1" pin="GPIO2" pad="P$17"/>
+<connect gate="G$1" pin="GPIO4" pad="P$19"/>
+<connect gate="G$1" pin="GPIO5" pad="P$20"/>
+<connect gate="G$1" pin="RESET" pad="P$1"/>
+<connect gate="G$1" pin="RXD" pad="P$21"/>
+<connect gate="G$1" pin="TXD" pad="P$22"/>
+<connect gate="G$1" pin="VCC" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
