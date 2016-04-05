@@ -3346,6 +3346,30 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <pad name="P$1" x="0" y="0" drill="0.508" diameter="1.9304"/>
 <text x="1.27" y="0" size="0.8128" layer="25" font="vector" ratio="16" align="center-left">&gt;NAME</text>
 </package>
+<package name="PCB_COAX">
+<polygon width="0.635" layer="1" pour="cutout">
+<vertex x="0" y="1.524" curve="90"/>
+<vertex x="-1.524" y="0" curve="90"/>
+<vertex x="0" y="-1.524" curve="90"/>
+<vertex x="1.524" y="0" curve="90"/>
+</polygon>
+<smd name="RING" x="-1.524" y="0" dx="0.254" dy="0.254" layer="1" stop="no" cream="no"/>
+<polygon width="0.762" layer="29">
+<vertex x="0" y="1.524" curve="90"/>
+<vertex x="-1.524" y="0" curve="90"/>
+<vertex x="0" y="-1.524" curve="90"/>
+<vertex x="1.524" y="0" curve="90"/>
+</polygon>
+<hole x="0" y="0" drill="0.635"/>
+<smd name="WIRE" x="0" y="0" dx="1.27" dy="1.27" layer="16" roundness="100" cream="no"/>
+<smd name="P$4" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" rot="R180" cream="no"/>
+<polygon width="0.762" layer="41">
+<vertex x="0" y="1.524" curve="90"/>
+<vertex x="-1.524" y="0" curve="90"/>
+<vertex x="0" y="-1.524" curve="90"/>
+<vertex x="1.524" y="0" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -7403,6 +7427,15 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="_PCB_COAX" package="PCB_COAX">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="WIRE"/>
+<connect gate="G$1" pin="PIN2" pad="RING"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
