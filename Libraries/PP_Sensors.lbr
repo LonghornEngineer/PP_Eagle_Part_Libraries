@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -289,6 +289,48 @@
 <vertex x="-8" y="8.02"/>
 </polygon>
 </package>
+<package name="FXOS8700CQR1">
+<smd name="P$1" x="-1.275" y="1" dx="0.8" dy="0.3" layer="1" stop="no"/>
+<smd name="P$2" x="-1.275" y="0.5" dx="0.8" dy="0.3" layer="1" stop="no"/>
+<smd name="P$3" x="-1.275" y="0" dx="0.8" dy="0.3" layer="1" stop="no"/>
+<smd name="P$4" x="-1.275" y="-0.5" dx="0.8" dy="0.3" layer="1" stop="no"/>
+<smd name="P$5" x="-1.275" y="-1" dx="0.8" dy="0.3" layer="1" stop="no"/>
+<smd name="P$6" x="-0.5" y="-1.275" dx="0.8" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$7" x="0" y="-1.275" dx="0.8" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$8" x="0.5" y="-1.275" dx="0.8" dy="0.3" layer="1" rot="R90" stop="no"/>
+<smd name="P$9" x="1.275" y="-1" dx="0.8" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$10" x="1.275" y="-0.5" dx="0.8" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$11" x="1.275" y="0" dx="0.8" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$12" x="1.275" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$13" x="1.275" y="1" dx="0.8" dy="0.3" layer="1" rot="R180" stop="no"/>
+<smd name="P$14" x="0.5" y="1.275" dx="0.8" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$15" x="0" y="1.275" dx="0.8" dy="0.3" layer="1" rot="R270" stop="no"/>
+<smd name="P$16" x="-0.5" y="1.275" dx="0.8" dy="0.3" layer="1" rot="R270" stop="no"/>
+<polygon width="0.1" layer="29">
+<vertex x="-0.713" y="1.738"/>
+<vertex x="-0.713" y="1.213"/>
+<vertex x="-1.738" y="1.213"/>
+<vertex x="-1.738" y="-1.213"/>
+<vertex x="-0.713" y="-1.213"/>
+<vertex x="-0.713" y="-1.738"/>
+<vertex x="0.713" y="-1.738"/>
+<vertex x="0.713" y="-1.213"/>
+<vertex x="1.738" y="-1.213"/>
+<vertex x="1.738" y="1.213"/>
+<vertex x="0.713" y="1.213"/>
+<vertex x="0.713" y="1.738"/>
+</polygon>
+<wire x1="-1.5" y1="1.5" x2="-0.9" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="0.9" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-0.9" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="0.9" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.4" width="0.127" layer="21"/>
+<text x="-1.5" y="1.9" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<circle x="-2.2" y="1" radius="0.1" width="0.127" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP970X">
@@ -465,6 +507,38 @@
 <text x="13.97" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TXD</text>
 <text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
 </symbol>
+<symbol name="FXOS8700CQR1">
+<pin name="SCL/SCKL" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="SDA/MOSI" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="SA0/MISO" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SA1/CS_B" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND" x="17.78" y="-20.32" visible="off" length="short" rot="R180"/>
+<pin name="VDDIO" x="17.78" y="0" visible="off" length="short" rot="R180"/>
+<pin name="VDD" x="17.78" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="CRST" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="INT1" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="INT2" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="BYP" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="RST" x="-2.54" y="-20.32" visible="off" length="short"/>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">BYP</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">CRST</text>
+<text x="13.97" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">INT1</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">INT2</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">RST</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">SA0/MISO</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">SA1/CS_B</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">SCL/SCKL</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">SDA/MOSI</text>
+<text x="13.97" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VDD</text>
+<text x="13.97" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VDDIO</text>
+<wire x1="0" y1="2.54" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="7.62" size="1.016" layer="95" font="vector" rot="MR180">&gt;NAME</text>
+<text x="0" y="5.08" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP970(0/1)" prefix="U" uservalue="yes">
@@ -609,6 +683,32 @@
 <connect gate="G$1" pin="RXD" pad="P$21"/>
 <connect gate="G$1" pin="TXD" pad="P$22"/>
 <connect gate="G$1" pin="VCC" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FXOS8700CQR1" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FXOS8700CQR1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FXOS8700CQR1">
+<connects>
+<connect gate="G$1" pin="BYP" pad="P$2"/>
+<connect gate="G$1" pin="CRST" pad="P$8"/>
+<connect gate="G$1" pin="GND" pad="P$3 P$5 P$12 P$13"/>
+<connect gate="G$1" pin="INT1" pad="P$11"/>
+<connect gate="G$1" pin="INT2" pad="P$9"/>
+<connect gate="G$1" pin="RST" pad="P$16"/>
+<connect gate="G$1" pin="SA0/MISO" pad="P$7"/>
+<connect gate="G$1" pin="SA1/CS_B" pad="P$10"/>
+<connect gate="G$1" pin="SCL/SCKL" pad="P$4"/>
+<connect gate="G$1" pin="SDA/MOSI" pad="P$6"/>
+<connect gate="G$1" pin="VDD" pad="P$14"/>
+<connect gate="G$1" pin="VDDIO" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
