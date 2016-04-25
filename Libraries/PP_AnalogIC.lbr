@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -318,6 +318,22 @@
 </polygon>
 <text x="-3.75" y="2.75" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="ACPL-C87_SSO-8">
+<smd name="P$1" x="-1.905" y="-5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.635" y="-5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$3" x="0.635" y="-5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$4" x="1.905" y="-5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$5" x="1.905" y="5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$6" x="0.635" y="5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.635" y="5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<smd name="P$8" x="-1.905" y="5.3725" dx="1.905" dy="0.64" layer="1" rot="R90"/>
+<wire x1="-2.925" y1="3.4035" x2="2.925" y2="3.4035" width="0.127" layer="21"/>
+<wire x1="2.925" y1="3.4035" x2="2.925" y2="-3.4035" width="0.127" layer="21"/>
+<wire x1="2.925" y1="-3.4035" x2="-2.925" y2="-3.4035" width="0.127" layer="21"/>
+<wire x1="-2.925" y1="-3.4035" x2="-2.925" y2="3.4035" width="0.127" layer="21"/>
+<circle x="-2" y="-2.6" radius="0.4" width="0.127" layer="21"/>
+<text x="-3.4" y="-3.4035" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INA169">
@@ -566,6 +582,30 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="95" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="ACPL-C87X">
+<pin name="VDD1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="VIN" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SHDN" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND1" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="VDD2" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="VOUT+" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="VOUT-" x="15.24" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="GND2" x="15.24" y="-10.16" visible="off" length="short" rot="R180"/>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">GND1</text>
+<text x="11.43" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND2</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">SHDN</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">VDD1</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VDD2</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">VIN</text>
+<text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VOUT+</text>
+<text x="11.43" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VOUT-</text>
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="INA169" prefix="U" uservalue="yes">
@@ -785,6 +825,28 @@
 <connect gate="G$1" pin="SDO" pad="P$11"/>
 <connect gate="G$1" pin="T+" pad="P$4"/>
 <connect gate="G$1" pin="T-" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACPL-C87X" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ACPL-C87X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ACPL-C87_SSO-8">
+<connects>
+<connect gate="G$1" pin="GND1" pad="P$4"/>
+<connect gate="G$1" pin="GND2" pad="P$5"/>
+<connect gate="G$1" pin="SHDN" pad="P$3"/>
+<connect gate="G$1" pin="VDD1" pad="P$1"/>
+<connect gate="G$1" pin="VDD2" pad="P$8"/>
+<connect gate="G$1" pin="VIN" pad="P$2"/>
+<connect gate="G$1" pin="VOUT+" pad="P$7"/>
+<connect gate="G$1" pin="VOUT-" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
