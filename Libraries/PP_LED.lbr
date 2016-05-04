@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -358,6 +358,21 @@
 </polygon>
 <text x="-2.4" y="0.4" size="0.8128" layer="21" font="vector" ratio="16">1</text>
 <text x="-1.7" y="1.6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="WP1043">
+<pad name="A" x="0" y="1.27" drill="0.9" shape="octagon" rot="R270"/>
+<pad name="C" x="0" y="-1.27" drill="0.9" shape="octagon" rot="R180"/>
+<wire x1="1.825" y1="3.075" x2="1.825" y2="-3.075" width="0.127" layer="21"/>
+<wire x1="1.825" y1="-3.075" x2="-1.825" y2="-3.075" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="-3.075" x2="-1.825" y2="3.075" width="0.127" layer="21"/>
+<wire x1="-1.825" y1="3.075" x2="1.825" y2="3.075" width="0.127" layer="21"/>
+<text x="-1.825" y="3.81" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.825" y="-3.075"/>
+<vertex x="-1.825" y="-3.81"/>
+<vertex x="1.825" y="-3.81"/>
+<vertex x="1.825" y="-3.075"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -1186,6 +1201,15 @@
 <connects>
 <connect gate="G$1" pin="ANODE" pad="ANODE"/>
 <connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_WP1043" package="WP1043">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="A"/>
+<connect gate="G$1" pin="CATHODE" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
