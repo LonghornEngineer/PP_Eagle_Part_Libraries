@@ -3459,6 +3459,19 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <hole x="0.635" y="-2.54" drill="2.375"/>
 <hole x="-2.54" y="-2.54" drill="2.375"/>
 </package>
+<package name="61400413321">
+<pad name="S1" x="-6.02" y="0" drill="2.3" shape="square"/>
+<pad name="S2" x="6.02" y="0" drill="2.3" shape="square"/>
+<pad name="1" x="1.25" y="2.7" drill="0.92"/>
+<pad name="2" x="-1.25" y="2.7" drill="0.92"/>
+<pad name="3" x="-1.25" y="-0.5" drill="0.92"/>
+<pad name="4" x="1.25" y="-0.5" drill="0.92"/>
+<wire x1="-6.1" y1="6.48" x2="6.1" y2="6.48" width="0.127" layer="21"/>
+<wire x1="6.1" y1="6.48" x2="6.1" y2="-4.72" width="0.127" layer="21"/>
+<wire x1="6.1" y1="-4.72" x2="-6.1" y2="-4.72" width="0.127" layer="21"/>
+<wire x1="-6.1" y1="-4.72" x2="-6.1" y2="6.48" width="0.127" layer="21"/>
+<text x="-6.1" y="7.62" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -6628,6 +6641,18 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SLD" pad="SHLD0 SHLD1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_61400413321" package="61400413321">
+<connects>
+<connect gate="G$1" pin="5V" pad="1"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SLD" pad="S1 S2"/>
 </connects>
 <technologies>
 <technology name=""/>

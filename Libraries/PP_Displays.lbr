@@ -341,6 +341,45 @@ ERM1602-6_SERIES</text>
 <vertex x="-3.81" y="8.89"/>
 </polygon>
 </package>
+<package name="CU16025-UW6J">
+<hole x="0" y="0" drill="2.5"/>
+<hole x="0" y="31" drill="2.5"/>
+<hole x="75" y="31" drill="2.5"/>
+<hole x="75" y="0" drill="2.5"/>
+<wire x1="-2.5" y1="33.5" x2="77.5" y2="33.5" width="0.127" layer="21"/>
+<wire x1="77.5" y1="33.5" x2="77.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="77.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="33.5" width="0.127" layer="21"/>
+<pad name="P$1" x="5.5" y="31" drill="1"/>
+<pad name="P$2" x="8.04" y="31" drill="1"/>
+<pad name="P$3" x="10.58" y="31" drill="1"/>
+<pad name="P$4" x="13.12" y="31" drill="1"/>
+<pad name="P$5" x="15.66" y="31" drill="1"/>
+<pad name="P$6" x="18.2" y="31" drill="1"/>
+<pad name="P$7" x="20.74" y="31" drill="1"/>
+<pad name="P$8" x="23.28" y="31" drill="1"/>
+<pad name="P$9" x="25.82" y="31" drill="1"/>
+<pad name="P$10" x="28.36" y="31" drill="1"/>
+<pad name="P$11" x="30.9" y="31" drill="1"/>
+<pad name="P$12" x="33.44" y="31" drill="1"/>
+<pad name="P$13" x="35.98" y="31" drill="1"/>
+<pad name="P$14" x="38.52" y="31" drill="1"/>
+<pad name="P$15" x="46" y="31" drill="1"/>
+<pad name="P$16" x="48.5" y="31" drill="1"/>
+<pad name="P$17" x="51" y="31" drill="1"/>
+<pad name="P$18" x="53.5" y="31" drill="1"/>
+<pad name="P$19" x="56" y="31" drill="1"/>
+<pad name="P$20" x="58.5" y="31" drill="1"/>
+<wire x1="-0.5" y1="27" x2="75.5" y2="27" width="0.127" layer="21"/>
+<wire x1="75.5" y1="27" x2="75.5" y2="4" width="0.127" layer="21"/>
+<wire x1="75.5" y1="4" x2="-0.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="4" x2="-0.5" y2="27" width="0.127" layer="21"/>
+<wire x1="11.8" y1="21.8" x2="63.2" y2="21.8" width="0.127" layer="21"/>
+<wire x1="63.2" y1="21.8" x2="63.2" y2="10.4" width="0.127" layer="21"/>
+<wire x1="63.2" y1="10.4" x2="11.8" y2="10.4" width="0.127" layer="21"/>
+<wire x1="11.8" y1="10.4" x2="11.8" y2="21.8" width="0.127" layer="21"/>
+<text x="-2.5" y="35" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HD44780_LCD">
@@ -594,6 +633,50 @@ Selection Pins</text>
 <pin name="E2" x="-2.54" y="-15.24" visible="off" length="short"/>
 <text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">E2</text>
 </symbol>
+<symbol name="CU16025-UW6J">
+<pin name="GND1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="VCC1" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="RS" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="R/W" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="E" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="D0" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="D1" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="D2" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="D3" x="-2.54" y="-25.4" visible="off" length="short"/>
+<pin name="D4" x="-2.54" y="-27.94" visible="off" length="short"/>
+<pin name="D5" x="-2.54" y="-30.48" visible="off" length="short"/>
+<pin name="D6" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="D7" x="-2.54" y="-35.56" visible="off" length="short"/>
+<wire x1="0" y1="1.27" x2="0" y2="-52.07" width="0.127" layer="94"/>
+<wire x1="0" y1="-52.07" x2="7.62" y2="-52.07" width="0.127" layer="94"/>
+<wire x1="7.62" y1="-52.07" x2="7.62" y2="1.27" width="0.127" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="0" y2="1.27" width="0.127" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">D0</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">D1</text>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">D2</text>
+<text x="1.27" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">D3</text>
+<text x="1.27" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">D4</text>
+<text x="1.27" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">D5</text>
+<text x="1.27" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">D6</text>
+<text x="1.27" y="-35.56" size="1.016" layer="97" font="vector" align="center-left">D7</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">E</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">R/W</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">RS</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<pin name="VCC2" x="-2.54" y="-40.64" visible="off" length="short"/>
+<pin name="GND2" x="-2.54" y="-43.18" visible="off" length="short"/>
+<pin name="SI/SO" x="-2.54" y="-45.72" visible="off" length="short"/>
+<pin name="STB" x="-2.54" y="-48.26" visible="off" length="short"/>
+<pin name="SCK" x="-2.54" y="-50.8" visible="off" length="short"/>
+<text x="1.27" y="-40.64" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-43.18" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="1.27" y="-45.72" size="1.016" layer="97" font="vector" align="center-left">SI/SO</text>
+<text x="1.27" y="-48.26" size="1.016" layer="97" font="vector" align="center-left">STB</text>
+<text x="1.27" y="-50.8" size="1.016" layer="97" font="vector" align="center-left">SCK</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HD44780_LCD" prefix="LCD" uservalue="yes">
@@ -771,6 +854,38 @@ Selection Pins</text>
 <connect gate="G$1" pin="R/W" pad="P$9"/>
 <connect gate="G$1" pin="RS" pad="P$12"/>
 <connect gate="G$1" pin="VCC" pad="P$13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CU16025-UWJ6" prefix="DISP" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CU16025-UW6J" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CU16025-UW6J">
+<connects>
+<connect gate="G$1" pin="D0" pad="P$7"/>
+<connect gate="G$1" pin="D1" pad="P$8"/>
+<connect gate="G$1" pin="D2" pad="P$9"/>
+<connect gate="G$1" pin="D3" pad="P$10"/>
+<connect gate="G$1" pin="D4" pad="P$11"/>
+<connect gate="G$1" pin="D5" pad="P$12"/>
+<connect gate="G$1" pin="D6" pad="P$13"/>
+<connect gate="G$1" pin="D7" pad="P$14"/>
+<connect gate="G$1" pin="E" pad="P$6"/>
+<connect gate="G$1" pin="GND1" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$17"/>
+<connect gate="G$1" pin="R/W" pad="P$5"/>
+<connect gate="G$1" pin="RS" pad="P$4"/>
+<connect gate="G$1" pin="SCK" pad="P$19"/>
+<connect gate="G$1" pin="SI/SO" pad="P$16"/>
+<connect gate="G$1" pin="STB" pad="P$18"/>
+<connect gate="G$1" pin="VCC1" pad="P$2"/>
+<connect gate="G$1" pin="VCC2" pad="P$15"/>
 </connects>
 <technologies>
 <technology name=""/>
