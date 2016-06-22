@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -375,9 +375,9 @@ Description: Slide Switches DPDT On-On</description>
 <wire x1="-2.6" y1="-1.7" x2="-5" y2="-1.7" width="0.127" layer="21"/>
 </package>
 <package name="108-0020-EVX">
-<pad name="P$1" x="0" y="0" drill="1.4" shape="long"/>
-<pad name="P$2" x="0" y="3.81" drill="1.4" shape="long"/>
-<pad name="P$3" x="0" y="7.62" drill="1.4" shape="long"/>
+<pad name="P$1" x="0" y="0" drill="1.5" shape="long"/>
+<pad name="P$2" x="0" y="3.81" drill="1.5" shape="long"/>
+<pad name="P$3" x="0" y="7.62" drill="1.5" shape="long"/>
 <pad name="P$4" x="-2.54" y="-12.7" drill="1.4"/>
 <pad name="P$5" x="2.54" y="-12.7" drill="1.4"/>
 <wire x1="-3.429" y1="8.89" x2="-3.429" y2="-11.43" width="0.127" layer="21"/>
@@ -558,6 +558,85 @@ Description: Slide Switches DPDT On-On</description>
 <wire x1="-6.2" y1="-9.4" x2="-6.2" y2="-2.6" width="0.127" layer="21"/>
 <wire x1="-6.2" y1="2.6" x2="-6.2" y2="6.6" width="0.127" layer="21"/>
 <text x="-6.2" y="8.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="STOMPBOX_SW">
+<smd name="A1" x="-5.3086" y="4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="A2" x="-5.3086" y="0" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="A3" x="-5.3086" y="-4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="B1" x="0" y="4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="B2" x="0" y="0" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="B3" x="0" y="-4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="C1" x="5.3086" y="4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="C2" x="5.3086" y="0" dx="3.9878" dy="2.4892" layer="1"/>
+<smd name="C3" x="5.3086" y="-4.699" dx="3.9878" dy="2.4892" layer="1"/>
+<wire x1="-8.9916" y1="8.9916" x2="8.9916" y2="8.9916" width="0.127" layer="21"/>
+<wire x1="8.9916" y1="8.9916" x2="8.9916" y2="-8.9916" width="0.127" layer="21"/>
+<wire x1="8.9916" y1="-8.9916" x2="-8.9916" y2="-8.9916" width="0.127" layer="21"/>
+<wire x1="-8.9916" y1="-8.9916" x2="-8.9916" y2="8.9916" width="0.127" layer="21"/>
+<text x="-8.89" y="10.16" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<smd name="B5" x="0" y="0" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="A4" x="-5.3086" y="4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="A5" x="-5.3086" y="0" dx="3.9878" dy="2.4892" layer="16"/>
+<smd name="C5" x="5.3086" y="0" dx="3.9878" dy="2.4892" layer="16"/>
+<smd name="B6" x="0" y="-4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="B4" x="0" y="4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="C4" x="5.3086" y="4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="C6" x="5.3086" y="-4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<smd name="A6" x="-5.3086" y="-4.699" dx="3.9878" dy="2.4892" layer="16" rot="R180"/>
+<wire x1="-0.9906" y1="0.508" x2="0.9906" y2="0.508" width="0.0254" layer="46"/>
+<wire x1="0.9906" y1="0.508" x2="1.4986" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="1.4986" y1="0" x2="0.9906" y2="-0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="0.9906" y1="-0.508" x2="-0.9906" y2="-0.508" width="0.0254" layer="46"/>
+<wire x1="-0.9906" y1="-0.508" x2="-1.4986" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-1.4986" y1="0" x2="-0.9906" y2="0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="4.318" y1="0.508" x2="6.2992" y2="0.508" width="0.0254" layer="46"/>
+<wire x1="6.2992" y1="0.508" x2="6.8072" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.8072" y1="0" x2="6.2992" y2="-0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.2992" y1="-0.508" x2="4.318" y2="-0.508" width="0.0254" layer="46"/>
+<wire x1="4.318" y1="-0.508" x2="3.81" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="3.81" y1="0" x2="4.318" y2="0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.2992" y1="0.508" x2="-4.318" y2="0.508" width="0.0254" layer="46"/>
+<wire x1="-4.318" y1="0.508" x2="-3.81" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-3.81" y1="0" x2="-4.318" y2="-0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-4.318" y1="-0.508" x2="-6.2992" y2="-0.508" width="0.0254" layer="46"/>
+<wire x1="-6.2992" y1="-0.508" x2="-6.8072" y2="0" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.8072" y1="0" x2="-6.2992" y2="0.508" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-0.9906" y1="5.207" x2="0.9906" y2="5.207" width="0.0254" layer="46"/>
+<wire x1="0.9906" y1="5.207" x2="1.4986" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="1.4986" y1="4.699" x2="0.9906" y2="4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="0.9906" y1="4.191" x2="-0.9906" y2="4.191" width="0.0254" layer="46"/>
+<wire x1="-0.9906" y1="4.191" x2="-1.4986" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-1.4986" y1="4.699" x2="-0.9906" y2="5.207" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-0.9906" y1="-4.191" x2="0.9906" y2="-4.191" width="0.0254" layer="46"/>
+<wire x1="0.9906" y1="-4.191" x2="1.4986" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="1.4986" y1="-4.699" x2="0.9906" y2="-5.207" width="0.0254" layer="46" curve="-90"/>
+<wire x1="0.9906" y1="-5.207" x2="-0.9906" y2="-5.207" width="0.0254" layer="46"/>
+<wire x1="-0.9906" y1="-5.207" x2="-1.4986" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-1.4986" y1="-4.699" x2="-0.9906" y2="-4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.2992" y1="-4.191" x2="-4.318" y2="-4.191" width="0.0254" layer="46"/>
+<wire x1="-4.318" y1="-4.191" x2="-3.81" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-3.81" y1="-4.699" x2="-4.318" y2="-5.207" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-4.318" y1="-5.207" x2="-6.2992" y2="-5.207" width="0.0254" layer="46"/>
+<wire x1="-6.2992" y1="-5.207" x2="-6.8072" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.8072" y1="-4.699" x2="-6.2992" y2="-4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.2992" y1="5.207" x2="-4.318" y2="5.207" width="0.0254" layer="46"/>
+<wire x1="-4.318" y1="5.207" x2="-3.81" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-3.81" y1="4.699" x2="-4.318" y2="4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-4.318" y1="4.191" x2="-6.2992" y2="4.191" width="0.0254" layer="46"/>
+<wire x1="-6.2992" y1="4.191" x2="-6.8072" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="-6.8072" y1="4.699" x2="-6.2992" y2="5.207" width="0.0254" layer="46" curve="-90"/>
+<wire x1="4.318" y1="-4.191" x2="6.2992" y2="-4.191" width="0.0254" layer="46"/>
+<wire x1="6.2992" y1="-4.191" x2="6.8072" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.8072" y1="-4.699" x2="6.2992" y2="-5.207" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.2992" y1="-5.207" x2="4.318" y2="-5.207" width="0.0254" layer="46"/>
+<wire x1="4.318" y1="-5.207" x2="3.81" y2="-4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="3.81" y1="-4.699" x2="4.318" y2="-4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="4.318" y1="5.207" x2="6.2992" y2="5.207" width="0.0254" layer="46"/>
+<wire x1="6.2992" y1="5.207" x2="6.8072" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.8072" y1="4.699" x2="6.2992" y2="4.191" width="0.0254" layer="46" curve="-90"/>
+<wire x1="6.2992" y1="4.191" x2="4.318" y2="4.191" width="0.0254" layer="46"/>
+<wire x1="4.318" y1="4.191" x2="3.81" y2="4.699" width="0.0254" layer="46" curve="-90"/>
+<wire x1="3.81" y1="4.699" x2="4.318" y2="5.207" width="0.0254" layer="46" curve="-90"/>
 </package>
 </packages>
 <symbols>
@@ -1150,6 +1229,22 @@ Description: Slide Switches DPDT On-On</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_STOMPBOX_SW" package="STOMPBOX_SW">
+<connects>
+<connect gate="G$1" pin="1" pad="A1 A4"/>
+<connect gate="G$1" pin="2" pad="A2 A5"/>
+<connect gate="G$1" pin="3" pad="A3 A6"/>
+<connect gate="G$1" pin="4" pad="B1 B4"/>
+<connect gate="G$1" pin="5" pad="B2 B5"/>
+<connect gate="G$1" pin="6" pad="B3 B6"/>
+<connect gate="G$1" pin="7" pad="C1 C4"/>
+<connect gate="G$1" pin="8" pad="C2 C5"/>
+<connect gate="G$1" pin="9" pad="C3 C6"/>
 </connects>
 <technologies>
 <technology name=""/>
