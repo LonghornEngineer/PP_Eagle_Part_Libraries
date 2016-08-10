@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -45059,7 +45059,10 @@
 </device>
 <device name="LOGO_MEDIUM" package="MF_LOGO_MEDIUM">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LOGO_SMALL" package="MF_LOGO_SMALL">
