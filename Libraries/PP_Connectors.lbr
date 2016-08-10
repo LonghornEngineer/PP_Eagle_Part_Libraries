@@ -5671,10 +5671,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LAVEL4" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5687,10 +5692,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5703,10 +5713,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5719,10 +5734,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5735,10 +5755,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5751,10 +5776,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5767,10 +5797,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5783,10 +5818,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5799,10 +5839,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5815,10 +5860,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5831,10 +5881,15 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5853,7 +5908,13 @@ Type C</text>
 <connect gate="G$1" pin="SLEEVE_SHUNT" pad="GNDBREAK"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_PTH_TIGHT" package="DC_JACK_PTH_TIGHT">
@@ -5863,7 +5924,13 @@ Type C</text>
 <connect gate="G$1" pin="SLEEVE_SHUNT" pad="GNDBREAK"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5882,9 +5949,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5896,9 +5968,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5910,9 +5987,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5924,9 +6006,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5938,9 +6025,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5952,9 +6044,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5977,12 +6074,17 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
 <attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5997,12 +6099,17 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
 <attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6016,7 +6123,13 @@ Type C</text>
 <connect gate="G$1" pin="6" pad="GND"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_1775470-6" package="1775470-6">
@@ -6030,12 +6143,17 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
 <attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6063,7 +6181,13 @@ Type C</text>
 <connect gate="G$1" pin="C1" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_RJHSE-538X" package="RJHSE-538X">
@@ -6082,7 +6206,13 @@ Type C</text>
 <connect gate="G$1" pin="C1" pad="11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6121,7 +6251,13 @@ Type C</text>
 <connect gate="G$1" pin="C3" pad="23"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6139,7 +6275,13 @@ Type C</text>
 <connect gate="G$1" pin="T" pad="2 3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_STX_2500_3N" package="STX_2500_3N">
@@ -6149,7 +6291,13 @@ Type C</text>
 <connect gate="G$1" pin="T" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_161-3507-E" package="161-3507-E">
@@ -6159,7 +6307,13 @@ Type C</text>
 <connect gate="G$1" pin="T" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_SJ1-3513-SMT" package="SJ1-351(3/4/5)-SMT">
@@ -6169,7 +6323,13 @@ Type C</text>
 <connect gate="G$1" pin="T" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6192,6 +6352,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6200,6 +6361,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6216,6 +6381,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6224,6 +6390,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6240,6 +6410,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6248,6 +6419,10 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6268,7 +6443,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="P$1 P$2 P$3 P$4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_10118193-0001LF" package="10118193-0001LF">
@@ -6281,7 +6462,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="S1 S2 S3 S4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_MC32599" package="MC32599">
@@ -6294,7 +6481,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="SH_0 SH_1 SH_2 SH_3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6317,7 +6510,13 @@ Type C</text>
 <connect gate="G$1" pin="SCLK" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6352,6 +6551,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6372,6 +6572,10 @@ Type C</text>
 <attribute name="LABEL18" value="" constant="no"/>
 <attribute name="LABEL19" value="" constant="no"/>
 <attribute name="LABEL20" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6397,6 +6601,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6407,6 +6612,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6425,6 +6634,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6435,6 +6645,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6453,6 +6667,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6463,6 +6678,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6481,6 +6700,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6491,6 +6711,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6509,6 +6733,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6519,6 +6744,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6537,6 +6766,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6547,6 +6777,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6565,6 +6799,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6575,6 +6810,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6593,6 +6832,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6603,6 +6843,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6621,6 +6865,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6631,6 +6876,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6649,6 +6898,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6659,6 +6909,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6677,6 +6931,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6687,6 +6942,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6705,6 +6964,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6715,6 +6975,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6733,6 +6997,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6743,6 +7008,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6761,6 +7030,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6771,6 +7041,10 @@ Type C</text>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6783,17 +7057,35 @@ Type C</text>
 <devices>
 <device name="2.8MM" package="MOUNT_HOLE_2.8MM">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150MIL" package="MOUNT_HOLE_150MIL">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="120MIL" package="MOUNT_HOLE_120MIL">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6812,9 +7104,14 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6834,7 +7131,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="SH1 SH2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_87520-0010BLF" package="87520-0010BLF">
@@ -6846,7 +7149,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="SHLD0 SHLD1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_61400413321" package="61400413321">
@@ -6858,7 +7167,13 @@ Type C</text>
 <connect gate="G$1" pin="SLD" pad="S1 S2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6885,6 +7200,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6897,6 +7213,10 @@ Type C</text>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="LABEL11" value="" constant="no"/>
 <attribute name="LABEL12" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6936,6 +7256,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -6960,6 +7281,10 @@ Type C</text>
 <attribute name="LABEL22" value="" constant="no"/>
 <attribute name="LABEL23" value="" constant="no"/>
 <attribute name="LABEL24" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7015,6 +7340,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7055,6 +7381,10 @@ Type C</text>
 <attribute name="LABEL38" value="" constant="no"/>
 <attribute name="LABEL39" value="" constant="no"/>
 <attribute name="LABEL40" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7201,7 +7531,13 @@ Type C</text>
 <connect gate="G$1" pin="R_9" pad="R_9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7216,7 +7552,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_KEYSTONE_5115-5119" package="KEYSTONE_5115-5119">
@@ -7224,7 +7566,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_ROUND_1MM" package="ROUND_TP">
@@ -7232,7 +7580,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_ROUND_100MIL" package="100MIL_TP">
@@ -7240,7 +7594,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7256,7 +7616,13 @@ Type C</text>
 <connect gate="G$1" pin="-" pad="BATT-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_12BH611-GR" package="12BH611-GR">
@@ -7265,7 +7631,13 @@ Type C</text>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_KEYSTON_1042" package="KEYSTONE_1042">
@@ -7274,7 +7646,13 @@ Type C</text>
 <connect gate="G$1" pin="-" pad="N"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_S8421-45R" package="S8421-45R">
@@ -7283,7 +7661,13 @@ Type C</text>
 <connect gate="G$1" pin="-" pad="NEG"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7328,6 +7712,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7358,6 +7743,10 @@ Type C</text>
 <attribute name="LABEL28" value="" constant="no"/>
 <attribute name="LABEL29" value="" constant="no"/>
 <attribute name="LABEL30" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7374,7 +7763,13 @@ Type C</text>
 <connect gate="G$1" pin="POS" pad="POS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_PCC-SMP" package="PCC-SMP">
@@ -7383,7 +7778,13 @@ Type C</text>
 <connect gate="G$1" pin="POS" pad="+"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7428,6 +7829,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7458,6 +7860,10 @@ Type C</text>
 <attribute name="LABEL28" value="" constant="no"/>
 <attribute name="LABEL29" value="" constant="no"/>
 <attribute name="LABEL30" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7478,11 +7884,16 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7496,11 +7907,16 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="LABEL04" value="" constant="no"/>
 <attribute name="LABEL05" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7547,6 +7963,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7578,6 +7995,10 @@ Type C</text>
 <attribute name="LABEL29" value="" constant="no"/>
 <attribute name="LABEL30" value="" constant="no"/>
 <attribute name="LABEL31" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7607,6 +8028,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7621,6 +8043,10 @@ Type C</text>
 <attribute name="LABEL12" value="" constant="no"/>
 <attribute name="LABEL13" value="" constant="no"/>
 <attribute name="LABEL14" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7643,6 +8069,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7657,6 +8084,10 @@ Type C</text>
 <attribute name="LABEL12" value="" constant="no"/>
 <attribute name="LABEL13" value="" constant="no"/>
 <attribute name="LABEL14" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7677,7 +8108,13 @@ Type C</text>
 <connect gate="G$1" pin="TN" pad="TN"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7694,8 +8131,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7706,8 +8148,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7718,8 +8165,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7730,8 +8182,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7742,8 +8199,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7754,8 +8216,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7766,8 +8233,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7777,7 +8249,13 @@ Type C</text>
 <connect gate="G$1" pin="PIN2" pad="RING"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_1546215-2" package="1546215-2">
@@ -7787,8 +8265,13 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7813,6 +8296,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7822,6 +8306,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7839,6 +8327,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7848,6 +8337,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7865,6 +8358,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7874,6 +8368,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7891,6 +8389,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7900,6 +8399,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7917,6 +8420,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7926,6 +8430,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7943,6 +8451,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7952,6 +8461,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7969,6 +8482,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -7978,6 +8492,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7995,6 +8513,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8004,6 +8523,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8021,6 +8544,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8030,6 +8554,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8047,6 +8575,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8056,6 +8585,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8073,6 +8606,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8082,6 +8616,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8099,6 +8637,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8108,6 +8647,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8125,6 +8668,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8134,6 +8678,10 @@ Type C</text>
 <attribute name="LABEL07" value="" constant="no"/>
 <attribute name="LABEL08" value="" constant="no"/>
 <attribute name="LABEL09" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8146,17 +8694,35 @@ Type C</text>
 <devices>
 <device name="_20PIN" package="20PIN_DIP_SOCKET">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_18PIN" package="18PIN_DIP_SOCKET">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_8PIN" package="8PIN_DIP_SOCKET">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8181,6 +8747,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8193,6 +8760,7 @@ Type C</text>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="15-91-1102" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="15-91-1102" constant="no"/>
 </technology>
 </technologies>
@@ -8212,6 +8780,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8224,6 +8793,7 @@ Type C</text>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="GRPB052VWVN-RC" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="GRPB052VWVN-RC" constant="no"/>
 </technology>
 </technologies>
@@ -8243,6 +8813,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8255,6 +8826,7 @@ Type C</text>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="MPN" value="5103308-1" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="5103308-1" constant="no"/>
 </technology>
 </technologies>
@@ -8282,6 +8854,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8293,6 +8866,10 @@ Type C</text>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="LABEL11" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8312,6 +8889,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8323,6 +8901,10 @@ Type C</text>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="LABEL11" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8342,6 +8924,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8353,6 +8936,10 @@ Type C</text>
 <attribute name="LABEL09" value="" constant="no"/>
 <attribute name="LABEL10" value="" constant="no"/>
 <attribute name="LABEL11" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8374,6 +8961,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8382,6 +8970,7 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="TC2030-NL" constant="no"/>
 </technology>
 </technologies>
@@ -8397,6 +8986,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8405,6 +8995,7 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="0" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="TC2030" constant="no"/>
 </technology>
 </technologies>
@@ -8420,6 +9011,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8428,6 +9020,7 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="30306-6002HB" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="30306-6002HB" constant="no"/>
 </technology>
 </technologies>
@@ -8563,7 +9156,13 @@ Type C</text>
 <connect gate="G$1" pin="99" pad="P$99"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8598,6 +9197,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8618,6 +9218,10 @@ Type C</text>
 <attribute name="LABEL18" value="" constant="no"/>
 <attribute name="LABEL19" value="" constant="no"/>
 <attribute name="LABEL20" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8640,6 +9244,7 @@ Type C</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
 <attribute name="LABEL03" value="" constant="no"/>
@@ -8647,6 +9252,10 @@ Type C</text>
 <attribute name="LABEL05" value="" constant="no"/>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="LABEL07" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8662,7 +9271,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_100803_PROBE" package="100803_PROBE">
@@ -8670,7 +9285,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_0908-4-15-20-75-14-11-0" package="0908-4-15-20-75-14-11-0">
@@ -8678,7 +9299,13 @@ Type C</text>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8696,7 +9323,13 @@ Type C</text>
 <connect gate="G$1" pin="T" pad="2_A 2_B"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8727,7 +9360,13 @@ Type C</text>
 <connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
