@@ -3672,6 +3672,40 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="3.85" y1="1.65" x2="4.825" y2="1.65" width="0.127" layer="21"/>
 <hole x="3.6" y="0" drill="0.65"/>
 </package>
+<package name="1761681-7">
+<pad name="P$1" x="-1.27" y="11.43" drill="1" rot="R90"/>
+<pad name="P$2" x="1.27" y="11.43" drill="1" rot="R90"/>
+<pad name="P$3" x="-1.27" y="8.89" drill="1" rot="R90"/>
+<pad name="P$4" x="1.27" y="8.89" drill="1" rot="R90"/>
+<pad name="P$5" x="-1.27" y="6.35" drill="1" rot="R90"/>
+<pad name="P$6" x="1.27" y="6.35" drill="1" rot="R90"/>
+<pad name="P$7" x="-1.27" y="3.81" drill="1" rot="R90"/>
+<pad name="P$8" x="1.27" y="3.81" drill="1" rot="R90"/>
+<pad name="P$9" x="-1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$10" x="1.27" y="1.27" drill="1" rot="R90"/>
+<pad name="P$11" x="-1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$12" x="1.27" y="-1.27" drill="1" rot="R90"/>
+<pad name="P$13" x="-1.27" y="-3.81" drill="1" rot="R90"/>
+<pad name="P$14" x="1.27" y="-3.81" drill="1" rot="R90"/>
+<pad name="P$15" x="-1.27" y="-6.35" drill="1" rot="R90"/>
+<pad name="P$16" x="1.27" y="-6.35" drill="1" rot="R90"/>
+<pad name="P$17" x="-1.27" y="-8.89" drill="1" rot="R90"/>
+<pad name="P$18" x="1.27" y="-8.89" drill="1" rot="R90"/>
+<pad name="P$19" x="-1.27" y="-11.43" drill="1" rot="R90"/>
+<pad name="P$20" x="1.27" y="-11.43" drill="1" rot="R90"/>
+<wire x1="-4.45" y1="16.5" x2="4.45" y2="16.5" width="0.127" layer="21"/>
+<wire x1="4.45" y1="16.5" x2="4.45" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="4.45" y1="-16.5" x2="-4.45" y2="-16.5" width="0.127" layer="21"/>
+<wire x1="-4.45" y1="-16.5" x2="-4.45" y2="16.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-5.085" y="2.54"/>
+<vertex x="-2.54" y="2.54"/>
+<vertex x="-2.54" y="-2.54"/>
+<vertex x="-5.085" y="-2.54"/>
+</polygon>
+<text x="-5.08" y="11.43" size="1.016" layer="21" font="vector" ratio="16" rot="R90" align="center">1</text>
+<text x="-5.08" y="-16.51" size="1.016" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -6655,6 +6689,54 @@ Type C</text>
 <attribute name="POPULATE" value="1" constant="no"/>
 <attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1761681-7" package="1761681-7">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="LABEL07" value="" constant="no"/>
+<attribute name="LABEL08" value="" constant="no"/>
+<attribute name="LABEL09" value="" constant="no"/>
+<attribute name="LABEL10" value="" constant="no"/>
+<attribute name="LABEL11" value="" constant="no"/>
+<attribute name="LABEL12" value="" constant="no"/>
+<attribute name="LABEL13" value="" constant="no"/>
+<attribute name="LABEL14" value="" constant="no"/>
+<attribute name="LABEL15" value="" constant="no"/>
+<attribute name="LABEL16" value="" constant="no"/>
+<attribute name="LABEL17" value="" constant="no"/>
+<attribute name="LABEL18" value="" constant="no"/>
+<attribute name="LABEL19" value="" constant="no"/>
+<attribute name="LABEL20" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
