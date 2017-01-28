@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -384,6 +384,13 @@
 <wire x1="1.575" y1="-1.75" x2="-1.575" y2="-1.75" width="0.1" layer="21"/>
 <text x="2.2225" y="1.5875" size="0.8128" layer="21" font="vector" ratio="16">C</text>
 <text x="0" y="2.54" size="0.8128" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
+</package>
+<package name="LED_5MM">
+<pad name="CATHODE" x="-1.27" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="ANODE" x="1.27" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<wire x1="-2.24" y1="1.27" x2="-2.24" y2="-1.27" width="0.127" layer="21" curve="-300"/>
+<wire x1="-2.25" y1="1.25" x2="-2.25" y2="-1.25" width="0.127" layer="21"/>
+<text x="2.54" y="2.54" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1252,6 +1259,15 @@
 <connects>
 <connect gate="G$1" pin="ANODE" pad="A"/>
 <connect gate="G$1" pin="CATHODE" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_5MM" package="LED_5MM">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
 </connects>
 <technologies>
 <technology name=""/>
