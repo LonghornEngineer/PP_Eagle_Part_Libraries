@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -588,9 +588,9 @@
 <pin name="TX" x="17.78" y="-15.24" visible="off" length="short" rot="R180"/>
 <pin name="VOL+" x="17.78" y="-22.86" visible="off" length="short" rot="R180"/>
 <pin name="VOL-" x="17.78" y="-25.4" visible="off" length="short" rot="R180"/>
-<pin name="RST" x="17.78" y="-30.48" visible="off" length="short" rot="R180"/>
-<pin name="1.8V_OUT" x="17.78" y="-35.56" visible="off" length="short" rot="R180"/>
-<text x="13.97" y="-35.56" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1.8V_OUT</text>
+<pin name="RST" x="17.78" y="-35.56" visible="off" length="short" rot="R180"/>
+<pin name="1.8V_OUT" x="17.78" y="-30.48" visible="off" length="short" rot="R180"/>
+<text x="13.97" y="-30.48" size="1.016" layer="97" font="vector" rot="R180" align="center-left">1.8V_OUT</text>
 <text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">AGND</text>
 <text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">ALEFT</text>
 <text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">ARIGHT</text>
@@ -603,7 +603,7 @@
 <text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">MIC-</text>
 <text x="13.97" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">NEXT</text>
 <text x="13.97" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">PLAY</text>
-<text x="13.97" y="-30.48" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RST</text>
+<text x="13.97" y="-35.56" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RST</text>
 <text x="13.97" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RX</text>
 <text x="13.97" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TX</text>
 <text x="1.27" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">VBAT</text>
