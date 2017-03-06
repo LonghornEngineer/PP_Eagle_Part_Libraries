@@ -4664,8 +4664,8 @@
 <pin name="TXIN18/HSYNC" x="-2.54" y="-71.12" visible="off" length="short"/>
 <pin name="TXIN19/VSYNC" x="-2.54" y="-73.66" visible="off" length="short"/>
 <pin name="TXIN20/DE" x="-2.54" y="-76.2" visible="off" length="short"/>
-<pin name="R_FB" x="-2.54" y="-81.28" visible="off" length="short"/>
-<pin name="TXCLK_IN" x="-2.54" y="-83.82" visible="off" length="short"/>
+<pin name="R_FB" x="-2.54" y="-83.82" visible="off" length="short"/>
+<pin name="TXCLK_IN" x="-2.54" y="-78.74" visible="off" length="short"/>
 <pin name="!PWR_DWN" x="-2.54" y="-88.9" visible="off" length="short"/>
 <pin name="TXOUT0-" x="27.94" y="-25.4" visible="off" length="short" rot="R180"/>
 <pin name="TXOUT0+" x="27.94" y="-27.94" visible="off" length="short" rot="R180"/>
@@ -4685,8 +4685,8 @@
 <text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">LVDS_VCC</text>
 <text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">PLL_GND</text>
 <text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">PLL_VCC</text>
-<text x="1.27" y="-81.28" size="1.016" layer="97" font="vector" align="center-left">R_FB</text>
-<text x="1.27" y="-83.82" size="1.016" layer="97" font="vector" align="center-left">TXCLK_IN</text>
+<text x="1.27" y="-83.82" size="1.016" layer="97" font="vector" align="center-left">R_FB</text>
+<text x="1.27" y="-78.74" size="1.016" layer="97" font="vector" align="center-left">TXCLK_IN</text>
 <text x="24.13" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TXCLK_OUT+</text>
 <text x="24.13" y="-55.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TXCLK_OUT-</text>
 <text x="1.27" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">TXIN0/R0</text>
