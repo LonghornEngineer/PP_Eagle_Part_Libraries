@@ -928,6 +928,47 @@
 <wire x1="-3.81" y1="-8.89" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
 <text x="-3.81" y="4.445" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="LM1085_TO-263-3">
+<smd name="P$1" x="-6.35" y="2.54" dx="1.0668" dy="2.159" layer="1" rot="R90"/>
+<smd name="P$2" x="-6.35" y="0" dx="1.0668" dy="2.159" layer="1" rot="R90"/>
+<smd name="P$3" x="-6.35" y="-2.54" dx="1.0668" dy="2.159" layer="1" rot="R90"/>
+<smd name="P$4" x="2.54" y="0" dx="1.27" dy="1.27" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.127" layer="31">
+<vertex x="7.5692" y="4.8895"/>
+<vertex x="6.4262" y="4.8895"/>
+<vertex x="6.4262" y="3.6576"/>
+<vertex x="1.3462" y="3.6576"/>
+<vertex x="1.3462" y="-3.6576"/>
+<vertex x="6.4262" y="-3.6576"/>
+<vertex x="6.4262" y="-4.8895"/>
+<vertex x="7.5692" y="-4.8895"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="8.0772" y="5.6515"/>
+<vertex x="5.6642" y="5.6515"/>
+<vertex x="5.6642" y="4.4196"/>
+<vertex x="0.5842" y="4.4196"/>
+<vertex x="0.5842" y="-4.4196"/>
+<vertex x="5.6642" y="-4.4196"/>
+<vertex x="5.6642" y="-5.6515"/>
+<vertex x="8.0772" y="-5.6515"/>
+</polygon>
+<text x="-8.255" y="6.35" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<wire x1="-8.255" y1="5.969" x2="8.509" y2="5.969" width="0.127" layer="21"/>
+<wire x1="8.509" y1="5.969" x2="8.509" y2="-5.969" width="0.127" layer="21"/>
+<wire x1="8.509" y1="-5.969" x2="-8.255" y2="-5.969" width="0.127" layer="21"/>
+<wire x1="-8.255" y1="-5.969" x2="-8.255" y2="5.969" width="0.127" layer="21"/>
+<polygon width="0.127" layer="1">
+<vertex x="7.8232" y="5.3975"/>
+<vertex x="5.9182" y="5.3975"/>
+<vertex x="5.9182" y="4.1656"/>
+<vertex x="0.8382" y="4.1656"/>
+<vertex x="0.8382" y="-4.1656"/>
+<vertex x="5.9182" y="-4.1656"/>
+<vertex x="5.9182" y="-5.3975"/>
+<vertex x="7.8232" y="-5.3975"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="BTM7755">
@@ -1534,6 +1575,16 @@
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LM1085" package="LM1085_TO-263-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="IN" pad="P$1"/>
+<connect gate="G$1" pin="OUT" pad="P$3 P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
