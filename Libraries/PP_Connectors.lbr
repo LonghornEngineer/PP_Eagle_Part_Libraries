@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6061,25 +6061,25 @@ Type C</text>
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 <pin name="41" x="-2.54" y="-50.8" visible="off" length="short"/>
-<pin name="42" x="-2.54" y="-53.34" visible="off" length="short"/>
-<pin name="43" x="-2.54" y="-55.88" visible="off" length="short"/>
-<pin name="44" x="-2.54" y="-58.42" visible="off" length="short"/>
-<pin name="45" x="-2.54" y="-60.96" visible="off" length="short"/>
-<pin name="46" x="-2.54" y="-63.5" visible="off" length="short"/>
-<pin name="47" x="-2.54" y="-66.04" visible="off" length="short"/>
-<pin name="48" x="-2.54" y="-68.58" visible="off" length="short"/>
-<pin name="49" x="-2.54" y="-71.12" visible="off" length="short"/>
-<pin name="50" x="-2.54" y="-73.66" visible="off" length="short"/>
-<pin name="51" x="33.02" y="-73.66" visible="off" length="short" rot="R180"/>
-<pin name="52" x="33.02" y="-71.12" visible="off" length="short" rot="R180"/>
-<pin name="53" x="33.02" y="-68.58" visible="off" length="short" rot="R180"/>
+<pin name="42" x="33.02" y="-50.8" visible="off" length="short" rot="R180"/>
+<pin name="43" x="-2.54" y="-53.34" visible="off" length="short"/>
+<pin name="44" x="33.02" y="-53.34" visible="off" length="short" rot="R180"/>
+<pin name="45" x="-2.54" y="-55.88" visible="off" length="short"/>
+<pin name="46" x="33.02" y="-55.88" visible="off" length="short" rot="R180"/>
+<pin name="47" x="-2.54" y="-58.42" visible="off" length="short"/>
+<pin name="48" x="33.02" y="-58.42" visible="off" length="short" rot="R180"/>
+<pin name="49" x="-2.54" y="-60.96" visible="off" length="short"/>
+<pin name="50" x="33.02" y="-60.96" visible="off" length="short" rot="R180"/>
+<pin name="51" x="-2.54" y="-63.5" visible="off" length="short"/>
+<pin name="52" x="33.02" y="-63.5" visible="off" length="short" rot="R180"/>
+<pin name="53" x="-2.54" y="-66.04" visible="off" length="short"/>
 <pin name="54" x="33.02" y="-66.04" visible="off" length="short" rot="R180"/>
-<pin name="55" x="33.02" y="-63.5" visible="off" length="short" rot="R180"/>
-<pin name="56" x="33.02" y="-60.96" visible="off" length="short" rot="R180"/>
-<pin name="57" x="33.02" y="-58.42" visible="off" length="short" rot="R180"/>
-<pin name="58" x="33.02" y="-55.88" visible="off" length="short" rot="R180"/>
-<pin name="59" x="33.02" y="-53.34" visible="off" length="short" rot="R180"/>
-<pin name="60" x="33.02" y="-50.8" visible="off" length="short" rot="R180"/>
+<pin name="55" x="-2.54" y="-68.58" visible="off" length="short"/>
+<pin name="56" x="33.02" y="-68.58" visible="off" length="short" rot="R180"/>
+<pin name="57" x="-2.54" y="-71.12" visible="off" length="short"/>
+<pin name="58" x="33.02" y="-71.12" visible="off" length="short" rot="R180"/>
+<pin name="59" x="-2.54" y="-73.66" visible="off" length="short"/>
+<pin name="60" x="33.02" y="-73.66" visible="off" length="short" rot="R180"/>
 <pin name="61" x="-2.54" y="-76.2" visible="off" length="short"/>
 <pin name="62" x="33.02" y="-76.2" visible="off" length="short" rot="R180"/>
 <pin name="63" x="-2.54" y="-78.74" visible="off" length="short"/>
@@ -6101,25 +6101,25 @@ Type C</text>
 <pin name="79" x="-2.54" y="-99.06" visible="off" length="short"/>
 <pin name="80" x="33.02" y="-99.06" visible="off" length="short" rot="R180"/>
 <pin name="81" x="-2.54" y="-101.6" visible="off" length="short"/>
-<pin name="82" x="-2.54" y="-104.14" visible="off" length="short"/>
-<pin name="83" x="-2.54" y="-106.68" visible="off" length="short"/>
-<pin name="84" x="-2.54" y="-109.22" visible="off" length="short"/>
-<pin name="85" x="-2.54" y="-111.76" visible="off" length="short"/>
-<pin name="86" x="-2.54" y="-114.3" visible="off" length="short"/>
-<pin name="87" x="-2.54" y="-116.84" visible="off" length="short"/>
-<pin name="88" x="-2.54" y="-119.38" visible="off" length="short"/>
-<pin name="89" x="-2.54" y="-121.92" visible="off" length="short"/>
-<pin name="90" x="-2.54" y="-124.46" visible="off" length="short"/>
-<pin name="91" x="33.02" y="-124.46" visible="off" length="short" rot="R180"/>
-<pin name="92" x="33.02" y="-121.92" visible="off" length="short" rot="R180"/>
-<pin name="93" x="33.02" y="-119.38" visible="off" length="short" rot="R180"/>
+<pin name="82" x="33.02" y="-101.6" visible="off" length="short" rot="R180"/>
+<pin name="83" x="-2.54" y="-104.14" visible="off" length="short"/>
+<pin name="84" x="33.02" y="-104.14" visible="off" length="short" rot="R180"/>
+<pin name="85" x="-2.54" y="-106.68" visible="off" length="short"/>
+<pin name="86" x="33.02" y="-106.68" visible="off" length="short" rot="R180"/>
+<pin name="87" x="-2.54" y="-109.22" visible="off" length="short"/>
+<pin name="88" x="33.02" y="-109.22" visible="off" length="short" rot="R180"/>
+<pin name="89" x="-2.54" y="-111.76" visible="off" length="short"/>
+<pin name="90" x="33.02" y="-111.76" visible="off" length="short" rot="R180"/>
+<pin name="91" x="-2.54" y="-114.3" visible="off" length="short"/>
+<pin name="92" x="33.02" y="-114.3" visible="off" length="short" rot="R180"/>
+<pin name="93" x="-2.54" y="-116.84" visible="off" length="short"/>
 <pin name="94" x="33.02" y="-116.84" visible="off" length="short" rot="R180"/>
-<pin name="95" x="33.02" y="-114.3" visible="off" length="short" rot="R180"/>
-<pin name="96" x="33.02" y="-111.76" visible="off" length="short" rot="R180"/>
-<pin name="97" x="33.02" y="-109.22" visible="off" length="short" rot="R180"/>
-<pin name="98" x="33.02" y="-106.68" visible="off" length="short" rot="R180"/>
-<pin name="99" x="33.02" y="-104.14" visible="off" length="short" rot="R180"/>
-<pin name="100" x="33.02" y="-101.6" visible="off" length="short" rot="R180"/>
+<pin name="95" x="-2.54" y="-119.38" visible="off" length="short"/>
+<pin name="96" x="33.02" y="-119.38" visible="off" length="short" rot="R180"/>
+<pin name="97" x="-2.54" y="-121.92" visible="off" length="short"/>
+<pin name="98" x="33.02" y="-121.92" visible="off" length="short" rot="R180"/>
+<pin name="99" x="-2.54" y="-124.46" visible="off" length="short"/>
+<pin name="100" x="33.02" y="-124.46" visible="off" length="short" rot="R180"/>
 <pin name="101" x="-2.54" y="-127" visible="off" length="short"/>
 <pin name="102" x="33.02" y="-127" visible="off" length="short" rot="R180"/>
 <pin name="103" x="-2.54" y="-129.54" visible="off" length="short"/>
@@ -6141,9 +6141,9 @@ Type C</text>
 <pin name="119" x="-2.54" y="-149.86" visible="off" length="short"/>
 <pin name="120" x="33.02" y="-149.86" visible="off" length="short" rot="R180"/>
 <pin name="121" x="-2.54" y="-152.4" visible="off" length="short"/>
-<pin name="122" x="-2.54" y="-154.94" visible="off" length="short"/>
-<pin name="123" x="33.02" y="-154.94" visible="off" length="short" rot="R180"/>
-<pin name="124" x="33.02" y="-152.4" visible="off" length="short" rot="R180"/>
+<pin name="122" x="33.02" y="-152.4" visible="off" length="short" rot="R180"/>
+<pin name="123" x="-2.54" y="-154.94" visible="off" length="short"/>
+<pin name="124" x="33.02" y="-154.94" visible="off" length="short" rot="R180"/>
 <pin name="125" x="-2.54" y="-157.48" visible="off" length="short"/>
 <pin name="126" x="33.02" y="-157.48" visible="off" length="short" rot="R180"/>
 <pin name="127" x="-2.54" y="-160.02" visible="off" length="short"/>
@@ -6165,25 +6165,25 @@ Type C</text>
 <pin name="143" x="-2.54" y="-180.34" visible="off" length="short"/>
 <pin name="144" x="33.02" y="-180.34" visible="off" length="short" rot="R180"/>
 <pin name="145" x="-2.54" y="-182.88" visible="off" length="short"/>
-<pin name="146" x="-2.54" y="-185.42" visible="off" length="short"/>
-<pin name="147" x="-2.54" y="-187.96" visible="off" length="short"/>
-<pin name="148" x="-2.54" y="-190.5" visible="off" length="short"/>
-<pin name="149" x="-2.54" y="-193.04" visible="off" length="short"/>
-<pin name="150" x="-2.54" y="-195.58" visible="off" length="short"/>
-<pin name="151" x="-2.54" y="-198.12" visible="off" length="short"/>
-<pin name="152" x="-2.54" y="-200.66" visible="off" length="short"/>
-<pin name="153" x="-2.54" y="-203.2" visible="off" length="short"/>
-<pin name="154" x="-2.54" y="-205.74" visible="off" length="short"/>
-<pin name="155" x="33.02" y="-205.74" visible="off" length="short" rot="R180"/>
-<pin name="156" x="33.02" y="-203.2" visible="off" length="short" rot="R180"/>
-<pin name="157" x="33.02" y="-200.66" visible="off" length="short" rot="R180"/>
+<pin name="146" x="33.02" y="-182.88" visible="off" length="short" rot="R180"/>
+<pin name="147" x="-2.54" y="-185.42" visible="off" length="short"/>
+<pin name="148" x="33.02" y="-185.42" visible="off" length="short" rot="R180"/>
+<pin name="149" x="-2.54" y="-187.96" visible="off" length="short"/>
+<pin name="150" x="33.02" y="-187.96" visible="off" length="short" rot="R180"/>
+<pin name="151" x="-2.54" y="-190.5" visible="off" length="short"/>
+<pin name="152" x="33.02" y="-190.5" visible="off" length="short" rot="R180"/>
+<pin name="153" x="-2.54" y="-193.04" visible="off" length="short"/>
+<pin name="154" x="33.02" y="-193.04" visible="off" length="short" rot="R180"/>
+<pin name="155" x="-2.54" y="-195.58" visible="off" length="short"/>
+<pin name="156" x="33.02" y="-195.58" visible="off" length="short" rot="R180"/>
+<pin name="157" x="-2.54" y="-198.12" visible="off" length="short"/>
 <pin name="158" x="33.02" y="-198.12" visible="off" length="short" rot="R180"/>
-<pin name="159" x="33.02" y="-195.58" visible="off" length="short" rot="R180"/>
-<pin name="160" x="33.02" y="-193.04" visible="off" length="short" rot="R180"/>
-<pin name="161" x="33.02" y="-190.5" visible="off" length="short" rot="R180"/>
-<pin name="162" x="33.02" y="-187.96" visible="off" length="short" rot="R180"/>
-<pin name="163" x="33.02" y="-185.42" visible="off" length="short" rot="R180"/>
-<pin name="164" x="33.02" y="-182.88" visible="off" length="short" rot="R180"/>
+<pin name="159" x="-2.54" y="-200.66" visible="off" length="short"/>
+<pin name="160" x="33.02" y="-200.66" visible="off" length="short" rot="R180"/>
+<pin name="161" x="-2.54" y="-203.2" visible="off" length="short"/>
+<pin name="162" x="33.02" y="-203.2" visible="off" length="short" rot="R180"/>
+<pin name="163" x="-2.54" y="-205.74" visible="off" length="short"/>
+<pin name="164" x="33.02" y="-205.74" visible="off" length="short" rot="R180"/>
 <pin name="165" x="-2.54" y="-208.28" visible="off" length="short"/>
 <pin name="166" x="33.02" y="-208.28" visible="off" length="short" rot="R180"/>
 <pin name="167" x="-2.54" y="-210.82" visible="off" length="short"/>
@@ -6205,9 +6205,9 @@ Type C</text>
 <pin name="183" x="-2.54" y="-231.14" visible="off" length="short"/>
 <pin name="184" x="33.02" y="-231.14" visible="off" length="short" rot="R180"/>
 <pin name="185" x="-2.54" y="-233.68" visible="off" length="short"/>
-<pin name="186" x="-2.54" y="-236.22" visible="off" length="short"/>
-<pin name="187" x="33.02" y="-236.22" visible="off" length="short" rot="R180"/>
-<pin name="188" x="33.02" y="-233.68" visible="off" length="short" rot="R180"/>
+<pin name="186" x="33.02" y="-233.68" visible="off" length="short" rot="R180"/>
+<pin name="187" x="-2.54" y="-236.22" visible="off" length="short"/>
+<pin name="188" x="33.02" y="-236.22" visible="off" length="short" rot="R180"/>
 <pin name="189" x="-2.54" y="-238.76" visible="off" length="short"/>
 <pin name="190" x="33.02" y="-238.76" visible="off" length="short" rot="R180"/>
 <pin name="191" x="-2.54" y="-241.3" visible="off" length="short"/>
@@ -6302,44 +6302,44 @@ Type C</text>
 <text x="25.4" y="-48.26" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL40</text>
 <text x="1.27" y="-50.8" size="1.016" layer="97" font="vector" align="center-left">41</text>
 <text x="5.08" y="-50.8" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL41</text>
-<text x="1.27" y="-53.34" size="1.016" layer="97" font="vector" align="center-left">42</text>
-<text x="5.08" y="-53.34" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL42</text>
-<text x="1.27" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">43</text>
-<text x="5.08" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL43</text>
-<text x="1.27" y="-58.42" size="1.016" layer="97" font="vector" align="center-left">44</text>
-<text x="5.08" y="-58.42" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL44</text>
-<text x="1.27" y="-60.96" size="1.016" layer="97" font="vector" align="center-left">45</text>
-<text x="5.08" y="-60.96" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL45</text>
-<text x="1.27" y="-63.5" size="1.016" layer="97" font="vector" align="center-left">46</text>
-<text x="5.08" y="-63.5" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL46</text>
-<text x="1.27" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">47</text>
-<text x="5.08" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL47</text>
-<text x="1.27" y="-68.58" size="1.016" layer="97" font="vector" align="center-left">48</text>
-<text x="5.08" y="-68.58" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL48</text>
-<text x="1.27" y="-71.12" size="1.016" layer="97" font="vector" align="center-left">49</text>
-<text x="5.08" y="-71.12" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL49</text>
-<text x="1.27" y="-73.66" size="1.016" layer="97" font="vector" align="center-left">50</text>
-<text x="5.08" y="-73.66" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL50</text>
-<text x="29.21" y="-73.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">51</text>
-<text x="25.4" y="-73.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL51</text>
-<text x="29.21" y="-71.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">52</text>
-<text x="25.4" y="-71.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL52</text>
-<text x="29.21" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">53</text>
-<text x="25.4" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL53</text>
+<text x="29.21" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">42</text>
+<text x="25.4" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL42</text>
+<text x="1.27" y="-53.34" size="1.016" layer="97" font="vector" align="center-left">43</text>
+<text x="5.08" y="-53.34" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL43</text>
+<text x="29.21" y="-53.34" size="1.016" layer="97" font="vector" rot="R180" align="center-left">44</text>
+<text x="25.4" y="-53.34" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL44</text>
+<text x="1.27" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">45</text>
+<text x="5.08" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL45</text>
+<text x="29.21" y="-55.88" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">46</text>
+<text x="25.4" y="-55.88" size="1.016" layer="97" font="vector" rot="MR0" align="center-left">&gt;LABEL46</text>
+<text x="1.27" y="-58.42" size="1.016" layer="97" font="vector" align="center-left">47</text>
+<text x="5.08" y="-58.42" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL47</text>
+<text x="29.21" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">48</text>
+<text x="25.4" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL48</text>
+<text x="1.27" y="-60.96" size="1.016" layer="97" font="vector" align="center-left">49</text>
+<text x="5.08" y="-60.96" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL49</text>
+<text x="29.21" y="-60.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">50</text>
+<text x="25.4" y="-60.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL50</text>
+<text x="1.27" y="-63.5" size="1.016" layer="97" font="vector" align="center-left">51</text>
+<text x="5.08" y="-63.5" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL51</text>
+<text x="29.21" y="-63.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">52</text>
+<text x="25.4" y="-63.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL52</text>
+<text x="1.27" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">53</text>
+<text x="5.08" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL53</text>
 <text x="29.21" y="-66.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">54</text>
 <text x="25.4" y="-66.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL54</text>
-<text x="29.21" y="-63.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">55</text>
-<text x="25.4" y="-63.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL55</text>
-<text x="29.21" y="-60.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">56</text>
-<text x="25.4" y="-60.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL56</text>
-<text x="29.21" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">57</text>
-<text x="25.4" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL57</text>
-<text x="29.21" y="-55.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">58</text>
-<text x="25.4" y="-55.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL58</text>
-<text x="29.21" y="-53.34" size="1.016" layer="97" font="vector" rot="R180" align="center-left">59</text>
-<text x="25.4" y="-53.34" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL59</text>
-<text x="29.21" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">60</text>
-<text x="25.4" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL60</text>
+<text x="1.27" y="-68.58" size="1.016" layer="97" font="vector" align="center-left">55</text>
+<text x="5.08" y="-68.58" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL55</text>
+<text x="29.21" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">56</text>
+<text x="25.4" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL56</text>
+<text x="1.27" y="-71.12" size="1.016" layer="97" font="vector" align="center-left">57</text>
+<text x="5.08" y="-71.12" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL57</text>
+<text x="29.21" y="-71.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">58</text>
+<text x="25.4" y="-71.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL58</text>
+<text x="1.27" y="-73.66" size="1.016" layer="97" font="vector" align="center-left">59</text>
+<text x="5.08" y="-73.66" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL59</text>
+<text x="29.21" y="-73.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">60</text>
+<text x="25.4" y="-73.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL60</text>
 <text x="1.27" y="-76.2" size="1.016" layer="97" font="vector" align="center-left">61</text>
 <text x="5.08" y="-76.2" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL61</text>
 <text x="29.21" y="-76.2" size="1.016" layer="97" font="vector" rot="R180" align="center-left">62</text>
@@ -6382,44 +6382,44 @@ Type C</text>
 <text x="25.4" y="-99.06" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL80</text>
 <text x="1.27" y="-101.6" size="1.016" layer="97" font="vector" align="center-left">81</text>
 <text x="5.08" y="-101.6" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL81</text>
-<text x="1.27" y="-104.14" size="1.016" layer="97" font="vector" align="center-left">82</text>
-<text x="5.08" y="-104.14" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL82</text>
-<text x="1.27" y="-106.68" size="1.016" layer="97" font="vector" align="center-left">83</text>
-<text x="5.08" y="-106.68" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL83</text>
-<text x="1.27" y="-109.22" size="1.016" layer="97" font="vector" align="center-left">84</text>
-<text x="5.08" y="-109.22" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL84</text>
-<text x="1.27" y="-111.76" size="1.016" layer="97" font="vector" align="center-left">85</text>
-<text x="5.08" y="-111.76" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL85</text>
-<text x="1.27" y="-114.3" size="1.016" layer="97" font="vector" align="center-left">86</text>
-<text x="5.08" y="-114.3" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL86</text>
-<text x="1.27" y="-116.84" size="1.016" layer="97" font="vector" align="center-left">87</text>
-<text x="5.08" y="-116.84" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL87</text>
-<text x="1.27" y="-119.38" size="1.016" layer="97" font="vector" align="center-left">88</text>
-<text x="5.08" y="-119.38" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL88</text>
-<text x="1.27" y="-121.92" size="1.016" layer="97" font="vector" align="center-left">89</text>
-<text x="5.08" y="-121.92" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL89</text>
-<text x="1.27" y="-124.46" size="1.016" layer="97" font="vector" align="center-left">90</text>
-<text x="5.08" y="-124.46" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL90</text>
-<text x="29.21" y="-124.46" size="1.016" layer="97" font="vector" rot="R180" align="center-left">91</text>
-<text x="25.4" y="-124.46" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL91</text>
-<text x="29.21" y="-121.92" size="1.016" layer="97" font="vector" rot="R180" align="center-left">92</text>
-<text x="25.4" y="-121.92" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL92</text>
-<text x="29.21" y="-119.38" size="1.016" layer="97" font="vector" rot="R180" align="center-left">93</text>
-<text x="25.4" y="-119.38" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL93</text>
+<text x="29.21" y="-101.6" size="1.016" layer="97" font="vector" rot="R180" align="center-left">82</text>
+<text x="25.4" y="-101.6" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL82</text>
+<text x="1.27" y="-104.14" size="1.016" layer="97" font="vector" align="center-left">83</text>
+<text x="5.08" y="-104.14" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL83</text>
+<text x="29.21" y="-104.14" size="1.016" layer="97" font="vector" rot="R180" align="center-left">84</text>
+<text x="25.4" y="-104.14" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL84</text>
+<text x="1.27" y="-106.68" size="1.016" layer="97" font="vector" align="center-left">85</text>
+<text x="5.08" y="-106.68" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL85</text>
+<text x="29.21" y="-106.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">86</text>
+<text x="25.4" y="-106.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL86</text>
+<text x="1.27" y="-109.22" size="1.016" layer="97" font="vector" align="center-left">87</text>
+<text x="5.08" y="-109.22" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL87</text>
+<text x="29.21" y="-109.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">88</text>
+<text x="25.4" y="-109.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL88</text>
+<text x="1.27" y="-111.76" size="1.016" layer="97" font="vector" align="center-left">89</text>
+<text x="5.08" y="-111.76" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL89</text>
+<text x="29.21" y="-111.76" size="1.016" layer="97" font="vector" rot="R180" align="center-left">90</text>
+<text x="25.4" y="-111.76" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL90</text>
+<text x="1.27" y="-114.3" size="1.016" layer="97" font="vector" align="center-left">91</text>
+<text x="5.08" y="-114.3" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL91</text>
+<text x="29.21" y="-114.3" size="1.016" layer="97" font="vector" rot="R180" align="center-left">92</text>
+<text x="25.4" y="-114.3" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL92</text>
+<text x="1.27" y="-116.84" size="1.016" layer="97" font="vector" align="center-left">93</text>
+<text x="5.08" y="-116.84" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL93</text>
 <text x="29.21" y="-116.84" size="1.016" layer="97" font="vector" rot="R180" align="center-left">94</text>
 <text x="25.4" y="-116.84" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL94</text>
-<text x="29.21" y="-114.3" size="1.016" layer="97" font="vector" rot="R180" align="center-left">95</text>
-<text x="25.4" y="-114.3" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL95</text>
-<text x="29.21" y="-111.76" size="1.016" layer="97" font="vector" rot="R180" align="center-left">96</text>
-<text x="25.4" y="-111.76" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL96</text>
-<text x="29.21" y="-109.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">97</text>
-<text x="25.4" y="-109.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL97</text>
-<text x="29.21" y="-106.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">98</text>
-<text x="25.4" y="-106.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL98</text>
-<text x="29.21" y="-104.14" size="1.016" layer="97" font="vector" rot="R180" align="center-left">99</text>
-<text x="25.4" y="-104.14" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL99</text>
-<text x="29.21" y="-101.6" size="1.016" layer="97" font="vector" rot="R180" align="center-left">100</text>
-<text x="25.4" y="-101.6" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL100</text>
+<text x="1.27" y="-119.38" size="1.016" layer="97" font="vector" align="center-left">95</text>
+<text x="5.08" y="-119.38" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL95</text>
+<text x="29.21" y="-119.38" size="1.016" layer="97" font="vector" rot="R180" align="center-left">96</text>
+<text x="25.4" y="-119.38" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL96</text>
+<text x="1.27" y="-121.92" size="1.016" layer="97" font="vector" align="center-left">97</text>
+<text x="5.08" y="-121.92" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL97</text>
+<text x="29.21" y="-121.92" size="1.016" layer="97" font="vector" rot="R180" align="center-left">98</text>
+<text x="25.4" y="-121.92" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL98</text>
+<text x="1.27" y="-124.46" size="1.016" layer="97" font="vector" align="center-left">99</text>
+<text x="5.08" y="-124.46" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL99</text>
+<text x="29.21" y="-124.46" size="1.016" layer="97" font="vector" rot="R180" align="center-left">100</text>
+<text x="25.4" y="-124.46" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL100</text>
 <text x="1.27" y="-127" size="1.016" layer="97" font="vector" align="center-left">101</text>
 <text x="5.08" y="-127" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL101</text>
 <text x="29.21" y="-127" size="1.016" layer="97" font="vector" rot="R180" align="center-left">102</text>
@@ -6462,12 +6462,12 @@ Type C</text>
 <text x="25.4" y="-149.86" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL120</text>
 <text x="1.27" y="-152.4" size="1.016" layer="97" font="vector" align="center-left">121</text>
 <text x="5.08" y="-152.4" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL121</text>
-<text x="1.27" y="-154.94" size="1.016" layer="97" font="vector" align="center-left">122</text>
-<text x="5.08" y="-154.94" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL122</text>
-<text x="29.21" y="-154.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">123</text>
-<text x="25.4" y="-154.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL123</text>
-<text x="29.21" y="-152.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">124</text>
-<text x="25.4" y="-152.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL124</text>
+<text x="29.21" y="-152.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">122</text>
+<text x="25.4" y="-152.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL122</text>
+<text x="1.27" y="-154.94" size="1.016" layer="97" font="vector" align="center-left">123</text>
+<text x="5.08" y="-154.94" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL123</text>
+<text x="29.21" y="-154.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">124</text>
+<text x="25.4" y="-154.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL124</text>
 <text x="1.27" y="-157.48" size="1.016" layer="97" font="vector" align="center-left">125</text>
 <text x="5.08" y="-157.48" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL125</text>
 <text x="29.21" y="-157.48" size="1.016" layer="97" font="vector" rot="R180" align="center-left">126</text>
@@ -6510,44 +6510,44 @@ Type C</text>
 <text x="25.4" y="-180.34" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL144</text>
 <text x="1.27" y="-182.88" size="1.016" layer="97" font="vector" align="center-left">145</text>
 <text x="5.08" y="-182.88" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL145</text>
-<text x="1.27" y="-185.42" size="1.016" layer="97" font="vector" align="center-left">146</text>
-<text x="5.08" y="-185.42" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL146</text>
-<text x="1.27" y="-187.96" size="1.016" layer="97" font="vector" align="center-left">147</text>
-<text x="5.08" y="-187.96" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL147</text>
-<text x="1.27" y="-190.5" size="1.016" layer="97" font="vector" align="center-left">148</text>
-<text x="5.08" y="-190.5" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL148</text>
-<text x="1.27" y="-193.04" size="1.016" layer="97" font="vector" align="center-left">149</text>
-<text x="5.08" y="-193.04" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL149</text>
-<text x="1.27" y="-195.58" size="1.016" layer="97" font="vector" align="center-left">150</text>
-<text x="5.08" y="-195.58" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL150</text>
-<text x="1.27" y="-198.12" size="1.016" layer="97" font="vector" align="center-left">151</text>
-<text x="5.08" y="-198.12" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL151</text>
-<text x="1.27" y="-200.66" size="1.016" layer="97" font="vector" align="center-left">152</text>
-<text x="5.08" y="-200.66" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL152</text>
-<text x="1.27" y="-203.2" size="1.016" layer="97" font="vector" align="center-left">153</text>
-<text x="5.08" y="-203.2" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL153</text>
-<text x="1.27" y="-205.74" size="1.016" layer="97" font="vector" align="center-left">154</text>
-<text x="5.08" y="-205.74" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL154</text>
-<text x="29.21" y="-205.74" size="1.016" layer="97" font="vector" rot="R180" align="center-left">155</text>
-<text x="25.4" y="-205.74" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL155</text>
-<text x="29.21" y="-203.2" size="1.016" layer="97" font="vector" rot="R180" align="center-left">156</text>
-<text x="25.4" y="-203.2" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL156</text>
-<text x="29.21" y="-200.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">157</text>
-<text x="25.4" y="-200.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL157</text>
+<text x="29.21" y="-182.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">146</text>
+<text x="25.4" y="-182.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL146</text>
+<text x="1.27" y="-185.42" size="1.016" layer="97" font="vector" align="center-left">147</text>
+<text x="5.08" y="-185.42" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL147</text>
+<text x="29.21" y="-185.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">148</text>
+<text x="25.4" y="-185.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL148</text>
+<text x="1.27" y="-187.96" size="1.016" layer="97" font="vector" align="center-left">149</text>
+<text x="5.08" y="-187.96" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL149</text>
+<text x="29.21" y="-187.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">150</text>
+<text x="25.4" y="-187.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL150</text>
+<text x="1.27" y="-190.5" size="1.016" layer="97" font="vector" align="center-left">151</text>
+<text x="5.08" y="-190.5" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL151</text>
+<text x="29.21" y="-190.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">152</text>
+<text x="25.4" y="-190.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL152</text>
+<text x="1.27" y="-193.04" size="1.016" layer="97" font="vector" align="center-left">153</text>
+<text x="5.08" y="-193.04" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL153</text>
+<text x="29.21" y="-193.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">154</text>
+<text x="25.4" y="-193.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL154</text>
+<text x="1.27" y="-195.58" size="1.016" layer="97" font="vector" align="center-left">155</text>
+<text x="5.08" y="-195.58" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL155</text>
+<text x="29.21" y="-195.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">156</text>
+<text x="25.4" y="-195.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL156</text>
+<text x="1.27" y="-198.12" size="1.016" layer="97" font="vector" align="center-left">157</text>
+<text x="5.08" y="-198.12" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL157</text>
 <text x="29.21" y="-198.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">158</text>
 <text x="25.4" y="-198.12" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL158</text>
-<text x="29.21" y="-195.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">159</text>
-<text x="25.4" y="-195.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL159</text>
-<text x="29.21" y="-193.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">160</text>
-<text x="25.4" y="-193.04" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL160</text>
-<text x="29.21" y="-190.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">161</text>
-<text x="25.4" y="-190.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL161</text>
-<text x="29.21" y="-187.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">162</text>
-<text x="25.4" y="-187.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL162</text>
-<text x="29.21" y="-185.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">163</text>
-<text x="25.4" y="-185.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL163</text>
-<text x="29.21" y="-182.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">164</text>
-<text x="25.4" y="-182.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL164</text>
+<text x="1.27" y="-200.66" size="1.016" layer="97" font="vector" align="center-left">159</text>
+<text x="5.08" y="-200.66" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL159</text>
+<text x="29.21" y="-200.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">160</text>
+<text x="25.4" y="-200.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL160</text>
+<text x="1.27" y="-203.2" size="1.016" layer="97" font="vector" align="center-left">161</text>
+<text x="5.08" y="-203.2" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL161</text>
+<text x="29.21" y="-203.2" size="1.016" layer="97" font="vector" rot="R180" align="center-left">162</text>
+<text x="25.4" y="-203.2" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL162</text>
+<text x="1.27" y="-205.74" size="1.016" layer="97" font="vector" align="center-left">163</text>
+<text x="5.08" y="-205.74" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL163</text>
+<text x="29.21" y="-205.74" size="1.016" layer="97" font="vector" rot="R180" align="center-left">164</text>
+<text x="25.4" y="-205.74" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL164</text>
 <text x="1.27" y="-208.28" size="1.016" layer="97" font="vector" align="center-left">165</text>
 <text x="5.08" y="-208.28" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL165</text>
 <text x="29.21" y="-208.28" size="1.016" layer="97" font="vector" rot="R180" align="center-left">166</text>
@@ -6590,12 +6590,12 @@ Type C</text>
 <text x="25.4" y="-231.14" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL184</text>
 <text x="1.27" y="-233.68" size="1.016" layer="97" font="vector" align="center-left">185</text>
 <text x="5.08" y="-233.68" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL185</text>
-<text x="1.27" y="-236.22" size="1.016" layer="97" font="vector" align="center-left">186</text>
-<text x="5.08" y="-236.22" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL186</text>
-<text x="29.21" y="-236.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">187</text>
-<text x="25.4" y="-236.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL187</text>
-<text x="29.21" y="-233.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">188</text>
-<text x="25.4" y="-233.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL188</text>
+<text x="29.21" y="-233.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">186</text>
+<text x="25.4" y="-233.68" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL186</text>
+<text x="1.27" y="-236.22" size="1.016" layer="97" font="vector" align="center-left">187</text>
+<text x="5.08" y="-236.22" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL187</text>
+<text x="29.21" y="-236.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">188</text>
+<text x="25.4" y="-236.22" size="1.016" layer="97" font="vector" rot="R180" align="center-left">&gt;LABEL188</text>
 <text x="1.27" y="-238.76" size="1.016" layer="97" font="vector" align="center-left">189</text>
 <text x="5.08" y="-238.76" size="1.016" layer="97" font="vector" align="center-left">&gt;LABEL189</text>
 <text x="29.21" y="-238.76" size="1.016" layer="97" font="vector" rot="R180" align="center-left">190</text>
