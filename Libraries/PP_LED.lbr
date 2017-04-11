@@ -392,6 +392,18 @@
 <wire x1="-2.25" y1="1.25" x2="-2.25" y2="-1.25" width="0.127" layer="21"/>
 <text x="2.54" y="2.54" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="PLCC-6">
+<smd name="P$1" x="-2.4" y="2.1" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$2" x="-2.4" y="0" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$3" x="-2.4" y="-2.1" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$4" x="2.4" y="-2.1" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$5" x="2.4" y="0" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="P$6" x="2.4" y="2.1" dx="1.6" dy="2.2" layer="1" rot="R270"/>
+<wire x1="-2.5" y1="3.1" x2="2.5" y2="3.1" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.1" x2="2.5" y2="-3.1" width="0.1" layer="21"/>
+<text x="-4.2" y="2.1" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<text x="-2.54" y="3.6" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED_SINGLE">
@@ -1474,6 +1486,26 @@
 <connect gate="G$1" pin="ANODE" pad="A1 A2"/>
 <connect gate="G$1" pin="CATHODE" pad="C1 C2"/>
 <connect gate="G$1" pin="TP" pad="HS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CLP6C-FKB" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RGB_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PLCC-6" package="PLCC-6">
+<connects>
+<connect gate="G$1" pin="ANODE_BLUE" pad="P$3"/>
+<connect gate="G$1" pin="ANODE_GREEN" pad="P$2"/>
+<connect gate="G$1" pin="ANODE_RED" pad="P$1"/>
+<connect gate="G$1" pin="CATHODE_BLUE" pad="P$4"/>
+<connect gate="G$1" pin="CATHODE_GREEN" pad="P$5"/>
+<connect gate="G$1" pin="CATHODE_RED" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
