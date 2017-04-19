@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2937,6 +2937,34 @@
 <text x="-1.1" y="1.2" size="0.8128" layer="21" font="vector" ratio="16" rot="R45" align="center">1</text>
 <text x="-0.7" y="-0.9" size="0.8128" layer="21" font="vector" ratio="16" rot="R180" align="bottom-right">&gt;NAME</text>
 </package>
+<package name="FSUSB42_MSOP-10">
+<smd name="P$1" x="-2.2" y="1" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$2" x="-2.2" y="0.5" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$3" x="-2.2" y="0" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$4" x="-2.2" y="-0.5" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$5" x="-2.2" y="-1" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$6" x="2.2" y="-1" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$7" x="2.2" y="-0.5" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$8" x="2.2" y="0" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$9" x="2.2" y="0.5" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$10" x="2.2" y="1" dx="1.5" dy="0.3" layer="1" rot="R180"/>
+<wire x1="-3.25" y1="1.5" x2="-1.125" y2="1.5" width="0.1" layer="21"/>
+<wire x1="-1.125" y1="1.5" x2="-0.75" y2="1.5" width="0.1" layer="21"/>
+<wire x1="-0.75" y1="1.5" x2="0.75" y2="1.5" width="0.1" layer="21"/>
+<wire x1="0.75" y1="1.5" x2="1.125" y2="1.5" width="0.1" layer="21"/>
+<wire x1="1.125" y1="1.5" x2="3.25" y2="1.5" width="0.1" layer="21"/>
+<wire x1="3.25" y1="1.5" x2="3.25" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.25" y1="-1.5" x2="1.125" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="1.125" y1="-1.5" x2="-1.125" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="-1.125" y1="-1.5" x2="-3.25" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="-3.25" y1="-1.5" x2="-3.25" y2="1.5" width="0.1" layer="21"/>
+<wire x1="-0.75" y1="1.5" x2="-0.75" y2="1" width="0.1" layer="21"/>
+<wire x1="-0.75" y1="1" x2="0.75" y2="1" width="0.1" layer="21"/>
+<wire x1="0.75" y1="1" x2="0.75" y2="1.5" width="0.1" layer="21"/>
+<text x="-3.75" y="1" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<wire x1="-1.125" y1="1.5" x2="-1.125" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="1.125" y1="1.5" x2="1.125" y2="-1.5" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430G2X53_28PIN">
@@ -4767,6 +4795,34 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="FSUSB42">
+<pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="D-" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="D+" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="SEL" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="!OE" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="HSD2-" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="HSD2+" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="HSD1+" x="15.24" y="-20.32" visible="off" length="short" rot="R180"/>
+<pin name="HSD1-" x="15.24" y="-17.78" visible="off" length="short" rot="R180"/>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">!OE</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">D+</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">D-</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="11.43" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">HSD1+</text>
+<text x="11.43" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">HSD1-</text>
+<text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">HSD2+</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">HSD2-</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">SEL</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<wire x1="0" y1="1.27" x2="12.7" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="-21.59" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-21.59" x2="0" y2="-21.59" width="0.1524" layer="94"/>
+<wire x1="0" y1="-21.59" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MSP430G2553" prefix="U" uservalue="yes">
@@ -6315,6 +6371,30 @@
 <connect gate="G$1" pin="I2C_5V" pad="C1"/>
 <connect gate="G$1" pin="SCL" pad="A3"/>
 <connect gate="G$1" pin="SDA" pad="B3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FSUSB42" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FSUSB42" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MUX" package="FSUSB42_MSOP-10">
+<connects>
+<connect gate="G$1" pin="!OE" pad="P$10"/>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$4"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="HSD1+" pad="P$7"/>
+<connect gate="G$1" pin="HSD1-" pad="P$6"/>
+<connect gate="G$1" pin="HSD2+" pad="P$9"/>
+<connect gate="G$1" pin="HSD2-" pad="P$8"/>
+<connect gate="G$1" pin="SEL" pad="P$2"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
