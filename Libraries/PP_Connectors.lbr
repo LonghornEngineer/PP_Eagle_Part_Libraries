@@ -4063,6 +4063,30 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="7.25" y1="0" x2="7.25" y2="3.34" width="0.127" layer="21"/>
 <text x="-7" y="12" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="1-770967-0">
+<hole x="0" y="5.33" drill="3.86"/>
+<pad name="P$1" x="-4.14" y="12.67" drill="1.4"/>
+<pad name="P$2" x="0" y="12.67" drill="1.4"/>
+<pad name="P$3" x="4.14" y="12.67" drill="1.4"/>
+<wire x1="7" y1="0" x2="-7" y2="0" width="0.127" layer="21"/>
+<wire x1="-7" y1="0" x2="-7" y2="11" width="0.127" layer="21"/>
+<wire x1="7" y1="0" x2="7" y2="11" width="0.127" layer="21"/>
+<text x="-4.14" y="15" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL01</text>
+<text x="0" y="15" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="4.14" y="15" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL03</text>
+<text x="-8" y="11" size="0.8128" layer="25" font="vector" ratio="16" rot="R270" align="center-left">&gt;NAME</text>
+</package>
+<package name="1-770966-0">
+<hole x="0" y="5.33" drill="3.86"/>
+<pad name="P$1" x="-2.07" y="12.67" drill="1.4"/>
+<pad name="P$2" x="2.073" y="12.67" drill="1.4"/>
+<wire x1="-4.93" y1="0" x2="4.93" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.93" y1="0" x2="-4.93" y2="11" width="0.127" layer="21"/>
+<wire x1="4.93" y1="0" x2="4.93" y2="11" width="0.127" layer="21"/>
+<text x="-6" y="11" size="0.8128" layer="25" font="vector" ratio="16" rot="R270" align="center-left">&gt;NAME</text>
+<text x="-2" y="15" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL01</text>
+<text x="2" y="15" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -7268,6 +7292,20 @@ Type C</text>
 </technology>
 </technologies>
 </device>
+<device name="_1-770967-0" package="1-770967-0">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X06" prefix="J" uservalue="yes">
@@ -9563,6 +9601,18 @@ Type C</text>
 <attribute name="POPULATE" value="1" constant="no"/>
 <attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1-770966-0" package="1-770966-0">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
