@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4099,10 +4099,10 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="0" y="-0.635" size="0.254" layer="48" font="vector" align="center">&gt;NAME</text>
 </package>
 <package name="RJHSE-736X">
-<description>Mouser Part #: 	523-RJHSE-7367
-Manufacturer Part #: RJHSE-7367
+<description>Mouser Part #: 	523-RJHSE-5381
+Manufacturer Part #: RJHSE-5381
 Manufacturer: Amphenol Commercial Products
-Description: Ethernet &amp; Telecom Connectors R/A RJ12 SHIELDED 6 CONT G/R LEDS</description>
+Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS</description>
 <wire x1="-8.255" y1="-5.334" x2="8.255" y2="-5.334" width="0.127" layer="51"/>
 <wire x1="8.255" y1="-5.334" x2="8.255" y2="10.414" width="0.127" layer="51"/>
 <wire x1="8.255" y1="10.414" x2="-8.255" y2="10.414" width="0.127" layer="51"/>
@@ -6940,9 +6940,9 @@ Type C</text>
 <pin name="3" x="-2.54" y="-5.08" visible="off" length="short"/>
 <pin name="C1" x="-2.54" y="-7.62" visible="off" length="short"/>
 <pin name="A1" x="-2.54" y="-10.16" visible="off" length="short"/>
-<pin name="6" x="10.16" y="0" visible="off" length="short" rot="R180"/>
-<pin name="5" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="4" x="10.16" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="8" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<pin name="7" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="6" x="10.16" y="-5.08" visible="off" length="short" rot="R180"/>
 <pin name="C0" x="10.16" y="-7.62" visible="off" length="short" rot="R180"/>
 <pin name="A0" x="10.16" y="-10.16" visible="off" length="short" rot="R180"/>
 <wire x1="0" y1="1.27" x2="0" y2="-11.684" width="0.127" layer="94"/>
@@ -11333,12 +11333,12 @@ Type C</text>
 </devices>
 </deviceset>
 <deviceset name="RJ12_SINGLE" prefix="J" uservalue="yes">
-<description>RJ12 Connectors - Single</description>
+<description>RJ45 Connectors - Single</description>
 <gates>
-<gate name="G$1" symbol="RJ12_CONNECTOR_SINGLE" x="0" y="0"/>
+<gate name="G$1" symbol="RJ_CONNECTOR_SINGLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_RJHSE-736X" package="RJHSE-736X">
+<device name="_RJCSE-538X" package="RJCSE-538X">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11346,11 +11346,49 @@ Type C</text>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="A0" pad="12"/>
 <connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="C0" pad="11"/>
+<connect gate="G$1" pin="C1" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_RJHSE-538X" package="RJHSE-538X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="12"/>
 <connect gate="G$1" pin="C0" pad="9"/>
 <connect gate="G$1" pin="C1" pad="11"/>
 </connects>
+<technologies>
+<technology name="">
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="RJHSE-736X">
 <technologies>
 <technology name=""/>
 </technologies>

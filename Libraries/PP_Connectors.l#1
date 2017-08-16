@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -11333,7 +11332,7 @@ Type C</text>
 </devices>
 </deviceset>
 <deviceset name="RJ12_SINGLE" prefix="J" uservalue="yes">
-<description>RJ12 Connectors - Single</description>
+<description>RJ45 Connectors - Single</description>
 <gates>
 <gate name="G$1" symbol="RJ12_CONNECTOR_SINGLE" x="0" y="0"/>
 </gates>
