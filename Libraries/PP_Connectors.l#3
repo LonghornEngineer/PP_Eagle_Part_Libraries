@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -11333,24 +11333,12 @@ Type C</text>
 </devices>
 </deviceset>
 <deviceset name="RJ12_SINGLE" prefix="J" uservalue="yes">
-<description>RJ12 Connectors - Single</description>
+<description>RJ45 Connectors - Single</description>
 <gates>
 <gate name="G$1" symbol="RJ12_CONNECTOR_SINGLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_RJHSE-736X" package="RJHSE-736X">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="A0" pad="12"/>
-<connect gate="G$1" pin="A1" pad="10"/>
-<connect gate="G$1" pin="C0" pad="9"/>
-<connect gate="G$1" pin="C1" pad="11"/>
-</connects>
+<device name="" package="RJHSE-736X">
 <technologies>
 <technology name=""/>
 </technologies>
