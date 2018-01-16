@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="8.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2965,6 +2966,42 @@
 <wire x1="-1.125" y1="1.5" x2="-1.125" y2="-1.5" width="0.1" layer="21"/>
 <wire x1="1.125" y1="1.5" x2="1.125" y2="-1.5" width="0.1" layer="21"/>
 </package>
+<package name="PCM5122_TTSOP-28">
+<smd name="P$1" x="-2.8" y="4.225" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$2" x="-2.8" y="3.575" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$3" x="-2.8" y="2.925" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$4" x="-2.8" y="2.275" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$5" x="-2.8" y="1.625" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$6" x="-2.8" y="0.975" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$7" x="-2.8" y="0.325" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$8" x="-2.8" y="-0.325" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$9" x="-2.8" y="-0.975" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$10" x="-2.8" y="-1.625" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$11" x="-2.8" y="-2.275" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$12" x="-2.8" y="-2.925" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$13" x="-2.8" y="-3.575" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$14" x="-2.8" y="-4.225" dx="0.3" dy="1.6" layer="1" rot="R270"/>
+<smd name="P$15" x="2.8" y="-4.225" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$16" x="2.8" y="-3.575" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$17" x="2.8" y="-2.925" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$18" x="2.8" y="-2.275" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$19" x="2.8" y="-1.625" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$20" x="2.8" y="-0.975" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$21" x="2.8" y="-0.325" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$22" x="2.8" y="0.325" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$23" x="2.8" y="0.975" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$24" x="2.8" y="1.625" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$25" x="2.8" y="2.275" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$26" x="2.8" y="2.925" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$27" x="2.8" y="3.575" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$28" x="2.8" y="4.225" dx="0.3" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-4" y1="4.8" x2="4" y2="4.8" width="0.1524" layer="21"/>
+<wire x1="4" y1="4.8" x2="4" y2="-4.8" width="0.1524" layer="21"/>
+<wire x1="4" y1="-4.8" x2="-4" y2="-4.8" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-4.8" x2="-4" y2="4.8" width="0.1524" layer="21"/>
+<text x="-4.4" y="4.2" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<text x="-4" y="5.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430G2X53_28PIN">
@@ -4823,6 +4860,70 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="PCM512X">
+<pin name="CPVDD" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="CAPP" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="CPGND" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="CAPM" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="VNEG" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="OUTL" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="OUTR" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="AVDD" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="AGND" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="VCOM/DEMP" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="SDA/MOSI/ATT2" x="-2.54" y="-25.4" visible="off" length="short"/>
+<pin name="SCL/MC/ATT1" x="-2.54" y="-27.94" visible="off" length="short"/>
+<pin name="GPIO5/ATT0" x="-2.54" y="-30.48" visible="off" length="short"/>
+<pin name="GPIO4/MAST" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="GPIO3/AGNS" x="30.48" y="-33.02" visible="off" length="short" rot="R180"/>
+<pin name="ADR2/GPIO2/DOUT" x="30.48" y="-30.48" visible="off" length="short" rot="R180"/>
+<pin name="MODE1" x="30.48" y="-27.94" visible="off" length="short" rot="R180"/>
+<pin name="MODE2/MS" x="30.48" y="-25.4" visible="off" length="short" rot="R180"/>
+<pin name="GPIO6/FLT" x="30.48" y="-22.86" visible="off" length="short" rot="R180"/>
+<pin name="SCK" x="30.48" y="-20.32" visible="off" length="short" rot="R180"/>
+<pin name="BCK" x="30.48" y="-17.78" visible="off" length="short" rot="R180"/>
+<pin name="DIN" x="30.48" y="-15.24" visible="off" length="short" rot="R180"/>
+<pin name="LRCK" x="30.48" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="ADR1/MISO/FMT" x="30.48" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="XSMT" x="30.48" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="LDOO" x="30.48" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="DGND" x="30.48" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="DVDD" x="30.48" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="27.94" y2="1.27" width="0.1016" layer="94"/>
+<wire x1="27.94" y1="1.27" x2="27.94" y2="-34.29" width="0.1016" layer="94"/>
+<wire x1="27.94" y1="-34.29" x2="0" y2="-34.29" width="0.1016" layer="94"/>
+<wire x1="0" y1="-34.29" x2="0" y2="1.27" width="0.1016" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<text x="26.67" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">ADR1/MISO/FMT</text>
+<text x="26.67" y="-30.48" size="1.016" layer="97" font="vector" rot="R180" align="center-left">ADR2/GPIO2/DOUT</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">AGND</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">AVDD</text>
+<text x="26.67" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">BCK</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">CAPM</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">CAPP</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">CPGND</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">CPVDD</text>
+<text x="26.67" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">DGND</text>
+<text x="26.67" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">DIN</text>
+<text x="26.67" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">DVDD</text>
+<text x="26.67" y="-33.02" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO3/AGNS</text>
+<text x="1.27" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">GPIO4/MAST</text>
+<text x="1.27" y="-30.48" size="1.016" layer="97" font="vector" align="center-left">GPIO5/ATT0</text>
+<text x="26.67" y="-22.86" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GPIO6/FLT</text>
+<text x="26.67" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">LDOO</text>
+<text x="26.67" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">LRCK</text>
+<text x="26.67" y="-27.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">MODE1</text>
+<text x="26.67" y="-25.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">MODE2/MS</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">OUTL</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">OUTR</text>
+<text x="26.67" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SCK</text>
+<text x="1.27" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">SCL/MC/ATT1</text>
+<text x="1.27" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">SDA/MOSI/ATT2</text>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">VCOM/DEMP</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">VNEG</text>
+<text x="26.67" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">XSMT</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MSP430G2553" prefix="U" uservalue="yes">
@@ -6395,6 +6496,48 @@
 <connect gate="G$1" pin="HSD2-" pad="P$8"/>
 <connect gate="G$1" pin="SEL" pad="P$2"/>
 <connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCM512X" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="PCM512X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCM5122_TTSOP-28">
+<connects>
+<connect gate="G$1" pin="ADR1/MISO/FMT" pad="P$24"/>
+<connect gate="G$1" pin="ADR2/GPIO2/DOUT" pad="P$16"/>
+<connect gate="G$1" pin="AGND" pad="P$9"/>
+<connect gate="G$1" pin="AVDD" pad="P$8"/>
+<connect gate="G$1" pin="BCK" pad="P$21"/>
+<connect gate="G$1" pin="CAPM" pad="P$4"/>
+<connect gate="G$1" pin="CAPP" pad="P$2"/>
+<connect gate="G$1" pin="CPGND" pad="P$3"/>
+<connect gate="G$1" pin="CPVDD" pad="P$1"/>
+<connect gate="G$1" pin="DGND" pad="P$27"/>
+<connect gate="G$1" pin="DIN" pad="P$22"/>
+<connect gate="G$1" pin="DVDD" pad="P$28"/>
+<connect gate="G$1" pin="GPIO3/AGNS" pad="P$15"/>
+<connect gate="G$1" pin="GPIO4/MAST" pad="P$14"/>
+<connect gate="G$1" pin="GPIO5/ATT0" pad="P$13"/>
+<connect gate="G$1" pin="GPIO6/FLT" pad="P$19"/>
+<connect gate="G$1" pin="LDOO" pad="P$26"/>
+<connect gate="G$1" pin="LRCK" pad="P$23"/>
+<connect gate="G$1" pin="MODE1" pad="P$17"/>
+<connect gate="G$1" pin="MODE2/MS" pad="P$18"/>
+<connect gate="G$1" pin="OUTL" pad="P$6"/>
+<connect gate="G$1" pin="OUTR" pad="P$7"/>
+<connect gate="G$1" pin="SCK" pad="P$20"/>
+<connect gate="G$1" pin="SCL/MC/ATT1" pad="P$12"/>
+<connect gate="G$1" pin="SDA/MOSI/ATT2" pad="P$11"/>
+<connect gate="G$1" pin="VCOM/DEMP" pad="P$10"/>
+<connect gate="G$1" pin="VNEG" pad="P$5"/>
+<connect gate="G$1" pin="XSMT" pad="P$25"/>
 </connects>
 <technologies>
 <technology name=""/>
