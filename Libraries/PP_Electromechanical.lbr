@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -658,6 +659,56 @@ Description: Slide Switches DPDT On-On</description>
 <wire x1="0.254" y1="-5.08" x2="-0.254" y2="-5.08" width="0.127" layer="49"/>
 <text x="-6.35" y="6.35" size="1.016" layer="25" font="vector" ratio="16" align="center-left">&gt;NAME</text>
 </package>
+<package name="RKJXT1F42001">
+<pad name="COM" x="-1" y="5.78" drill="1" diameter="1.6764"/>
+<pad name="ENCODER_COM" x="-1.5" y="7.8" drill="1" diameter="1.6764"/>
+<pad name="C" x="1.5" y="7.8" drill="1" diameter="1.6764"/>
+<pad name="D" x="-7.8" y="1.5" drill="1" diameter="1.6764"/>
+<pad name="ENCODER_A" x="-7.8" y="-1.5" drill="1" diameter="1.6764"/>
+<pad name="A" x="-1.5" y="-7.8" drill="1" diameter="1.6764"/>
+<pad name="PUSH" x="1" y="-6.98" drill="1" diameter="1.6764"/>
+<pad name="ENCODER_B" x="7.8" y="1.5" drill="1" diameter="1.6764"/>
+<pad name="B" x="7.8" y="-1.5" drill="1" diameter="1.6764"/>
+<pad name="GND" x="6.86" y="-3.75" drill="1" diameter="1.6764"/>
+<hole x="-3.8" y="-1.5" drill="1.1"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="21"/>
+<polygon width="0.254" layer="21">
+<vertex x="-2.54" y="0"/>
+<vertex x="-1.905" y="0.635"/>
+<vertex x="-1.905" y="-0.635"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="0" y="2.54"/>
+<vertex x="-0.635" y="1.905"/>
+<vertex x="0.635" y="1.905"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="2.54" y="0"/>
+<vertex x="1.905" y="0.635"/>
+<vertex x="1.905" y="-0.635"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="0" y="-2.54"/>
+<vertex x="-0.635" y="-1.905"/>
+<vertex x="0.635" y="-1.905"/>
+</polygon>
+<text x="0" y="3.81" size="1.016" layer="21" font="vector" ratio="14" align="center">A</text>
+<text x="0" y="-3.81" size="1.016" layer="21" font="vector" ratio="14" align="center">C</text>
+<text x="3.81" y="0" size="1.016" layer="21" font="vector" ratio="14" align="center">D</text>
+<text x="-3.81" y="0" size="1.016" layer="21" font="vector" ratio="14" align="center">B</text>
+<wire x1="4.835" y1="-8.5" x2="-4.835" y2="-8.5" width="0.254" layer="21"/>
+<wire x1="-4.835" y1="-8.5" x2="-8.5" y2="-4.835" width="0.254" layer="21"/>
+<wire x1="-8.5" y1="-4.835" x2="-8.5" y2="4.835" width="0.254" layer="21"/>
+<wire x1="-8.5" y1="4.835" x2="-4.835" y2="8.5" width="0.254" layer="21"/>
+<wire x1="-4.835" y1="8.5" x2="4.835" y2="8.5" width="0.254" layer="21"/>
+<wire x1="4.835" y1="8.5" x2="8.5" y2="4.835" width="0.254" layer="21"/>
+<wire x1="8.5" y1="4.835" x2="8.5" y2="-4.835" width="0.254" layer="21"/>
+<wire x1="8.5" y1="-4.835" x2="4.835" y2="-8.5" width="0.254" layer="21"/>
+<text x="6.35" y="8.89" size="1.016" layer="25" font="vector" ratio="14" align="top-left">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DPDT">
@@ -1078,6 +1129,34 @@ Description: Slide Switches DPDT On-On</description>
 <text x="-0.762" y="-3.81" size="1.016" layer="97" font="vector">B</text>
 <text x="-0.762" y="-6.35" size="1.016" layer="97" font="vector">C</text>
 </symbol>
+<symbol name="RKJXT1F42001">
+<pin name="A" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="B" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="C" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="D" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="PUSH" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="GND" x="15.24" y="-25.4" visible="off" length="short" rot="R180"/>
+<pin name="COM" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="EN_COM" x="15.24" y="-17.78" visible="off" length="short" rot="R180"/>
+<pin name="EN_A" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="EN_B" x="-2.54" y="-20.32" visible="off" length="short"/>
+<wire x1="0" y1="1.27" x2="0" y2="-26.67" width="0.1524" layer="94"/>
+<wire x1="0" y1="-26.67" x2="12.7" y2="-26.67" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-26.67" x2="12.7" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">A</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">B</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">C</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">COM</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">D</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">EN_A</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">EN_B</text>
+<text x="11.43" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">EN_COM</text>
+<text x="11.43" y="-25.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">PUSH</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DPDT" prefix="SW" uservalue="yes">
@@ -1428,6 +1507,30 @@ Description: Slide Switches DPDT On-On</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RKJXT1F42001" prefix="J" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RKJXT1F42001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RKJXT1F42001">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="EN_A" pad="ENCODER_A"/>
+<connect gate="G$1" pin="EN_B" pad="ENCODER_B"/>
+<connect gate="G$1" pin="EN_COM" pad="ENCODER_COM"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PUSH" pad="PUSH"/>
 </connects>
 <technologies>
 <technology name=""/>
