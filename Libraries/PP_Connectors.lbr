@@ -3570,7 +3570,7 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-4.47" y1="0.59" x2="-4.47" y2="-7.31" width="0.06" layer="49"/>
 <wire x1="4.47" y1="0.59" x2="4.47" y2="-7.31" width="0.06" layer="49"/>
 <wire x1="-4.47" y1="0.59" x2="4.47" y2="0.59" width="0.06" layer="49"/>
-<text x="4.68" y="-7.13" size="0.6096" layer="49" font="vector" rot="SR0" align="center-left">&lt;- EDGE OF PCB</text>
+<text x="-0.019" y="-6.114" size="0.6096" layer="49" font="vector" align="center">EDGE OF PCB</text>
 <wire x1="-4.47" y1="-1.21" x2="-4.47" y2="-3.9" width="0.06" layer="21"/>
 <wire x1="4.47" y1="-1.21" x2="4.47" y2="-3.9" width="0.06" layer="21"/>
 <wire x1="-4.47" y1="-6.8" x2="-4.47" y2="-7.07" width="0.06" layer="21"/>
@@ -3579,6 +3579,10 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-3.62" y1="0.59" x2="-3.3" y2="0.59" width="0.06" layer="21"/>
 <wire x1="-0.16" y1="0.59" x2="0.16" y2="0.59" width="0.06" layer="21"/>
 <text x="-4.47" y="2.19" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+<wire x1="0" y1="-6.604" x2="0" y2="-7.112" width="0.1524" layer="49"/>
+<wire x1="0" y1="-7.112" x2="-0.254" y2="-6.858" width="0.1524" layer="49"/>
+<wire x1="-0.254" y1="-6.858" x2="0.254" y2="-6.858" width="0.1524" layer="49"/>
+<wire x1="0.254" y1="-6.858" x2="0" y2="-7.112" width="0.1524" layer="49"/>
 </package>
 <package name="30306-6002HB">
 <pad name="1" x="2.54" y="1.27" drill="0.9" shape="square" rot="R180"/>
@@ -6336,9 +6340,9 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <symbol name="USB_TYPE-C">
 <text x="7.62" y="-2.54" size="1.016" layer="97" font="vector" align="center">USB PORT
 Type C</text>
-<wire x1="15.24" y1="0" x2="15.24" y2="-53.34" width="0.127" layer="94"/>
-<wire x1="15.24" y1="-53.34" x2="0" y2="-53.34" width="0.127" layer="94"/>
-<wire x1="0" y1="-53.34" x2="0" y2="0" width="0.127" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-60.96" width="0.127" layer="94"/>
+<wire x1="15.24" y1="-60.96" x2="0" y2="-60.96" width="0.127" layer="94"/>
+<wire x1="0" y1="-60.96" x2="0" y2="0" width="0.127" layer="94"/>
 <wire x1="0" y1="0" x2="15.24" y2="0" width="0.127" layer="94"/>
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
@@ -6380,8 +6384,8 @@ Type C</text>
 <vertex x="6.0325" y="-27.305"/>
 <vertex x="6.0325" y="-27.432" curve="-90"/>
 </polygon>
-<pin name="SHLD" x="17.78" y="-50.8" visible="off" length="short" rot="R180"/>
-<pin name="GND" x="17.78" y="-48.26" visible="off" length="short" rot="R180"/>
+<pin name="SHLD" x="17.78" y="-58.42" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="17.78" y="-55.88" visible="off" length="short" rot="R180"/>
 <pin name="VBUS" x="17.78" y="-5.08" visible="off" length="short" rot="R180"/>
 <pin name="TX1+" x="17.78" y="-10.16" visible="off" length="short" rot="R180"/>
 <pin name="TX1-" x="17.78" y="-12.7" visible="off" length="short" rot="R180"/>
@@ -6393,18 +6397,18 @@ Type C</text>
 <pin name="RX2-" x="17.78" y="-27.94" visible="off" length="short" rot="R180"/>
 <pin name="SBU1" x="17.78" y="-30.48" visible="off" length="short" rot="R180"/>
 <pin name="SBU2" x="17.78" y="-33.02" visible="off" length="short" rot="R180"/>
-<pin name="D+" x="17.78" y="-43.18" visible="off" length="short" rot="R180"/>
-<pin name="D-" x="17.78" y="-40.64" visible="off" length="short" rot="R180"/>
-<text x="13.97" y="-43.18" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D+</text>
-<text x="13.97" y="-40.64" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D-</text>
-<text x="13.97" y="-48.26" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<pin name="D-2" x="17.78" y="-43.18" visible="off" length="short" rot="R180"/>
+<pin name="D-1" x="17.78" y="-40.64" visible="off" length="short" rot="R180"/>
+<text x="13.97" y="-45.72" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D+ 1</text>
+<text x="13.97" y="-40.64" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D- 1</text>
+<text x="13.97" y="-55.88" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
 <text x="13.97" y="-15.24" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RX1+</text>
 <text x="13.97" y="-17.78" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RX1-</text>
 <text x="13.97" y="-25.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RX2+</text>
 <text x="13.97" y="-27.94" size="1.016" layer="97" font="vector" rot="R180" align="center-left">RX2-</text>
 <text x="13.97" y="-30.48" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SBU1</text>
 <text x="13.97" y="-33.02" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SBU2</text>
-<text x="13.97" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SHLD</text>
+<text x="13.97" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SHLD</text>
 <text x="13.97" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TX1+</text>
 <text x="13.97" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TX1-</text>
 <text x="13.97" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TX2+</text>
@@ -6414,6 +6418,10 @@ Type C</text>
 <pin name="CC2" x="17.78" y="-38.1" visible="off" length="short" rot="R180"/>
 <text x="13.97" y="-35.56" size="1.016" layer="97" font="vector" rot="R180" align="center-left">CC1</text>
 <text x="13.97" y="-38.1" size="1.016" layer="97" font="vector" rot="R180" align="center-left">CC2</text>
+<pin name="D+2" x="17.78" y="-48.26" visible="off" length="short" rot="R180"/>
+<pin name="D+1" x="17.78" y="-45.72" visible="off" length="short" rot="R180"/>
+<text x="13.97" y="-43.18" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D- 2</text>
+<text x="13.97" y="-48.26" size="1.016" layer="97" font="vector" rot="R180" align="center-left">D+ 2</text>
 </symbol>
 <symbol name="CON_02X100">
 <pin name="1" x="-2.54" y="0" visible="off" length="short"/>
@@ -11282,8 +11290,10 @@ Type C</text>
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="D+1" pad="A6"/>
+<connect gate="G$1" pin="D+2" pad="B6"/>
+<connect gate="G$1" pin="D-1" pad="A7"/>
+<connect gate="G$1" pin="D-2" pad="B7"/>
 <connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
 <connect gate="G$1" pin="RX1+" pad="B11"/>
 <connect gate="G$1" pin="RX1-" pad="B10"/>
@@ -11312,8 +11322,10 @@ Type C</text>
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="D+1" pad="A6"/>
+<connect gate="G$1" pin="D+2" pad="B6"/>
+<connect gate="G$1" pin="D-1" pad="A7"/>
+<connect gate="G$1" pin="D-2" pad="B7"/>
 <connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
 <connect gate="G$1" pin="RX1+" pad="B11"/>
 <connect gate="G$1" pin="RX1-" pad="B10"/>
