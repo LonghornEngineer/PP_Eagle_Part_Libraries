@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -930,8 +930,8 @@
 <symbol name="IP4234CZ6">
 <pin name="I/O1A" x="-2.54" y="0" visible="off" length="short"/>
 <pin name="GND" x="-2.54" y="-2.54" visible="off" length="short"/>
-<pin name="I/O1B" x="-2.54" y="-5.08" visible="off" length="short"/>
-<pin name="I/O2A" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="I/O1B" x="15.24" y="0" visible="off" length="short" rot="R180"/>
+<pin name="I/O2A" x="-2.54" y="-5.08" visible="off" length="short"/>
 <pin name="VB" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
 <pin name="I/O2B" x="15.24" y="-5.08" visible="off" length="short" rot="R180"/>
 <wire x1="0" y1="1.27" x2="0" y2="-6.35" width="0.1524" layer="94"/>
@@ -942,8 +942,8 @@
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 <text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">I/O1A</text>
 <text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">GND</text>
-<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">I/O1B</text>
-<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">I/O2A</text>
+<text x="11.43" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">I/O1B</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">I/O2A</text>
 <text x="11.43" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">VB</text>
 <text x="11.43" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">I/O2B</text>
 </symbol>
