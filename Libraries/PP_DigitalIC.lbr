@@ -5534,7 +5534,7 @@
 <pin name="PA23/I2C/EIC/SCOM5PAD1/TC4" x="45.72" y="-58.42" visible="pad" length="short" rot="R180"/>
 <pin name="PA22/I2C/EIC/SCOM5PAD0/TC4" x="45.72" y="-55.88" visible="pad" length="short" rot="R180"/>
 <pin name="PA21/EIC/SCOM5PAD3" x="45.72" y="-53.34" visible="pad" length="short" rot="R180"/>
-<pin name="PA20/EIC/SCOM5PAD2" x="45.72" y="-50.8" visible="off" length="short" rot="R180"/>
+<pin name="PA20/EIC/SCOM5PAD2" x="45.72" y="-50.8" visible="pad" length="short" rot="R180"/>
 <pin name="PA19/EIC/SCOM1PAD3/TC3" x="45.72" y="-48.26" visible="pad" length="short" rot="R180"/>
 <pin name="PA18/EIC/SCOM1PAD2/TC3" x="45.72" y="-45.72" visible="pad" length="short" rot="R180"/>
 <pin name="PA17/I2C/EIC/SCOM1PAD1/TC2" x="45.72" y="-43.18" visible="pad" length="short" rot="R180"/>
