@@ -4375,6 +4375,39 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="-5.08" y="0" size="0.8128" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
 <text x="0" y="2.54" size="0.6096" layer="21" font="vector" ratio="16" rot="SR0" align="center">WIRE SIDE</text>
 </package>
+<package name="M20-8750342">
+<text x="-3.826" y="-1.27" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">&gt;NAME</text>
+<smd name="1" x="-2.54" y="-2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<smd name="3" x="0" y="-2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<smd name="5" x="2.54" y="-2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<smd name="6" x="2.54" y="2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<smd name="4" x="0" y="2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<smd name="2" x="-2.54" y="2.54" dx="1" dy="3.15" layer="1" roundness="100"/>
+<hole x="-1.27" y="0" drill="2"/>
+<hole x="1.27" y="0" drill="2"/>
+<text x="-2.54" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL01</text>
+<text x="-2.54" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="0" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
+<text x="0" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
+<text x="2.54" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
+<text x="2.54" y="5.08" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
+</package>
+<package name="ST7789_CONNECTOR">
+<smd name="P$1" x="-3.85" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$2" x="-3.15" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$3" x="-2.45" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$4" x="-1.75" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$5" x="-1.05" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$6" x="-0.35" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$7" x="0.35" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$8" x="1.05" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$9" x="1.75" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$10" x="2.45" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$11" x="3.15" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<smd name="P$12" x="3.85" y="0" dx="0.35" dy="3" layer="1" cream="no"/>
+<text x="-4.9" y="0" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<text x="5.25" y="0" size="0.8128" layer="21" font="vector" ratio="16" align="center">12</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CON_01X04">
@@ -9169,6 +9202,25 @@ Type C</text>
 </technology>
 </technologies>
 </device>
+<device name="_ST7789_CONNECTOR" package="ST7789_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_02X12" prefix="J" uservalue="yes">
@@ -11001,6 +11053,28 @@ Type C</text>
 <attribute name="POPULATE" value="1" constant="no"/>
 <attribute name="URL" value="" constant="no"/>
 <attribute name="VALUE" value="30306-6002HB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_M20-8750342" package="M20-8750342">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1"/>
+<connect gate="G$1" pin="PIN2" pad="2"/>
+<connect gate="G$1" pin="PIN3" pad="3"/>
+<connect gate="G$1" pin="PIN4" pad="4"/>
+<connect gate="G$1" pin="PIN5" pad="5"/>
+<connect gate="G$1" pin="PIN6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
