@@ -3337,10 +3337,6 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-3.175" y1="-1.7018" x2="-3.175" y2="1.7018" width="0.127" layer="21"/>
 <wire x1="-3.175" y1="1.7018" x2="3.175" y2="1.7018" width="0.127" layer="21"/>
 <text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16" align="center">&gt;NAME</text>
-<wire x1="-3.175" y1="1.7018" x2="3.175" y2="1.7018" width="0.127" layer="22"/>
-<wire x1="-3.175" y1="-1.7018" x2="-3.175" y2="1.7018" width="0.127" layer="22"/>
-<wire x1="3.175" y1="-1.7018" x2="-3.175" y2="-1.7018" width="0.127" layer="22"/>
-<wire x1="3.175" y1="1.7018" x2="3.175" y2="-1.7018" width="0.127" layer="22"/>
 <text x="-4.064" y="-0.635" size="0.8128" layer="21" font="vector" ratio="16" align="center-left">1</text>
 </package>
 <package name="0908-4-15-20-75-14-11-0">
