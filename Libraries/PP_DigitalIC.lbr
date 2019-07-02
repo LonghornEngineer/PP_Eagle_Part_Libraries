@@ -3386,6 +3386,36 @@
 <text x="-3.9" y="2.6" size="0.6096" layer="21" font="vector" ratio="16" align="center">1</text>
 <text x="-3.575" y="4.225" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
 </package>
+<package name="SN74HC595_TSSOP-16">
+<smd name="P$1" x="-2.4" y="2.275" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$2" x="-2.4" y="1.625" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$3" x="-2.4" y="0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$4" x="-2.4" y="0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$5" x="-2.4" y="-0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$6" x="-2.4" y="-0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$7" x="-2.4" y="-1.625" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$8" x="-2.4" y="-2.275" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$9" x="2.4" y="-2.275" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$10" x="2.4" y="-1.625" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$11" x="2.4" y="-0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$12" x="2.4" y="-0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$13" x="2.4" y="0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$14" x="2.4" y="0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$15" x="2.4" y="1.625" dx="1.5" dy="0.45" layer="1"/>
+<smd name="P$16" x="2.4" y="2.275" dx="1.5" dy="0.45" layer="1"/>
+<wire x1="-3.575" y1="2.925" x2="3.575" y2="2.925" width="0.1524" layer="21"/>
+<wire x1="3.575" y1="2.925" x2="3.575" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="3.575" y1="-2.925" x2="-3.575" y2="-2.925" width="0.1524" layer="21"/>
+<wire x1="-3.575" y1="-2.925" x2="-3.575" y2="2.925" width="0.1524" layer="21"/>
+<polygon width="0.1524" layer="21">
+<vertex x="-0.975" y="2.925"/>
+<vertex x="-0.975" y="2.275"/>
+<vertex x="0.975" y="2.275"/>
+<vertex x="0.975" y="2.925"/>
+</polygon>
+<text x="-3.9" y="2.6" size="0.6096" layer="21" font="vector" ratio="16" align="center">1</text>
+<text x="-3.575" y="4.225" size="0.8128" layer="25" font="vector" ratio="16" align="top-left">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430G2X53_28PIN">
@@ -3696,14 +3726,14 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 <text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
-<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">SHCP</text>
-<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">STCP</text>
-<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">DS</text>
-<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">MR</text>
-<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">OE</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">SRCLK</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">RCLK</text>
+<text x="1.27" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">SER</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">!SRCLR</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">!OE</text>
 <text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">GND</text>
 <text x="8.89" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">Q1</text>
-<text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">Q7S</text>
+<text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!Q7</text>
 <text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">Q0</text>
 <text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">Q2</text>
 <text x="8.89" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">Q3</text>
@@ -7587,6 +7617,36 @@
 <connect gate="G$1" pin="QH" pad="P$9"/>
 <connect gate="G$1" pin="QH'" pad="P$7"/>
 <connect gate="G$1" pin="SER" pad="P$10"/>
+<connect gate="G$1" pin="VCC" pad="P$16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SN74HC595" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="74HC595" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PWR" package="SN74HC595_TSSOP-16">
+<connects>
+<connect gate="G$1" pin="DS" pad="P$14"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="MR" pad="P$10"/>
+<connect gate="G$1" pin="OE" pad="P$13"/>
+<connect gate="G$1" pin="Q0" pad="P$15"/>
+<connect gate="G$1" pin="Q1" pad="P$1"/>
+<connect gate="G$1" pin="Q2" pad="P$2"/>
+<connect gate="G$1" pin="Q3" pad="P$3"/>
+<connect gate="G$1" pin="Q4" pad="P$4"/>
+<connect gate="G$1" pin="Q5" pad="P$5"/>
+<connect gate="G$1" pin="Q6" pad="P$6"/>
+<connect gate="G$1" pin="Q7" pad="P$7"/>
+<connect gate="G$1" pin="Q7S" pad="P$9"/>
+<connect gate="G$1" pin="SHCP" pad="P$11"/>
+<connect gate="G$1" pin="STCP" pad="P$12"/>
 <connect gate="G$1" pin="VCC" pad="P$16"/>
 </connects>
 <technologies>

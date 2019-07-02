@@ -887,6 +887,15 @@
 <wire x1="-0.762" y1="2.032" x2="0.762" y2="2.032" width="0.1524" layer="21"/>
 <wire x1="-0.762" y1="-2.032" x2="0.762" y2="-2.032" width="0.1524" layer="21"/>
 </package>
+<package name="LITTLEFUSE_658">
+<smd name="P$1" x="-8.5" y="0" dx="6" dy="6" layer="1"/>
+<smd name="P$2" x="8.5" y="0" dx="6" dy="6" layer="1"/>
+<wire x1="-12" y1="6" x2="12" y2="6" width="0.1524" layer="21"/>
+<wire x1="12" y1="6" x2="12" y2="-6" width="0.1524" layer="21"/>
+<wire x1="12" y1="-6" x2="-12" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-12" y1="-6" x2="-12" y2="6" width="0.1524" layer="21"/>
+<text x="-12" y="6.35" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -1816,6 +1825,15 @@ Description: ESD Suppressors 2-Channel ESD&lt;br/&gt;</description>
 </technologies>
 </device>
 <device name="_4628" package="4628">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_658" package="LITTLEFUSE_658">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
