@@ -3429,6 +3429,22 @@
 <text x="-1.869" y="1.484" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 <text x="-2.413" y="0.635" size="1.016" layer="21" font="vector" ratio="16" align="center">1</text>
 </package>
+<package name="DS1340Z_USOP">
+<smd name="7" x="2.5" y="0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="6" x="2.5" y="-0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="5" x="2.5" y="-0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="8" x="2.5" y="0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="1" x="-2.5" y="0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="2" x="-2.5" y="0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="3" x="-2.5" y="-0.325" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<smd name="4" x="-2.5" y="-0.975" dx="0.4" dy="1.2" layer="1" rot="R270"/>
+<wire x1="3.4" y1="1.5" x2="3.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-1.5" x2="-3.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-1.5" x2="-3.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="1.5" x2="3.4" y2="1.5" width="0.127" layer="21"/>
+<text x="-3.4" y="1.73" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<text x="-3.8" y="1" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MSP430G2X53_28PIN">
@@ -6609,6 +6625,21 @@
 </gates>
 <devices>
 <device name="-33+" package="DS1340Z_SOIC-8">
+<connects>
+<connect gate="G$1" pin="FT/OUT" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="V_BACK" pad="3"/>
+<connect gate="G$1" pin="X1" pad="1"/>
+<connect gate="G$1" pin="X2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U-33+" package="DS1340Z_USOP">
 <connects>
 <connect gate="G$1" pin="FT/OUT" pad="7"/>
 <connect gate="G$1" pin="SCL" pad="6"/>
