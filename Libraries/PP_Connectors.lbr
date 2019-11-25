@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4789,6 +4789,56 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="6.55" y1="3.05" x2="11.5" y2="3.05" width="0.1524" layer="49"/>
 <wire x1="11.5" y1="3.05" x2="11.5" y2="-3.05" width="0.1524" layer="49"/>
 <wire x1="11.5" y1="-3.05" x2="6.55" y2="-3.05" width="0.1524" layer="49"/>
+</package>
+<package name="KEYSTONE_1020">
+<smd name="P$1" x="-27.5717" y="0" dx="5.08" dy="6.35" layer="1" rot="R90"/>
+<smd name="P$2" x="27.5717" y="0" dx="5.08" dy="6.35" layer="1" rot="R90"/>
+<hole x="-24.3967" y="5.3086" drill="1.9812"/>
+<wire x1="-31.75" y1="6.35" x2="31.75" y2="6.35" width="0.127" layer="21"/>
+<wire x1="31.75" y1="6.35" x2="31.75" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="31.75" y1="-6.35" x2="-31.75" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="-6.35" x2="-31.75" y2="6.35" width="0.127" layer="21"/>
+<text x="-20.32" y="0" size="6.4516" layer="21" font="vector" align="center">+</text>
+<text x="21.59" y="0" size="6.4516" layer="21" font="vector" align="center">-</text>
+<text x="0" y="0" size="2.54" layer="21" font="vector" align="center">AAA BATTERY</text>
+<text x="-31.75" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="SSM-103-F-DV">
+<smd name="P$1" x="-2.54" y="-2.667" dx="1.27" dy="3.81" layer="1"/>
+<smd name="P$2" x="-2.54" y="2.667" dx="1.27" dy="3.81" layer="1"/>
+<smd name="P$3" x="0" y="-2.667" dx="1.27" dy="3.81" layer="1"/>
+<smd name="P$4" x="0" y="2.667" dx="1.27" dy="3.81" layer="1"/>
+<smd name="P$5" x="2.54" y="-2.667" dx="1.27" dy="3.81" layer="1"/>
+<smd name="P$6" x="2.54" y="2.667" dx="1.27" dy="3.81" layer="1"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<text x="-3.81" y="-3.81" size="1.016" layer="21" ratio="16" rot="R180" align="center">1</text>
+<text x="-2.54" y="-5.334" size="1.27" layer="21" ratio="16" rot="R270" align="center-left">&gt;LABEL01</text>
+<text x="-2.54" y="5.334" size="1.27" layer="21" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="0" y="-5.334" size="1.27" layer="21" ratio="16" rot="R270" align="center-left">&gt;LABEL03</text>
+<text x="0" y="5.334" size="1.27" layer="21" ratio="16" rot="R90" align="center-left">&gt;LABEL04</text>
+<text x="2.54" y="-5.334" size="1.27" layer="21" ratio="16" rot="R270" align="center-left">&gt;LABEL05</text>
+<text x="2.54" y="5.334" size="1.27" layer="21" ratio="16" rot="R90" align="center-left">&gt;LABEL06</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.27" y="-2.54"/>
+<vertex x="-1.27" y="-4.953"/>
+<vertex x="-0.889" y="-4.953"/>
+<vertex x="-0.889" y="-2.54"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="0.889" y="-2.54"/>
+<vertex x="0.889" y="-4.953"/>
+<vertex x="1.27" y="-4.953"/>
+<vertex x="1.27" y="-2.54"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="-0.889" y="-4.953"/>
+<vertex x="0.889" y="-4.953"/>
+<vertex x="0.889" y="-4.826"/>
+<vertex x="-0.889" y="-4.826"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -10158,6 +10208,15 @@ Type C</text>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_KEYSTONE_1020" package="KEYSTONE_1020">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X30" prefix="J" uservalue="yes">
@@ -11824,6 +11883,27 @@ Type C</text>
 <attribute name="LABEL06" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SSM-103-F-DV" package="SSM-103-F-DV">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+<connect gate="G$1" pin="PIN4" pad="P$4"/>
+<connect gate="G$1" pin="PIN5" pad="P$5"/>
+<connect gate="G$1" pin="PIN6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+<attribute name="MPN" value="SSM-103-F-DV-BE " constant="no"/>
 </technology>
 </technologies>
 </device>
