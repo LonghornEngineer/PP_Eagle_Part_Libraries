@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1319,6 +1319,24 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="ACS70331EESATR">
+<pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="VIOUT" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="IP+" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="IP-" x="12.7" y="-20.32" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-24.13" width="0.15" layer="94"/>
+<wire x1="0" y1="-24.13" x2="10.16" y2="-24.13" width="0.15" layer="94"/>
+<wire x1="10.16" y1="-24.13" x2="10.16" y2="1.27" width="0.15" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="0" y2="1.27" width="0.15" layer="94"/>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IP+</text>
+<text x="8.89" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IP-</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">VIOUT</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP970(0/1)" prefix="U" uservalue="yes">
@@ -1767,6 +1785,28 @@
 <technology name="">
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS70331EESATR" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ACS70331EESATR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-005B3" package="ACS711KEXLT_EX-12">
+<connects>
+<connect gate="G$1" pin="GND" pad="5 6 8 9 11"/>
+<connect gate="G$1" pin="IP+" pad="1/2"/>
+<connect gate="G$1" pin="IP-" pad="3/4"/>
+<connect gate="G$1" pin="VCC" pad="12"/>
+<connect gate="G$1" pin="VIOUT" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="
+ACS70331EESATR-005B3" constant="no"/>
 </technology>
 </technologies>
 </device>

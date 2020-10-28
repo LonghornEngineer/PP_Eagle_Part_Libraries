@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -327,6 +327,28 @@
 <wire x1="-6.2" y1="-13.7" x2="6.2" y2="-13.7" width="0.127" layer="21"/>
 <text x="-6.2" y="5.6" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="TO-252-3_EASY_REWORK">
+<smd name="3" x="2.28" y="-4.6" dx="2.2" dy="1.2" layer="1" rot="R270"/>
+<smd name="1" x="-2.28" y="-4.6" dx="2.2" dy="1.2" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="1.7" dx="6.4" dy="5.8" layer="1" rot="R270"/>
+<wire x1="3.5" y1="-6.1" x2="3.5" y2="5.4" width="0.127" layer="21"/>
+<wire x1="3.5" y1="5.4" x2="-3.5" y2="5.4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="5.4" x2="-3.5" y2="-6.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-6.1" x2="3.5" y2="-6.1" width="0.127" layer="21"/>
+<text x="-3.5" y="5.725" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.1524" layer="1">
+<vertex x="-3.048" y="-2.794"/>
+<vertex x="-1.27" y="-2.794"/>
+<vertex x="-1.27" y="-6.858"/>
+<vertex x="-3.048" y="-6.858"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="1.27" y="-2.794"/>
+<vertex x="3.048" y="-2.794"/>
+<vertex x="3.048" y="-6.858"/>
+<vertex x="1.27" y="-6.858"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN_BJT">
@@ -582,6 +604,16 @@
 </technologies>
 </device>
 <device name="_D2PAK" package="D2PAK">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="PAD"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TO-252-3_EASY_REWORK" package="TO-252-3_EASY_REWORK">
 <connects>
 <connect gate="G$1" pin="DRAIN" pad="PAD"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
