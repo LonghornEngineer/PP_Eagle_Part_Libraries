@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -349,6 +349,116 @@
 <vertex x="1.27" y="-6.858"/>
 </polygon>
 </package>
+<package name="SOT-669">
+<smd name="P$1" x="-1.905" y="-2.725" dx="0.7" dy="1.15" layer="1" rot="R180"/>
+<smd name="P$2" x="-0.635" y="-2.725" dx="0.7" dy="1.15" layer="1" rot="R180"/>
+<smd name="P$3" x="0.635" y="-2.725" dx="0.7" dy="1.15" layer="1" rot="R180"/>
+<smd name="P$4" x="1.905" y="-2.725" dx="0.7" dy="1.15" layer="1" rot="R180"/>
+<smd name="P$5" x="0" y="0" dx="0.7" dy="1.15" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-2.35" y="3.5"/>
+<vertex x="2.35" y="3.5"/>
+<vertex x="2.35" y="2"/>
+<vertex x="2.1" y="2"/>
+<vertex x="2.1" y="-1.1"/>
+<vertex x="-2.1" y="-1.1"/>
+<vertex x="-2.1" y="2"/>
+<vertex x="-2.35" y="2"/>
+</polygon>
+<wire x1="-2.75" y1="3.9" x2="2.75" y2="3.9" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="3.9" x2="2.75" y2="-3.6" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="-3.6" x2="-2.75" y2="-3.6" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-3.6" x2="-2.75" y2="3.9" width="0.1524" layer="21"/>
+<text x="-2.75" y="4.1275" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<polygon width="0.1524" layer="29">
+<vertex x="-2.4" y="3.55"/>
+<vertex x="2.4" y="3.55"/>
+<vertex x="2.4" y="1.95"/>
+<vertex x="2.15" y="1.95"/>
+<vertex x="2.15" y="-1.15"/>
+<vertex x="-2.15" y="-1.15"/>
+<vertex x="-2.15" y="1.95"/>
+<vertex x="-2.4" y="1.95"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.47625" y="-0.47625"/>
+<vertex x="-0.47625" y="-0.9525"/>
+<vertex x="0.47625" y="-0.9525"/>
+<vertex x="0.47625" y="-0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.74625" y="-0.47625"/>
+<vertex x="-1.74625" y="-0.9525"/>
+<vertex x="-0.9525" y="-0.9525"/>
+<vertex x="-0.9525" y="-0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.9525" y="-0.47625"/>
+<vertex x="0.9525" y="-0.9525"/>
+<vertex x="1.74625" y="-0.9525"/>
+<vertex x="1.74625" y="-0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.47625" y="0.47625"/>
+<vertex x="-0.47625" y="0"/>
+<vertex x="0.47625" y="0"/>
+<vertex x="0.47625" y="0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.47625" y="1.42875"/>
+<vertex x="-0.47625" y="0.9525"/>
+<vertex x="0.47625" y="0.9525"/>
+<vertex x="0.47625" y="1.42875"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.9525" y="0.47625"/>
+<vertex x="0.9525" y="0"/>
+<vertex x="1.74625" y="0"/>
+<vertex x="1.74625" y="0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.9525" y="1.42875"/>
+<vertex x="0.9525" y="0.9525"/>
+<vertex x="1.74625" y="0.9525"/>
+<vertex x="1.74625" y="1.42875"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.74625" y="0.47625"/>
+<vertex x="-1.74625" y="0"/>
+<vertex x="-0.9525" y="0"/>
+<vertex x="-0.9525" y="0.47625"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.74625" y="1.42875"/>
+<vertex x="-1.74625" y="0.9525"/>
+<vertex x="-0.9525" y="0.9525"/>
+<vertex x="-0.9525" y="1.42875"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-2.2225" y="2.413"/>
+<vertex x="-1.5875" y="2.413"/>
+<vertex x="-1.5875" y="3.3655"/>
+<vertex x="-2.2225" y="3.3655"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.9525" y="2.413"/>
+<vertex x="-0.3175" y="2.413"/>
+<vertex x="-0.3175" y="3.3655"/>
+<vertex x="-0.9525" y="3.3655"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.3175" y="2.413"/>
+<vertex x="0.9525" y="2.413"/>
+<vertex x="0.9525" y="3.3655"/>
+<vertex x="0.3175" y="3.3655"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="1.5875" y="2.413"/>
+<vertex x="2.2225" y="2.413"/>
+<vertex x="2.2225" y="3.3655"/>
+<vertex x="1.5875" y="3.3655"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN_BJT">
@@ -618,6 +728,16 @@
 <connect gate="G$1" pin="DRAIN" pad="PAD"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
 <connect gate="G$1" pin="SOURCE" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SOT-669" package="SOT-669">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="P$5"/>
+<connect gate="G$1" pin="GATE" pad="P$4"/>
+<connect gate="G$1" pin="SOURCE" pad="P$1 P$2 P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
