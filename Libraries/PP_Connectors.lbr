@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4882,6 +4882,18 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-4.3" y1="-1.25" x2="-4.7" y2="-1.65" width="0.1524" layer="20" curve="-90"/>
 <wire x1="-4.7" y1="-1.65" x2="-5.7" y2="-1.65" width="0.1524" layer="20"/>
 <wire x1="-5.7" y1="-1.65" x2="-6.1" y2="-1.25" width="0.1524" layer="20" curve="-90"/>
+</package>
+<package name="7693">
+<pad name="P$1" x="-2.5" y="3.5" drill="1.85" shape="octagon"/>
+<pad name="P$2" x="2.5" y="3.5" drill="1.85" shape="octagon"/>
+<pad name="P$3" x="2.5" y="-3.5" drill="1.85" shape="octagon"/>
+<pad name="P$4" x="-2.5" y="-3.5" drill="1.85" shape="octagon"/>
+<wire x1="-4.455" y1="5.725" x2="4.455" y2="5.725" width="0.1524" layer="21"/>
+<wire x1="4.455" y1="5.725" x2="4.455" y2="-5.725" width="0.1524" layer="21"/>
+<wire x1="4.455" y1="-5.725" x2="-4.455" y2="-5.725" width="0.1524" layer="21"/>
+<wire x1="-4.455" y1="-5.725" x2="-4.455" y2="5.725" width="0.1524" layer="21"/>
+<text x="-4.455" y="6.35" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="21" font="vector" ratio="16" align="center-left">&gt;LABEL01</text>
 </package>
 </packages>
 <symbols>
@@ -12807,6 +12819,18 @@ Type C</text>
 <technologies>
 <technology name="">
 <attribute name="LABEL01" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_7693" package="7693">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1 P$2 P$3 P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
 </technology>
 </technologies>
 </device>
