@@ -930,6 +930,15 @@
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
 <text x="-5.08" y="3.175" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="XPL2010">
+<smd name="P$1" x="-0.675" y="0" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="0.675" y="0" dx="1.8" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-1.1" y1="1" x2="1.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="1.1" y1="1" x2="1.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="1.1" y1="-1" x2="-1.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-1.1" y1="-1" x2="-1.1" y2="1" width="0.1016" layer="21"/>
+<text x="-1.1" y="1.2" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -1681,6 +1690,15 @@
 </technologies>
 </device>
 <device name="_SDR0403" package="SDR0403">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_XPL2010" package="XPL2010">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
