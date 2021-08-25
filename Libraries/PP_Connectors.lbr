@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4894,6 +4894,20 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="-4.455" y1="-5.725" x2="-4.455" y2="5.725" width="0.1524" layer="21"/>
 <text x="-4.455" y="6.35" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="5.08" y="0" size="0.8128" layer="21" font="vector" ratio="16" align="center-left">&gt;LABEL01</text>
+</package>
+<package name="TBL009-254-02GY-2GY">
+<pad name="1A" x="0" y="0" drill="1"/>
+<pad name="1B" x="0" y="5.08" drill="1"/>
+<pad name="2A" x="2.54" y="0" drill="1"/>
+<pad name="2B" x="2.54" y="5.08" drill="1"/>
+<wire x1="-3.2" y1="6.53" x2="3.38" y2="6.53" width="0.1524" layer="21"/>
+<wire x1="3.38" y1="6.53" x2="3.38" y2="-9.27" width="0.1524" layer="21"/>
+<wire x1="3.38" y1="-9.27" x2="-3.2" y2="-9.27" width="0.1524" layer="21"/>
+<wire x1="-3.2" y1="-9.27" x2="-3.2" y2="6.53" width="0.1524" layer="21"/>
+<text x="-2.54" y="7.595" size="0.8128" layer="25" font="vector" ratio="16" rot="R90" align="center-left">&gt;NAME</text>
+<text x="0" y="7.62" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL01</text>
+<text x="2.54" y="7.62" size="0.8128" layer="21" font="vector" ratio="16" rot="R90" align="center-left">&gt;LABEL02</text>
+<text x="0" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16" align="center">^ENTRY^</text>
 </package>
 </packages>
 <symbols>
@@ -10908,6 +10922,19 @@ Type C</text>
 <technology name="">
 <attribute name="LABEL01" value="" constant="no"/>
 <attribute name="LABEL02" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TBL009-254-02GY-2GY" package="TBL009-254-02GY-2GY">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="1A 1B"/>
+<connect gate="G$1" pin="PIN2" pad="2A 2B"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="MPN" value="TBL009-254-02GY-2GY" constant="no"/>
 </technology>
 </technologies>
 </device>
