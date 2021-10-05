@@ -1992,7 +1992,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC2986HLX">
+<deviceset name="LTC2986HLX" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="LTC2986HLX" x="0" y="0"/>
 </gates>
