@@ -3639,32 +3639,32 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <pad name="B11" x="-2.4" y="-1.35" drill="0.4" diameter="0.654"/>
 <pad name="B12" x="-2.8" y="-0.65" drill="0.4" diameter="0.654"/>
 <hole x="-3.6" y="0" drill="0.65"/>
-<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.24" y1="-6" x2="4.24" y2="-5.4" width="0.025" layer="46"/>
-<wire x1="4.24" y1="-5.4" x2="4.49" y2="-5.15" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.74" y1="-5.4" x2="4.74" y2="-6" width="0.025" layer="46"/>
-<wire x1="4.74" y1="-6" x2="4.49" y2="-6.25" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.74" y1="-5.4" x2="-4.49" y2="-5.15" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.49" y1="-5.15" x2="-4.24" y2="-5.4" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.74" y1="-6" x2="-4.74" y2="-5.4" width="0.025" layer="46"/>
-<wire x1="-4.24" y1="-5.4" x2="-4.24" y2="-6" width="0.025" layer="46"/>
-<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.49" y1="-6.25" x2="-4.74" y2="-6" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.24" y1="-6" x2="-4.49" y2="-6.25" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.13" y1="-1.8" x2="-4.38" y2="-1.55" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.38" y1="-0.95" x2="-4.13" y2="-0.7" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.13" y1="-0.7" x2="-3.88" y2="-0.95" width="0.025" layer="46" curve="-90"/>
-<wire x1="-3.88" y1="-0.95" x2="-3.88" y2="-1.55" width="0.025" layer="46"/>
-<wire x1="-3.88" y1="-1.55" x2="-4.13" y2="-1.8" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.13" y1="-0.7" x2="4.38" y2="-0.95" width="0.025" layer="46" curve="-90"/>
-<wire x1="3.88" y1="-0.95" x2="4.13" y2="-0.7" width="0.025" layer="46" curve="-90"/>
-<wire x1="-4.38" y1="-1.55" x2="-4.38" y2="-0.95" width="0.025" layer="46"/>
-<wire x1="3.88" y1="-1.55" x2="3.88" y2="-0.95" width="0.025" layer="46"/>
-<wire x1="4.38" y1="-0.95" x2="4.38" y2="-1.55" width="0.025" layer="46"/>
-<wire x1="4.38" y1="-1.55" x2="4.13" y2="-1.8" width="0.025" layer="46" curve="-90"/>
-<wire x1="4.13" y1="-1.8" x2="3.88" y2="-1.55" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.24" y1="-6" x2="4.24" y2="-5.4" width="0.025" layer="20"/>
+<wire x1="4.24" y1="-5.4" x2="4.49" y2="-5.15" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.74" y1="-5.4" x2="4.74" y2="-6" width="0.025" layer="20"/>
+<wire x1="4.74" y1="-6" x2="4.49" y2="-6.25" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.74" y1="-5.4" x2="-4.49" y2="-5.15" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.49" y1="-5.15" x2="4.74" y2="-5.4" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.49" y1="-5.15" x2="-4.24" y2="-5.4" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.74" y1="-6" x2="-4.74" y2="-5.4" width="0.025" layer="20"/>
+<wire x1="-4.24" y1="-5.4" x2="-4.24" y2="-6" width="0.025" layer="20"/>
+<wire x1="4.49" y1="-6.25" x2="4.24" y2="-6" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.49" y1="-6.25" x2="-4.74" y2="-6" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.24" y1="-6" x2="-4.49" y2="-6.25" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.13" y1="-1.8" x2="-4.38" y2="-1.55" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.38" y1="-0.95" x2="-4.13" y2="-0.7" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.13" y1="-0.7" x2="-3.88" y2="-0.95" width="0.025" layer="20" curve="-90"/>
+<wire x1="-3.88" y1="-0.95" x2="-3.88" y2="-1.55" width="0.025" layer="20"/>
+<wire x1="-3.88" y1="-1.55" x2="-4.13" y2="-1.8" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.13" y1="-0.7" x2="4.38" y2="-0.95" width="0.025" layer="20" curve="-90"/>
+<wire x1="3.88" y1="-0.95" x2="4.13" y2="-0.7" width="0.025" layer="20" curve="-90"/>
+<wire x1="-4.38" y1="-1.55" x2="-4.38" y2="-0.95" width="0.025" layer="20"/>
+<wire x1="3.88" y1="-1.55" x2="3.88" y2="-0.95" width="0.025" layer="20"/>
+<wire x1="4.38" y1="-0.95" x2="4.38" y2="-1.55" width="0.025" layer="20"/>
+<wire x1="4.38" y1="-1.55" x2="4.13" y2="-1.8" width="0.025" layer="20" curve="-90"/>
+<wire x1="4.13" y1="-1.8" x2="3.88" y2="-1.55" width="0.025" layer="20" curve="-90"/>
 <wire x1="-4.825" y1="-8.55" x2="4.825" y2="-8.55" width="0.127" layer="21"/>
 <wire x1="4.825" y1="-8.55" x2="4.825" y2="-6.7" width="0.127" layer="21"/>
 <wire x1="4.825" y1="-4.7" x2="4.825" y2="1.65" width="0.127" layer="21"/>
@@ -4941,45 +4941,6 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <text x="8.572" y="4.065" size="0.8128" layer="21" ratio="16" rot="SR270" align="center">2</text>
 <text x="-8.446" y="4.047" size="0.8128" layer="21" ratio="16" rot="SR270" align="center">16</text>
 <text x="-8.445" y="-4.208" size="0.8128" layer="21" ratio="16" rot="SR270" align="center">15</text>
-</package>
-<package name="SR99S01VB">
-<pad name="P$1" x="0" y="0" drill="1.5" shape="long" rot="R90"/>
-<pad name="P$2" x="7.5" y="0" drill="1.5" shape="long" rot="R90"/>
-<wire x1="-3.05" y1="2.75" x2="10.65" y2="2.75" width="0.127" layer="21"/>
-<wire x1="10.65" y1="2.75" x2="11.65" y2="1.75" width="0.127" layer="21"/>
-<wire x1="11.65" y1="1.75" x2="11.65" y2="-1.75" width="0.127" layer="21"/>
-<wire x1="11.65" y1="-1.75" x2="10.65" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="10.65" y1="-2.75" x2="-3.05" y2="-2.75" width="0.127" layer="21"/>
-<wire x1="-3.05" y1="-2.75" x2="-3.05" y2="2.75" width="0.127" layer="21"/>
-<text x="-5" y="0" size="1.27" layer="21" font="vector" ratio="16" rot="R90" align="center">&gt;LABEL01</text>
-<text x="12.75" y="0" size="1.27" layer="25" font="vector" ratio="16" rot="R90" align="center">&gt;NAME</text>
-<text x="-7.54" y="0" size="1.27" layer="21" font="vector" ratio="16" rot="R90" align="center">&gt;LABEL_EXTRA</text>
-</package>
-<package name="RF2-03E-T-00-50-G">
-<pad name="P$1" x="0" y="0" drill="1.5"/>
-<pad name="P$2" x="-2.54" y="2.54" drill="1.7"/>
-<pad name="P$3" x="2.54" y="2.54" drill="1.7"/>
-<pad name="P$4" x="2.54" y="-2.54" drill="1.7"/>
-<pad name="P$5" x="-2.54" y="-2.54" drill="1.7"/>
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="3.5" x2="-3.5" y2="11.6" width="0.127" layer="48"/>
-<wire x1="-3.5" y1="11.6" x2="3.5" y2="11.6" width="0.127" layer="48"/>
-<wire x1="3.5" y1="11.6" x2="3.5" y2="3.5" width="0.127" layer="48"/>
-<text x="0" y="-5" size="1.27" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
-<text x="0" y="-7" size="1.27" layer="21" font="vector" ratio="16" align="center">&gt;LABEL01</text>
-</package>
-<package name="1201578">
-<hole x="0" y="0" drill="3.1"/>
-<hole x="-12.5" y="0" drill="3.1"/>
-<hole x="12.5" y="0" drill="3.1"/>
-<wire x1="-24.5" y1="5" x2="24.5" y2="5" width="0.127" layer="21" style="longdash"/>
-<wire x1="24.5" y1="5" x2="24.5" y2="-5" width="0.127" layer="21" style="shortdash"/>
-<wire x1="24.5" y1="-5" x2="-24.5" y2="-5" width="0.127" layer="21" style="longdash"/>
-<wire x1="-24.5" y1="-5" x2="-24.5" y2="5" width="0.127" layer="21" style="shortdash"/>
-<text x="16.51" y="0" size="1.27" layer="25" font="vector" ratio="16" rot="R270" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -8662,6 +8623,16 @@ Type C</text>
 <attribute name="LABEL03" value="" constant="no"/>
 <attribute name="MPN" value="282834-3" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="_640384-3" package="640384-3">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -12355,6 +12326,33 @@ Type C</text>
 </technology>
 </technologies>
 </device>
+<device name="_2-644750-0" package="2-644750-0">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="10" pad="P$10"/>
+<connect gate="G$1" pin="11" pad="P$11"/>
+<connect gate="G$1" pin="12" pad="P$12"/>
+<connect gate="G$1" pin="13" pad="P$13"/>
+<connect gate="G$1" pin="14" pad="P$14"/>
+<connect gate="G$1" pin="15" pad="P$15"/>
+<connect gate="G$1" pin="16" pad="P$16"/>
+<connect gate="G$1" pin="17" pad="P$17"/>
+<connect gate="G$1" pin="18" pad="P$18"/>
+<connect gate="G$1" pin="19" pad="P$19"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="20" pad="P$20"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X07" prefix="J" uservalue="yes">
@@ -12517,6 +12515,32 @@ Type C</text>
 <connect gate="G$1" pin="SBU1" pad="A8"/>
 <connect gate="G$1" pin="SBU2" pad="B8"/>
 <connect gate="G$1" pin="SHLD" pad="S_B1 S_B2 S_B3 S_B4 S_T1 S_T2 S_T3 S_T4 S_T5 S_T6 S_T7 S_T8"/>
+<connect gate="G$1" pin="TX1+" pad="A2"/>
+<connect gate="G$1" pin="TX1-" pad="A3"/>
+<connect gate="G$1" pin="TX2+" pad="B2"/>
+<connect gate="G$1" pin="TX2-" pad="B3"/>
+<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_USB4151-GF-C" package="USB4151-GF-C">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+1" pad="A6"/>
+<connect gate="G$1" pin="D+2" pad="B6"/>
+<connect gate="G$1" pin="D-1" pad="A7"/>
+<connect gate="G$1" pin="D-2" pad="B7"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="RX1+" pad="B11"/>
+<connect gate="G$1" pin="RX1-" pad="B10"/>
+<connect gate="G$1" pin="RX2+" pad="A11"/>
+<connect gate="G$1" pin="RX2-" pad="A10"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHLD" pad="P$1 P$2 P$3 P$4 P$5 P$25 P$26 P$27 P$28 P$29"/>
 <connect gate="G$1" pin="TX1+" pad="A2"/>
 <connect gate="G$1" pin="TX1-" pad="A3"/>
 <connect gate="G$1" pin="TX2+" pad="B2"/>
