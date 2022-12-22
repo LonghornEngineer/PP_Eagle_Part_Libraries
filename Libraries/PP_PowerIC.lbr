@@ -1236,6 +1236,72 @@
 <wire x1="-6" y1="-7" x2="-6" y2="1.27" width="0.127" layer="21"/>
 <text x="-6" y="2.54" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="AEM10941_QFN-28">
+<smd name="P$1" x="-2.4625" y="1.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$2" x="-2.4625" y="1" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$3" x="-2.4625" y="0.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$4" x="-2.4625" y="0" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$5" x="-2.4625" y="-0.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$6" x="-2.4625" y="-1" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$7" x="-2.4625" y="-1.5" dx="0.825" dy="0.3" layer="1"/>
+<smd name="P$8" x="-1.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="-1" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="-0.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$11" x="0" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$12" x="0.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$13" x="1" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$14" x="1.5" y="-2.4625" dx="0.825" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$15" x="2.4625" y="-1.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$16" x="2.4625" y="-1" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$17" x="2.4625" y="-0.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$18" x="2.4625" y="0" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$19" x="2.4625" y="0.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$20" x="2.4625" y="1" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$21" x="2.4625" y="1.5" dx="0.825" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$22" x="1.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$23" x="1" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$24" x="0.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$25" x="0" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$26" x="-0.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$27" x="-1" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$28" x="-1.5" y="2.4625" dx="0.825" dy="0.3" layer="1" rot="R270"/>
+<smd name="P$29" x="0" y="0" dx="3.15" dy="3.15" layer="1" cream="no"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1.25" y="1.25"/>
+<vertex x="-0.25" y="1.25"/>
+<vertex x="-0.25" y="0.25"/>
+<vertex x="-1.25" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.25" y="1.25"/>
+<vertex x="1.25" y="1.25"/>
+<vertex x="1.25" y="0.25"/>
+<vertex x="0.25" y="0.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.25" y="-0.25"/>
+<vertex x="1.25" y="-0.25"/>
+<vertex x="1.25" y="-1.25"/>
+<vertex x="0.25" y="-1.25"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.25" y="-0.25"/>
+<vertex x="-0.25" y="-0.25"/>
+<vertex x="-0.25" y="-1.25"/>
+<vertex x="-1.25" y="-1.25"/>
+</polygon>
+<wire x1="-3.25" y1="3.25" x2="3.25" y2="3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="3.25" x2="3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-3.25" x2="-3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-3.25" y="3.25"/>
+<vertex x="-2.25" y="3.25"/>
+<vertex x="-2.25" y="2.25"/>
+<vertex x="-3.25" y="2.25"/>
+</polygon>
+<text x="-3.25" y="3.75" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BTM7755">
@@ -2031,6 +2097,72 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="AEM10941">
+<pin name="SRC" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="FB_COLD" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SET_OVDIS" x="-2.54" y="-15.24" visible="off" length="short"/>
+<pin name="SET_CHRDY" x="-2.54" y="-17.78" visible="off" length="short"/>
+<pin name="SET_OVCH" x="-2.54" y="-20.32" visible="off" length="short"/>
+<pin name="BUFSRC" x="-2.54" y="-27.94" visible="off" length="short"/>
+<pin name="SWBOOST" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="BOOST" x="-2.54" y="-38.1" visible="off" length="short"/>
+<pin name="SWBUCK" x="-2.54" y="-50.8" visible="off" length="short"/>
+<pin name="BUCK" x="-2.54" y="-55.88" visible="off" length="short"/>
+<pin name="CFG[2]" x="-2.54" y="-60.96" visible="off" length="short"/>
+<pin name="CFG[1]" x="-2.54" y="-66.04" visible="off" length="short"/>
+<pin name="CFG[0]" x="-2.54" y="-71.12" visible="off" length="short"/>
+<pin name="SELMPP[1]" x="-2.54" y="-76.2" visible="off" length="short"/>
+<pin name="SELMPP[0]" x="-2.54" y="-81.28" visible="off" length="short"/>
+<pin name="FB_PRIM_U" x="22.86" y="0" visible="off" length="short" rot="R180"/>
+<pin name="FB_PRIM_D" x="22.86" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="PRIM" x="22.86" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="BATT" x="22.86" y="-20.32" visible="off" length="short" rot="R180"/>
+<pin name="BAL" x="22.86" y="-25.4" visible="off" length="short" rot="R180"/>
+<pin name="HVOUT" x="22.86" y="-33.02" visible="off" length="short" rot="R180"/>
+<pin name="FB_HV" x="22.86" y="-40.64" visible="off" length="short" rot="R180"/>
+<pin name="LVOUT" x="22.86" y="-50.8" visible="off" length="short" rot="R180"/>
+<pin name="STATUS[2]" x="22.86" y="-58.42" visible="off" length="short" rot="R180"/>
+<pin name="STATUS[1]" x="22.86" y="-60.96" visible="off" length="short" rot="R180"/>
+<pin name="STATUS[0]" x="22.86" y="-63.5" visible="off" length="short" rot="R180"/>
+<pin name="ENHV" x="22.86" y="-68.58" visible="off" length="short" rot="R180"/>
+<pin name="ENLV" x="22.86" y="-73.66" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="22.86" y="-81.28" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="20.32" y2="1.27" width="0.254" layer="94"/>
+<wire x1="20.32" y1="1.27" x2="20.32" y2="-82.55" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-82.55" x2="0" y2="-82.55" width="0.254" layer="94"/>
+<wire x1="0" y1="-82.55" x2="0" y2="1.27" width="0.254" layer="94"/>
+<text x="19.05" y="-25.4" size="1.016" layer="97" font="vector" rot="R180" align="center-left">BAL</text>
+<text x="19.05" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">BATT</text>
+<text x="1.27" y="-38.1" size="1.016" layer="97" font="vector" align="center-left">BOOST</text>
+<text x="1.27" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">BUCK</text>
+<text x="1.27" y="-27.94" size="1.016" layer="97" font="vector" align="center-left">BUFSRC</text>
+<text x="1.27" y="-71.12" size="1.016" layer="97" font="vector" align="center-left">CFG[0]</text>
+<text x="1.27" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">CFG[1]</text>
+<text x="1.27" y="-60.96" size="1.016" layer="97" font="vector" align="center-left">CFG[2]</text>
+<text x="19.05" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">ENHV</text>
+<text x="19.05" y="-73.66" size="1.016" layer="97" font="vector" rot="R180" align="center-left">ENLV</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">FB_COLD</text>
+<text x="19.05" y="-40.64" size="1.016" layer="97" font="vector" rot="R180" align="center-left">FB_HV</text>
+<text x="19.05" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">FB_PRIM_D</text>
+<text x="19.05" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">FB_PRIM_U</text>
+<text x="19.05" y="-81.28" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="19.05" y="-33.02" size="1.016" layer="97" font="vector" rot="R180" align="center-left">HVOUT</text>
+<text x="19.05" y="-50.8" size="1.016" layer="97" font="vector" rot="R180" align="center-left">LVOUT</text>
+<text x="19.05" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">PRIM</text>
+<text x="1.27" y="-81.28" size="1.016" layer="97" font="vector" align="center-left">SELMPP[0]</text>
+<text x="1.27" y="-76.2" size="1.016" layer="97" font="vector" align="center-left">SELMPP[1]</text>
+<text x="1.27" y="-17.78" size="1.016" layer="97" font="vector" align="center-left">SET_CHRDY</text>
+<text x="1.27" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">SET_OVCH</text>
+<text x="1.27" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">SET_OVDIS</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">SRC</text>
+<text x="19.05" y="-63.5" size="1.016" layer="97" font="vector" rot="R180" align="center-left">STATUS[0]</text>
+<text x="19.05" y="-60.96" size="1.016" layer="97" font="vector" rot="R180" align="center-left">STATUS[1]</text>
+<text x="19.05" y="-58.42" size="1.016" layer="97" font="vector" rot="R180" align="center-left">STATUS[2]</text>
+<text x="1.27" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">SWBOOST</text>
+<text x="1.27" y="-50.8" size="1.016" layer="97" font="vector" align="center-left">SWBUCK</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BTM77(42G/45G/52G)" prefix="U" uservalue="yes">
@@ -2712,6 +2844,51 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AEM10941" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="AEM10941" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AEM10941_QFN-28">
+<connects>
+<connect gate="G$1" pin="BAL" pad="P$15"/>
+<connect gate="G$1" pin="BATT" pad="P$16"/>
+<connect gate="G$1" pin="BOOST" pad="P$1"/>
+<connect gate="G$1" pin="BUCK" pad="P$3"/>
+<connect gate="G$1" pin="BUFSRC" pad="P$27"/>
+<connect gate="G$1" pin="CFG[0]" pad="P$6"/>
+<connect gate="G$1" pin="CFG[1]" pad="P$5"/>
+<connect gate="G$1" pin="CFG[2]" pad="P$4"/>
+<connect gate="G$1" pin="ENHV" pad="P$12"/>
+<connect gate="G$1" pin="ENLV" pad="P$18"/>
+<connect gate="G$1" pin="FB_COLD" pad="P$26"/>
+<connect gate="G$1" pin="FB_HV" pad="P$13"/>
+<connect gate="G$1" pin="FB_PRIM_D" pad="P$9"/>
+<connect gate="G$1" pin="FB_PRIM_U" pad="P$10"/>
+<connect gate="G$1" pin="GND" pad="P$29"/>
+<connect gate="G$1" pin="HVOUT" pad="P$14"/>
+<connect gate="G$1" pin="LVOUT" pad="P$11"/>
+<connect gate="G$1" pin="PRIM" pad="P$17"/>
+<connect gate="G$1" pin="SELMPP[0]" pad="P$8"/>
+<connect gate="G$1" pin="SELMPP[1]" pad="P$7"/>
+<connect gate="G$1" pin="SET_CHRDY" pad="P$23"/>
+<connect gate="G$1" pin="SET_OVCH" pad="P$22"/>
+<connect gate="G$1" pin="SET_OVDIS" pad="P$24"/>
+<connect gate="G$1" pin="SRC" pad="P$25"/>
+<connect gate="G$1" pin="STATUS[0]" pad="P$21"/>
+<connect gate="G$1" pin="STATUS[1]" pad="P$20"/>
+<connect gate="G$1" pin="STATUS[2]" pad="P$19"/>
+<connect gate="G$1" pin="SWBOOST" pad="P$28"/>
+<connect gate="G$1" pin="SWBUCK" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="AEM10941" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
