@@ -951,6 +951,8 @@ Selection Pins</text>
 <text x="53.086" y="22.86" size="1.27" layer="94" font="vector" ratio="16" align="center">COL</text>
 <wire x1="54.356" y1="21.844" x2="55.372" y2="20.828" width="0.1524" layer="94"/>
 <wire x1="55.372" y1="20.828" x2="55.372" y2="10.16" width="0.1524" layer="94"/>
+<text x="0" y="35.56" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="30.48" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
