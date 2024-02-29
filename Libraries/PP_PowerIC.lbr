@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1304,6 +1304,78 @@
 </polygon>
 <text x="-3.25" y="3.75" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
+<package name="BQ25886_VQFN-24">
+<smd name="P$1" x="-1.9125" y="1.25" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$2" x="-1.9125" y="0.75" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$3" x="-1.9125" y="0.25" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$4" x="-1.9125" y="-0.25" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$5" x="-1.9125" y="-0.75" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$6" x="-1.9125" y="-1.25" dx="0.58" dy="0.24" layer="1" roundness="20"/>
+<smd name="P$7" x="-1.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$8" x="-0.75" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$9" x="-0.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$10" x="0.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$11" x="0.75" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$12" x="1.25" y="-1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R90"/>
+<smd name="P$13" x="1.9125" y="-1.25" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$14" x="1.9125" y="-0.75" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$15" x="1.9125" y="-0.25" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$16" x="1.9125" y="0.25" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$17" x="1.9125" y="0.75" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$18" x="1.9125" y="1.25" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R180"/>
+<smd name="P$19" x="1.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$20" x="0.75" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$21" x="0.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$22" x="-0.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$23" x="-0.75" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$24" x="-1.25" y="1.9125" dx="0.58" dy="0.24" layer="1" roundness="20" rot="R270"/>
+<smd name="P$25" x="0" y="0" dx="2.7" dy="2.7" layer="1" roundness="20" cream="no"/>
+<polygon width="0.1524" layer="31">
+<vertex x="-1" y="1"/>
+<vertex x="-0.25" y="1"/>
+<vertex x="-0.25" y="0.25"/>
+<vertex x="-1" y="0.25"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.25" y="1"/>
+<vertex x="1" y="1"/>
+<vertex x="1" y="0.25"/>
+<vertex x="0.25" y="0.25"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.25" y="-0.25"/>
+<vertex x="1" y="-0.25"/>
+<vertex x="1" y="-1"/>
+<vertex x="0.25" y="-1"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1" y="-0.25"/>
+<vertex x="-0.25" y="-0.25"/>
+<vertex x="-0.25" y="-1"/>
+<vertex x="-1" y="-1"/>
+</polygon>
+<hole x="0" y="1" drill="0.2"/>
+<hole x="-1" y="0" drill="0.2"/>
+<hole x="0" y="-1" drill="0.2"/>
+<hole x="1" y="0" drill="0.2"/>
+<hole x="0" y="0" drill="0.2"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.1524" layer="21"/>
+<text x="-3" y="1.25" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.0762" layer="49" style="shortdash"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.0762" layer="49" style="shortdash"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.0762" layer="49" style="shortdash"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.0762" layer="49" style="shortdash"/>
+<polygon width="0.0762" layer="21">
+<vertex x="-2.25" y="2.5"/>
+<vertex x="-2.25" y="2.25"/>
+<vertex x="-2.5" y="2.25"/>
+<vertex x="-2.5" y="2.5"/>
+</polygon>
+<text x="-2.5" y="2.75" size="0.8128" layer="21" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="BTM7755">
@@ -2165,6 +2237,50 @@
 <text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="BQ25886">
+<pin name="VBUS" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="PMID" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="SW" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="BTST" x="-2.54" y="-33.02" visible="off" length="short"/>
+<pin name="REGN" x="-2.54" y="-40.64" visible="off" length="short"/>
+<pin name="D+" x="-2.54" y="-48.26" visible="off" length="short"/>
+<pin name="D-" x="-2.54" y="-50.8" visible="off" length="short"/>
+<pin name="OTG" x="-2.54" y="-53.34" visible="off" length="short"/>
+<pin name="!CE" x="-2.54" y="-55.88" visible="off" length="short"/>
+<pin name="ILIM" x="-2.54" y="-63.5" visible="off" length="short"/>
+<pin name="VSET" x="-2.54" y="-66.04" visible="off" length="short"/>
+<pin name="ICHGSET" x="-2.54" y="-68.58" visible="off" length="short"/>
+<pin name="STAT" x="17.78" y="0" visible="off" length="short" rot="R180"/>
+<pin name="!PG" x="17.78" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="SYS" x="17.78" y="-12.7" visible="off" length="short" rot="R180"/>
+<pin name="BAT" x="17.78" y="-20.32" visible="off" length="short" rot="R180"/>
+<pin name="TS" x="17.78" y="-48.26" visible="off" length="short" rot="R180"/>
+<pin name="GND" x="17.78" y="-68.58" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="15.24" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="1.27" x2="15.24" y2="-69.85" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-69.85" x2="0" y2="-69.85" width="0.1524" layer="94"/>
+<wire x1="0" y1="-69.85" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="1.27" y="-55.88" size="1.016" layer="97" font="vector" align="center-left">!CE</text>
+<text x="13.97" y="-5.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left">!PG</text>
+<text x="13.97" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">BAT</text>
+<text x="1.27" y="-33.02" size="1.016" layer="97" font="vector" align="center-left">BTST</text>
+<text x="1.27" y="-48.26" size="1.016" layer="97" font="vector" align="center-left">D+</text>
+<text x="1.27" y="-50.8" size="1.016" layer="97" font="vector" align="center-left">D-</text>
+<text x="13.97" y="-68.58" size="1.016" layer="97" font="vector" rot="R180" align="center-left">GND</text>
+<text x="1.27" y="-68.58" size="1.016" layer="97" font="vector" align="center-left">ICHGSET</text>
+<text x="1.27" y="-63.5" size="1.016" layer="97" font="vector" align="center-left">ILIM</text>
+<text x="1.27" y="-53.34" size="1.016" layer="97" font="vector" align="center-left">OTG</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">PMID</text>
+<text x="1.27" y="-40.64" size="1.016" layer="97" font="vector" align="center-left">REGN</text>
+<text x="13.97" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">STAT</text>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">SW</text>
+<text x="13.97" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">SYS</text>
+<text x="13.97" y="-48.26" size="1.016" layer="97" font="vector" rot="R180" align="center-left">TS</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VBUS</text>
+<text x="1.27" y="-66.04" size="1.016" layer="97" font="vector" align="center-left">VSET</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BTM77(42G/45G/52G)" prefix="U" uservalue="yes">
@@ -2890,6 +3006,40 @@
 <technologies>
 <technology name="">
 <attribute name="MPN" value="AEM10941" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ25886" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="BQ25886" x="0" y="0"/>
+</gates>
+<devices>
+<device name="RGER" package="BQ25886_VQFN-24">
+<connects>
+<connect gate="G$1" pin="!CE" pad="P$3"/>
+<connect gate="G$1" pin="!PG" pad="P$9"/>
+<connect gate="G$1" pin="BAT" pad="P$13 P$14"/>
+<connect gate="G$1" pin="BTST" pad="P$12"/>
+<connect gate="G$1" pin="D+" pad="P$24"/>
+<connect gate="G$1" pin="D-" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$4 P$19 P$20 P$25"/>
+<connect gate="G$1" pin="ICHGSET" pad="P$10"/>
+<connect gate="G$1" pin="ILIM" pad="P$8"/>
+<connect gate="G$1" pin="OTG" pad="P$5"/>
+<connect gate="G$1" pin="PMID" pad="P$21 P$22"/>
+<connect gate="G$1" pin="REGN" pad="P$11"/>
+<connect gate="G$1" pin="STAT" pad="P$2"/>
+<connect gate="G$1" pin="SW" pad="P$17 P$18"/>
+<connect gate="G$1" pin="SYS" pad="P$15 P$16"/>
+<connect gate="G$1" pin="TS" pad="P$7"/>
+<connect gate="G$1" pin="VBUS" pad="P$23"/>
+<connect gate="G$1" pin="VSET" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="" constant="no"/>
 </technology>
 </technologies>
 </device>

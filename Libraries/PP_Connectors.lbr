@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5124,6 +5124,107 @@ Description: Ethernet &amp; Telecom Connectors R/A RJ45 SHEILDED 8 CONT Y/G LEDS
 <wire x1="24.5" y1="-5" x2="-24.5" y2="-5" width="0.127" layer="21" style="longdash"/>
 <wire x1="-24.5" y1="-5" x2="-24.5" y2="5" width="0.127" layer="21" style="shortdash"/>
 <text x="16.51" y="0" size="1.27" layer="25" font="vector" ratio="16" rot="R270" align="center">&gt;NAME</text>
+</package>
+<package name="USB4105-GF-A">
+<smd name="A6" x="-0.25" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="B7" x="-0.75" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="A5" x="-1.25" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="B8" x="-1.75" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="A7" x="0.25" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="B6" x="0.75" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="A8" x="1.25" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="B5" x="1.75" y="4.915" dx="1.45" dy="0.3" layer="1" rot="R90"/>
+<smd name="A4/B9" x="-2.4" y="4.915" dx="1.45" dy="0.6" layer="1" rot="R90"/>
+<smd name="A1/B12" x="-3.2" y="4.915" dx="1.45" dy="0.6" layer="1" rot="R90"/>
+<smd name="B4/A9" x="2.4" y="4.915" dx="1.45" dy="0.6" layer="1" rot="R90"/>
+<smd name="B1/A12" x="3.2" y="4.915" dx="1.45" dy="0.6" layer="1" rot="R90"/>
+<hole x="-2.89" y="3.68" drill="0.65"/>
+<hole x="2.89" y="3.68" drill="0.65"/>
+<smd name="MT_T_1" x="4.32" y="4.18" dx="2.1" dy="1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="MT_B_1" x="4.32" y="4.18" dx="2.1" dy="1" layer="16" roundness="100" rot="R90" cream="no"/>
+<wire x1="4.02" y1="4.73" x2="4.02" y2="3.63" width="0.0762" layer="20"/>
+<wire x1="4.02" y1="3.63" x2="4.32" y2="3.33" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.32" y1="3.33" x2="4.62" y2="3.63" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.62" y1="3.63" x2="4.62" y2="4.73" width="0.0762" layer="20"/>
+<wire x1="4.62" y1="4.73" x2="4.32" y2="5.03" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.32" y1="5.03" x2="4.02" y2="4.73" width="0.0762" layer="20" curve="90"/>
+<smd name="MT_T_0" x="-4.32" y="4.18" dx="2.1" dy="1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="MT_B_0" x="-4.32" y="4.18" dx="2.1" dy="1" layer="16" roundness="100" rot="R90" cream="no"/>
+<wire x1="-4.62" y1="4.73" x2="-4.62" y2="3.63" width="0.0762" layer="20"/>
+<wire x1="-4.62" y1="3.63" x2="-4.32" y2="3.33" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.32" y1="3.33" x2="-4.02" y2="3.63" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.02" y1="3.63" x2="-4.02" y2="4.73" width="0.0762" layer="20"/>
+<wire x1="-4.02" y1="4.73" x2="-4.32" y2="5.03" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.32" y1="5.03" x2="-4.62" y2="4.73" width="0.0762" layer="20" curve="90"/>
+<smd name="MT_T_3" x="4.32" y="0" dx="1.8" dy="1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="MT_B_3" x="4.32" y="0" dx="1.8" dy="1" layer="16" roundness="100" rot="R90" cream="no"/>
+<wire x1="4.02" y1="0.4" x2="4.02" y2="-0.4" width="0.0762" layer="20"/>
+<wire x1="4.02" y1="-0.4" x2="4.32" y2="-0.7" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.32" y1="-0.7" x2="4.62" y2="-0.4" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.62" y1="-0.4" x2="4.62" y2="0.4" width="0.0762" layer="20"/>
+<wire x1="4.62" y1="0.4" x2="4.32" y2="0.7" width="0.0762" layer="20" curve="90"/>
+<wire x1="4.32" y1="0.7" x2="4.02" y2="0.4" width="0.0762" layer="20" curve="90"/>
+<smd name="MT_T_2" x="-4.32" y="0" dx="1.8" dy="1" layer="1" roundness="100" rot="R90" cream="no"/>
+<smd name="MT_B_2" x="-4.32" y="0" dx="1.8" dy="1" layer="16" roundness="100" rot="R90" cream="no"/>
+<wire x1="-4.62" y1="0.4" x2="-4.62" y2="-0.4" width="0.0762" layer="20"/>
+<wire x1="-4.62" y1="-0.4" x2="-4.32" y2="-0.7" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.32" y1="-0.7" x2="-4.02" y2="-0.4" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.02" y1="-0.4" x2="-4.02" y2="0.4" width="0.0762" layer="20"/>
+<wire x1="-4.02" y1="0.4" x2="-4.32" y2="0.7" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.32" y1="0.7" x2="-4.62" y2="0.4" width="0.0762" layer="20" curve="90"/>
+<wire x1="-4.25" y1="-2.6" x2="4.25" y2="-2.6" width="0.127" layer="49"/>
+<text x="0" y="-2" size="0.6096" layer="49" font="vector" align="center">EDGE</text>
+<text x="-4.5" y="6.25" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="ER06BGFBK">
+<pad name="P$1" x="-2.54" y="-5.08" drill="1" shape="octagon"/>
+<pad name="P$2" x="-2.54" y="0" drill="1"/>
+<pad name="P$3" x="0" y="-5.08" drill="1"/>
+<pad name="P$4" x="0" y="0" drill="1"/>
+<pad name="P$5" x="2.54" y="-5.08" drill="1"/>
+<pad name="P$6" x="2.54" y="0" drill="1"/>
+<wire x1="-6.08" y1="15.2" x2="6.08" y2="15.2" width="0.1524" layer="21"/>
+<wire x1="6.08" y1="15.2" x2="6.08" y2="5.2" width="0.1524" layer="21"/>
+<wire x1="6.08" y1="5.2" x2="6.08" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="6.08" y1="-6.35" x2="-6.08" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="-6.08" y1="-6.35" x2="-6.08" y2="5.2" width="0.1524" layer="21"/>
+<wire x1="-6.08" y1="5.2" x2="-6.08" y2="15.2" width="0.1524" layer="21"/>
+<wire x1="-6.08" y1="5.2" x2="6.08" y2="5.2" width="0.1524" layer="21"/>
+<text x="0" y="-7.62" size="0.8128" layer="25" font="vector" ratio="16" align="center">&gt;NAME</text>
+</package>
+<package name="4882">
+<pad name="P$1" x="0" y="0" drill="4.2" diameter="6.2"/>
+<text x="3.81" y="1.27" size="0.8128" layer="25" ratio="16" align="center-left">&gt;NAME</text>
+<text x="3.81" y="-1.27" size="0.8128" layer="21" ratio="16" align="center-left">&gt;LABEL01</text>
+</package>
+<package name="M20-7920342R">
+<smd name="P$1" x="-2.54" y="-3.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.54" y="0" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="P$3" x="0" y="-3.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="P$4" x="0" y="0" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="P$5" x="2.54" y="-3.5" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="P$6" x="2.54" y="0" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-3.935" y1="-5" x2="3.935" y2="-5" width="0.1524" layer="21"/>
+<wire x1="3.935" y1="-5" x2="3.935" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="3.935" y1="3.2" x2="3.935" y2="11.7" width="0.1524" layer="21"/>
+<wire x1="3.935" y1="11.7" x2="-3.935" y2="11.7" width="0.1524" layer="21"/>
+<wire x1="-3.935" y1="11.7" x2="-3.935" y2="3.2" width="0.1524" layer="21"/>
+<text x="0" y="-6" size="0.8128" layer="25" ratio="16" align="center">&gt;NAME</text>
+<wire x1="-3.935" y1="3.2" x2="-3.935" y2="-5" width="0.1524" layer="21"/>
+<wire x1="3.935" y1="3.2" x2="-3.935" y2="3.2" width="0.1524" layer="21"/>
+</package>
+<package name="KEYSTONE_1088">
+<smd name="+" x="-30.9245" y="0" dx="6.35" dy="7.3406" layer="1" rot="R90"/>
+<smd name="-" x="30.9245" y="0" dx="6.35" dy="7.3406" layer="1" rot="R90"/>
+<hole x="-27.2542" y="6.731" drill="1.9812"/>
+<wire x1="-35.56" y1="7.7724" x2="35.56" y2="7.7724" width="0.127" layer="21"/>
+<wire x1="35.56" y1="7.7724" x2="35.56" y2="-7.7724" width="0.127" layer="21"/>
+<wire x1="35.56" y1="-7.7724" x2="-35.56" y2="-7.7724" width="0.127" layer="21"/>
+<wire x1="-35.56" y1="-7.7724" x2="-35.56" y2="7.7724" width="0.127" layer="21"/>
+<text x="-20.32" y="0" size="6.4516" layer="21" font="vector" align="center">+</text>
+<text x="21.59" y="0" size="6.4516" layer="21" font="vector" align="center">-</text>
+<text x="0" y="0" size="2.54" layer="21" font="vector" align="center">AA BATTERY</text>
+<text x="-35.56" y="8.89" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -10596,6 +10697,15 @@ Type C</text>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_KEYSTONE_1088" package="KEYSTONE_1088">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X30" prefix="J" uservalue="yes">
@@ -12310,6 +12420,39 @@ Type C</text>
 </technology>
 </technologies>
 </device>
+<device name="_ER06BGFBK" package="ER06BGFBK">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+<connect gate="G$1" pin="PIN4" pad="P$4"/>
+<connect gate="G$1" pin="PIN5" pad="P$5"/>
+<connect gate="G$1" pin="PIN6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_M20-7920342R" package="M20-7920342R">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+<connect gate="G$1" pin="PIN2" pad="P$2"/>
+<connect gate="G$1" pin="PIN3" pad="P$3"/>
+<connect gate="G$1" pin="PIN4" pad="P$4"/>
+<connect gate="G$1" pin="PIN5" pad="P$5"/>
+<connect gate="G$1" pin="PIN6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="LABEL06" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_02X60" prefix="J" uservalue="yes">
@@ -13224,6 +13367,14 @@ Type C</text>
 </technology>
 </technologies>
 </device>
+<device name="_4882" package="4882">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CON_01X22" prefix="J" uservalue="yes">
@@ -13516,6 +13667,22 @@ Type C</text>
 </gates>
 <devices>
 <device name="" package="TYPE-C-31-M-12">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A1/B12 B1/A12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHLD" pad="MT_B_0 MT_B_1 MT_B_2 MT_B_3 MT_T_0 MT_T_1 MT_T_2 MT_T_3"/>
+<connect gate="G$1" pin="VBUS" pad="A4/B9 B4/A9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_USB4105-GF-A" package="USB4105-GF-A">
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
