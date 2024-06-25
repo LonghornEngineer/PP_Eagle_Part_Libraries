@@ -798,6 +798,20 @@
 <wire x1="-9" y1="-0.8" x2="-9" y2="5" width="0.1524" layer="21"/>
 <text x="-9" y="6.35" size="0.8128" layer="21" font="vector" ratio="16" align="top-left">&gt;NAME</text>
 </package>
+<package name="ACS72981_PSOF-7">
+<smd name="P$1" x="-1.6" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<smd name="P$2" x="0" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<smd name="P$3" x="1.6" y="-2.5" dx="0.5" dy="1.6" layer="1"/>
+<smd name="P$4" x="2.8" y="0" dx="0.6" dy="0.9" layer="1" rot="R90"/>
+<smd name="P$5" x="1.5" y="2.35" dx="1.8" dy="1.7" layer="1" rot="R180"/>
+<smd name="P$6" x="-1.5" y="2.35" dx="1.8" dy="1.7" layer="1" rot="R180"/>
+<smd name="P$7" x="-2.8" y="0" dx="0.6" dy="0.9" layer="1" rot="R90"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
+<text x="-3.81" y="4.445" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP970X">
@@ -1519,6 +1533,24 @@ SWITCH</text>
 <text x="-5.08" y="7.62" size="1.016" layer="95" font="vector" ratio="16" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="5.08" size="1.016" layer="96" font="vector" ratio="16">&gt;VALUE</text>
 </symbol>
+<symbol name="ACS72981">
+<pin name="VCC" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="VIOUT" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND" x="-2.54" y="-22.86" visible="off" length="short"/>
+<pin name="IP+" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="IP-" x="12.7" y="-20.32" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-24.13" width="0.15" layer="94"/>
+<wire x1="0" y1="-24.13" x2="10.16" y2="-24.13" width="0.15" layer="94"/>
+<wire x1="10.16" y1="-24.13" x2="10.16" y2="1.27" width="0.15" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="0" y2="1.27" width="0.15" layer="94"/>
+<text x="1.27" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">GND</text>
+<text x="8.89" y="-2.54" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IP+</text>
+<text x="8.89" y="-20.32" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IP-</text>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">VCC</text>
+<text x="1.27" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">VIOUT</text>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP970(0/1)" prefix="U" uservalue="yes">
@@ -2068,6 +2100,25 @@ SWITCH</text>
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ACS72981" prefix="U">
+<gates>
+<gate name="G$1" symbol="ACS72981" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ACS72981_PSOF-7">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2 P$4 P$7"/>
+<connect gate="G$1" pin="IP+" pad="P$5"/>
+<connect gate="G$1" pin="IP-" pad="P$6"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
+<connect gate="G$1" pin="VIOUT" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
