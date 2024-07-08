@@ -1076,6 +1076,27 @@
 <vertex x="0.85" y="-1.17"/>
 </polygon>
 </package>
+<package name="SP721_SOIC-8">
+<smd name="7" x="2.55" y="0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="6" x="2.55" y="-0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="5" x="2.55" y="-1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="8" x="2.55" y="1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="1" x="-2.55" y="1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="2" x="-2.55" y="0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="3" x="-2.55" y="-0.635" dx="0.5" dy="2" layer="1" rot="R270"/>
+<smd name="4" x="-2.55" y="-1.905" dx="0.5" dy="2" layer="1" rot="R270"/>
+<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="2.5" x2="1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1" y1="2.5" x2="1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.5" x2="-1" y2="2.5" width="0.127" layer="21"/>
+<text x="-4" y="3.23" size="0.8128" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-4.826" y="1.905" size="0.8128" layer="21" font="vector" ratio="16" align="center">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -1442,6 +1463,30 @@
 <wire x1="40.64" y1="1.27" x2="40.64" y2="-8.89" width="0.1524" layer="94"/>
 <wire x1="40.64" y1="-8.89" x2="0" y2="-8.89" width="0.1524" layer="94"/>
 <wire x1="0" y1="-8.89" x2="0" y2="1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="SP721">
+<pin name="IN_1" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="IN_2" x="-2.54" y="-2.54" visible="off" length="short"/>
+<pin name="IN_3" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="V-" x="-2.54" y="-12.7" visible="off" length="short"/>
+<pin name="V+" x="12.7" y="0" visible="off" length="short" rot="R180"/>
+<pin name="IN_6" x="12.7" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="IN_5" x="12.7" y="-10.16" visible="off" length="short" rot="R180"/>
+<pin name="IN_4" x="12.7" y="-12.7" visible="off" length="short" rot="R180"/>
+<text x="1.27" y="0" size="1.016" layer="97" font="vector" align="center-left">IN_1</text>
+<text x="1.27" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">IN_2</text>
+<text x="1.27" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">IN_3</text>
+<text x="8.89" y="-12.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IN_4</text>
+<text x="8.89" y="-10.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IN_5</text>
+<text x="8.89" y="-7.62" size="1.016" layer="97" font="vector" rot="R180" align="center-left">IN_6</text>
+<text x="8.89" y="0" size="1.016" layer="97" font="vector" rot="R180" align="center-left">V+</text>
+<text x="1.27" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">V-</text>
+<wire x1="0" y1="1.27" x2="10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="10.16" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-13.97" x2="0" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="0" y1="-13.97" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<text x="0" y="5.08" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="0" y="2.54" size="1.016" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2332,6 +2377,28 @@ Description: ESD Suppressors 2-Channel ESD&lt;br/&gt;</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP721" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SP721" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ABG" package="SP721_SOIC-8">
+<connects>
+<connect gate="G$1" pin="IN_1" pad="1"/>
+<connect gate="G$1" pin="IN_2" pad="2"/>
+<connect gate="G$1" pin="IN_3" pad="3"/>
+<connect gate="G$1" pin="IN_4" pad="5"/>
+<connect gate="G$1" pin="IN_5" pad="6"/>
+<connect gate="G$1" pin="IN_6" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
